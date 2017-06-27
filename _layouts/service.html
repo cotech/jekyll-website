@@ -1,1 +1,9 @@
 <h1>Coops that offer {{ page.name }}</h1>
+
+<ul>
+{% for coop in site.coops %}
+  {% if coop.services contains page.slug %}
+    <li>{{ coop.name }}</li>
+  {% endif %}
+{% endfor %}
+</ul>
