@@ -3,7 +3,7 @@
 <ul>
 {% for coop in site.coops %}
   {% if coop.services contains page.slug %}
-    <li>{{ coop.name }}</li>
+    <li><a href="{{ coop.url | relative_url }}">{{ coop.name }}</a></li>
   {% endif %}
 {% endfor %}
 </ul>
