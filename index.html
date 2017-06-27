@@ -3,10 +3,10 @@ title: CoTech
 ---
 
 <ul>
-{% for member in site.data.members %}
+{% for coop in site.coops %}
   <li>
-    <a href="{{ member.website }}">
-      {{ member.name }}
+    <a href="{{ coop.url }}">
+      {{ coop.name }}
     </a>
   </li>
 {% endfor %}

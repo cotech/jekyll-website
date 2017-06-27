@@ -1,0 +1,9 @@
+collections:
+  coops:
+    output: true
+    permalink: /co-op/:name
+defaults:
+  - scope:
+      type: coops
+    values:
+      layout: co-op
