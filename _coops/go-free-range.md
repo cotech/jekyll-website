@@ -1,6 +1,9 @@
 ---
 name: Go Free Range
 website: http://gofreerange.com
+services:
+  - business-analysis
+  - consultancy
 ---
 We are a co-operative with some of the most experienced web-application developers in the UK offering software development and design.
 

@@ -2,8 +2,15 @@ collections:
   coops:
     output: true
     permalink: /co-op/:name
+  services:
+    output: true
+    permalink: /service/:name
 defaults:
   - scope:
       type: coops
     values:
       layout: co-op
+  - scope:
+      type: services
+    values:
+      layout: service

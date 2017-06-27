@@ -5,3 +5,12 @@
 <a href="{{ page.website }}">{{ page.name }}</a>
 
 {{ content }}
+
+<h2>Services</h2>
+
+<ul>
+{% for service in page.services %}
+  {% assign s = site.services | where: "slug", service | first %}
+  <li><a href="{{ s.url | relative_url }}">{{ s.name }}</a></li>
+{% endfor %}
+</ul>

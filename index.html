@@ -13,3 +13,15 @@ title: CoTech
   </li>
 {% endfor %}
 </ul>
+
+<h2>Services</h2>
+
+<ul>
+{% for service in site.services %}
+  <li>
+    <a href="{{ service.url | relative_url }}">
+      {{ service.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>

@@ -1,6 +1,8 @@
 ---
 name: Outlandish
 website: http://outlandish.com
+services:
+  - business-analysis
 ---
 Outlandish is made up of around 20 collaborators and co-owners who love humour, quality code, and apps that challenge the status quo.
 
