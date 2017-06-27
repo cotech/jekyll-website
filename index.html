@@ -5,7 +5,7 @@ title: CoTech
 <ul>
 {% for coop in site.coops %}
   <li>
-    <a href="{{ coop.url }}">
+    <a href="{{ coop.url | relative_url }}">
       {{ coop.name }}
     </a>
   </li>
