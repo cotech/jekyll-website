@@ -24,122 +24,123 @@
 
   <div class="coop">
 
-  <div id="page-banner">
-    <div class="row">
-      <div class="small-12 small-centered columns">
-        <a href="{{ page.website }}" target="_blank">
-          <img src="/images/coops/{{ page.slug }}.png" alt="">
-        </a>
-        <h2>{{ page.name }}</h2>
-        <a href="{{ page.website }}" target="_blank">{{ page.website }}</a>
+    <div id="page-banner">
+      <div class="row">
+        <div class="small-12 small-centered columns">
+          <a href="{{ page.website }}" target="_blank">
+            <img src="/images/coops/{{ page.slug }}.png" alt="">
+          </a>
+          <h2>{{ page.name }}</h2>
+          <a href="{{ page.website }}" target="_blank">{{ page.website }}</a>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="row">
-    <div class="small-12 small-centered medium-10 large-8 columns">
-        <div class="row">
-          <!-- Contact -->
-          <div class="small-12 large-4 columns">
-            <section class="row small-up-1 medium-up-4 large-up-1">
-              <div class="column">
-                <ul class="menu social">
-                  {% if page.twitter %}
-                  <li>
-                    <a href="http://twitter.com/{{ page.twitter }}" target="_blank">
-                      <i class="fi-social-twitter"></i>
-                    </a>
-                  </li>
-                  {% endif %}
-                  {% if page.github %}
-                  <li>
-                    <a href="https://github.com/{{ page.github }}" target="_blank">
-                      <i class="fi-social-github"></i>
-                    </a>
-                  </li>
-                  {% endif %}
-                </ul>
-              </div>
-              {% if page.email %}
-              <div class="column">
-                <strong>Email:</strong>
-                <p><a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
-              </div>
-              {% endif %}
-              {% if page.telephone %}
-              <div class="column">
-                <strong>Tel:</strong>
-                <p>{{ page.telephone }}</p>
-              </div>
-              {% endif %}
-              {% if page.address %}
-              <div class="column">
-                <strong>Address:</strong>
-                <p>{{ page.address | split: "," | join: "<br>" }}</p>
-              </div>
-              {% endif %}
-            </section>
-          </div>
-          <!-- /Contact -->
+    <div class="row">
+      <div class="small-12 small-centered medium-10 large-8 columns">
+          <div class="row">
+            <!-- Contact -->
+            <div class="small-12 large-4 columns">
+              <section class="row small-up-1 medium-up-4 large-up-1">
+                <div class="column">
+                  <ul class="menu social">
+                    {% if page.twitter %}
+                    <li>
+                      <a href="http://twitter.com/{{ page.twitter }}" target="_blank">
+                        <i class="fi-social-twitter"></i>
+                      </a>
+                    </li>
+                    {% endif %}
+                    {% if page.github %}
+                    <li>
+                      <a href="https://github.com/{{ page.github }}" target="_blank">
+                        <i class="fi-social-github"></i>
+                      </a>
+                    </li>
+                    {% endif %}
+                  </ul>
+                </div>
+                {% if page.email %}
+                <div class="column">
+                  <strong>Email:</strong>
+                  <p><a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
+                </div>
+                {% endif %}
+                {% if page.telephone %}
+                <div class="column">
+                  <strong>Tel:</strong>
+                  <p>{{ page.telephone }}</p>
+                </div>
+                {% endif %}
+                {% if page.address %}
+                <div class="column">
+                  <strong>Address:</strong>
+                  <p>{{ page.address | split: "," | join: "<br>" }}</p>
+                </div>
+                {% endif %}
+              </section>
+            </div>
+            <!-- /Contact -->
 
-          <div class="small-12 large-8 columns">
-            <!-- About -->
-            <section>
-              <p>{{ content }}</p>
-            </section>
-            <!-- /About -->
+            <div class="small-12 large-8 columns">
+              <!-- About -->
+              <section>
+                <p>{{ content }}</p>
+              </section>
+              <!-- /About -->
 
-            <!-- Services -->
-            <section>
-              <h4>Services</h4>
+              <!-- Services -->
+              <section>
+                <h4>Services</h4>
 
-              <div class="row small-up-3 medium-up-4 large-up-4 small-collapse">
-                {% for service in page.services %}
-                  {% assign s = site.services | where: "slug", service | first %}
-                  <div class="column">
-                    <a href="{{ s.url | relative_url }}" class="service-thumb">
-                      <div class="service-thumb-img float-center" style="background-image: url(/images/services/{{ s.slug }}.png)"></div>
-                      <h5>{{ s.name }}</h5>
-                    </a>
-                  </div>
-                {% endfor %}
-              </div>
-            </section>
-            <!-- /Services -->
+                <div class="row small-up-3 medium-up-4 large-up-4 small-collapse">
+                  {% for service in page.services %}
+                    {% assign s = site.services | where: "slug", service | first %}
+                    <div class="column">
+                      <a href="{{ s.url | relative_url }}" class="service-thumb">
+                        <div class="service-thumb-img float-center" style="background-image: url(/images/services/{{ s.slug }}.png)"></div>
+                        <h5>{{ s.name }}</h5>
+                      </a>
+                    </div>
+                  {% endfor %}
+                </div>
+              </section>
+              <!-- /Services -->
 
-            <!-- Technologies -->
-            <section>
-              <h4>Technologies</h4>
+              <!-- Technologies -->
+              <section>
+                <h4>Technologies</h4>
 
-              <div class="row small-up-3 medium-up-4 large-up-4 small-collapse">
-                {% for technology in page.technologies %}
-                  {% assign t = site.technologies | where: "slug", technology | first %}
-                  <div class="column">
-                    <a href="{{ t.url | relative_url }}" class="technology-thumb">
-                      <div class="technology-thumb-img float-center" style="background-image: url(/images/technologies/{{ t.slug }}.png)"></div>
-                      <h5>{{ t.name }}</h5>
-                    </a>
-                  </div>
-                {% endfor %}
-              </div>
-            </section>
-            <!-- /Technologies -->
+                <div class="row small-up-3 medium-up-4 large-up-4 small-collapse">
+                  {% for technology in page.technologies %}
+                    {% assign t = site.technologies | where: "slug", technology | first %}
+                    <div class="column">
+                      <a href="{{ t.url | relative_url }}" class="technology-thumb">
+                        <div class="technology-thumb-img float-center" style="background-image: url(/images/technologies/{{ t.slug }}.png)"></div>
+                        <h5>{{ t.name }}</h5>
+                      </a>
+                    </div>
+                  {% endfor %}
+                </div>
+              </section>
+              <!-- /Technologies -->
 
-            <!-- Clients -->
-            <section>
-              <h4>Clients</h4>
+              <!-- Clients -->
+              <section>
+                <h4>Clients</h4>
 
-              <div class="row small-up-2 medium-up-3 large-up-3">
-                {% for client in page.clients %}
-                  {% assign c = site.clients | where: "slug", client | first %}
-                  <div class="column client-thumb-container">
-                    <div class="client-thumb" style="background-image: url(/images/clients/{{ c.slug }}.png)"></div>
-                    <h5 class="client-thumb-header">{{ c.name }}</h5>
-                  </div>
-                {% endfor %}
-              </div>
-            </section>
-            <!-- /Clients -->
+                <div class="row small-up-2 medium-up-3 large-up-3">
+                  {% for client in page.clients %}
+                    {% assign c = site.clients | where: "slug", client | first %}
+                    <div class="column client-thumb-container">
+                      <div class="client-thumb" style="background-image: url(/images/clients/{{ c.slug }}.png)"></div>
+                      <h5 class="client-thumb-header">{{ c.name }}</h5>
+                    </div>
+                  {% endfor %}
+                </div>
+              </section>
+              <!-- /Clients -->
+            </div>
           </div>
         </div>
       </div>
