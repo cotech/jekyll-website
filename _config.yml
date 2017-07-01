@@ -15,7 +15,7 @@ defaults:
   - scope:
       type: coops
     values:
-      layout: co-op
+      layout: coop
   - scope:
       type: services
     values:
