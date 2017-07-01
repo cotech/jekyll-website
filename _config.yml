@@ -3,6 +3,8 @@ collections:
   coops:
     output: true
     permalink: /co-op/:name
+  clients:
+    output: false
   services:
     output: true
     permalink: /service/:name
