@@ -124,6 +124,22 @@
               </div>
             </section>
             <!-- /Technologies -->
+
+            <!-- Clients -->
+            <section>
+              <h4>Clients</h4>
+
+              <div class="row small-up-2 medium-up-3 large-up-3">
+                {% for client in page.clients %}
+                  {% assign c = site.clients | where: "slug", client | first %}
+                  <div class="column client-thumb-container">
+                    <div class="client-thumb" style="background-image: url(/images/clients/{{ c.slug }}.png)"></div>
+                    <h5 class="client-thumb-header">{{ c.name }}</h5>
+                  </div>
+                {% endfor %}
+              </div>
+            </section>
+            <!-- /Clients -->
           </div>
         </div>
       </div>
