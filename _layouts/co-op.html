@@ -88,6 +88,24 @@
               <p>{{ content }}</p>
             </section>
             <!-- /About -->
+
+            <!-- Services -->
+            <section>
+              <h4>Services</h4>
+
+              <div class="row small-up-3 medium-up-4 large-up-4 small-collapse">
+                {% for service in page.services %}
+                  {% assign s = site.services | where: "slug", service | first %}
+                  <div class="column">
+                    <a href="{{ s.url | relative_url }}" class="service-thumb">
+                      <div class="service-thumb-img float-center" style="background-image: url(/images/services/{{ s.slug }}.png)"></div>
+                      <h5>{{ s.name }}</h5>
+                    </a>
+                  </div>
+                {% endfor %}
+              </div>
+            </section>
+            <!-- /Services -->
           </div>
         </div>
       </div>
