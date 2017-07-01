@@ -20,3 +20,7 @@ defaults:
       type: services
     values:
       layout: service
+  - scope:
+      type: technologies
+    values:
+      layout: technology
