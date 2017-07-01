@@ -42,4 +42,7 @@ If you are interested in what we're doing and would like to support our efforts 
 
 We're still working our exactly what this entails but in essence you will provide support of some kind and in return will be invited to events, given opportunities to feed into the network and receive support where we can offer it.
 
-If you'd like to find out more and help shape this official supporter role then please get in touch. You can also read more about us and check out our manifesto. You can also read more [about us](/about) and check out our [manifesto](/manifesto).
+If you'd like to find out more and help shape this official supporter role then please get in touch. You can also read more about us and check out our manifesto. You can also read more [about us][about] and check out our [manifesto][].
+
+[about]: {{ site.github.url }}/about
+[manifesto]: {{ site.github.url }}/manifesto
