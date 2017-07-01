@@ -17,7 +17,23 @@
       </div>
     </div>
 
-    {{ content }}
+    <div class="page-content">
+      <div class="row">
+        <div class="small-centered small-12 medium-10 large-8 columns">
+          {{ content }}
+        </div>
+      </div>
+
+      {% if page.append_email_form %}
+        <section id="join-form">
+          <div class="row">
+            <div class="small-12 medium-6 small-centered columns">
+              <p>Contact us via <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>.</p>
+            </div>
+          </div>
+        </section>
+      {% endif %}
+    </div>
 
   </div>
 
