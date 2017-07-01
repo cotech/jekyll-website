@@ -1,18 +1,44 @@
 ---
 ---
-<h1>{{ page.name }}</h1>
+<!doctype html>
+<html lang="en-US">
 
-<img src="/images/coops/{{ page.slug }}.png">
+{% include head.html %}
 
-<a href="{{ page.website }}">{{ page.name }}</a>
+<body>
 
-{{ content }}
+  <header>
+    <div data-sticky-container style="height: 82.7812px;">
+      <div class="top-bar sticky iss-stuck is-at-top" data-sticky data-margin-top=0>
+        <div class="top-bar-title">
+          <strong>
+            <a id="logo" href="/">
+              <img src="{{ site.github.url }}/app/themes/coop-tech-oowp-theme/public/img/CoTech-logo.png">CoTech
+            </a>
+          </strong>
+          <a class="back" href="/">&#8592; Go Back</a>
+        </div>
+      </div>
+    </div>
+  </header>
 
-<h2>Services</h2>
+  <div class="coop">
 
-<ul>
-{% for service in page.services %}
-  {% assign s = site.services | where: "slug", service | first %}
-  <li><a href="{{ s.url | relative_url }}">{{ s.name }}</a></li>
-{% endfor %}
-</ul>
+  <div id="page-banner">
+    <div class="row">
+      <div class="small-12 small-centered columns">
+        <a href="{{ page.website }}" target="_blank">
+          <img src="/images/coops/{{ page.slug }}.png" alt="">
+        </a>
+        <h2>{{ page.name }}</h2>
+        <a href="{{ page.website }}" target="_blank">{{ page.website }}</a>
+      </div>
+    </div>
+  </div>
+
+  {% include footer.html %}
+
+  <script type='text/javascript' src='{{ site.github.url }}/app/themes/coop-tech-oowp-theme/public/js/app.js?ver=4.8'></script>
+</body>
+
+</html>
