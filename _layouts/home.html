@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en-US">
+
+{% include head.html %}
+
+<body>
+
+  <header>
+
+    <div data-sticky-container style="height: 82.7812px;">
+
+      <div class="top-bar sticky iss-stuck is-at-top" data-sticky data-margin-top=0>
+        <div class="top-bar-title">
+          <strong>
+                        <a id="logo" href="https://www.coops.tech/">
+                            <img src="https://www.coops.tech/app/themes/coop-tech-oowp-theme/public/img/CoTech-logo.png">CoTech
+                        </a>
+                    </strong>
+          <span data-responsive-toggle="responsive-menu" data-hide-for="medium"><button class="menu-icon dark" type="button" data-toggle></button></span>
+        </div>
+        <div id="responsive-menu">
+          <div class="top-bar-right">
+            <ul class="dropdown menu vertical medium-horizontal" data-magellan>
+              <li><a href="#members">Members</a></li>
+              <li><a href="#clients">Clients</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#technologies">Technologies</a></li>
+              <li><a href="#contact" class="button">Get In Touch</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </header>
+
+  <div class="home">
+
+    <div id="banner">
+      <div class="row">
+        <div class="small-12 columns">
+          <h1>Cooperative Technologists</h1>
+          <p>Building a tech industry that's better for its workers and customers through co-operation, democracy and worker ownership.</p>
+          <span>
+                        <a id="video" data-open="video-modal"><i class="fi-play"></i>Watch video</a>
+                        <a id="our-manifesto" href="manifesto">Our manifesto</a>
+                    </span>
+
+          <div class="reveal large" id="video-modal" data-reveal>
+            <div class="flex-video widescreen">
+              <iframe width="420" height="315" src="https://player.vimeo.com/video/196080655" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    {{ content }}
+
+  </div>
+
+
+  {% include footer.html %}
+
+  <script type='text/javascript' src='{{ site.github.url }}/app/themes/coop-tech-oowp-theme/public/js/app.js?ver=4.8'></script>
+  <script type='text/javascript' src='{{ site.github.url }}/wp/wp-includes/js/wp-embed.min.js?ver=4.8'></script>
+</body>
+
+</html>

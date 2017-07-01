@@ -1,29 +1,110 @@
 ---
 title: CoTech
+layout: home
 ---
 
-<h1>CoTech</h1>
+<div id="kpi">
+  <div class="row">
+    <div class="small-12 medium-10 large-8 small-centered columns">
 
-Co-ops: {{ site.coops.size }}
+      <div class="small-3 columns">
+        <img src="app/themes/coop-tech-oowp-theme/public/img/icon-coops.png" class="float-center">
+        <h6>Co-ops</h6>
+        <h5>{{ site.coops.size }}</h5>
+      </div>
+      <div class="small-3 columns">
+        <img src="app/themes/coop-tech-oowp-theme/public/img/icon-staff.png" class="float-center">
+        <h6>Staff</h6>
+        <h5>159+</h5>
+      </div>
+      <div class="small-3 columns">
+        <img src="app/themes/coop-tech-oowp-theme/public/img/icon-revenue.png" class="float-center">
+        <h6>Revenue</h6>
+        <h5>£5.7m</h5>
+      </div>
+      <div class="small-3 columns">
+        <img src="app/themes/coop-tech-oowp-theme/public/img/icon-clients.png" class="float-center">
+        <h6>Clients</h6>
+        <h5>232+</h5>
+      </div>
 
-<ul>
-{% for coop in site.coops %}
-  <li>
-    <a href="{{ coop.url | relative_url }}">
-      {{ coop.name }}
-    </a>
-  </li>
-{% endfor %}
-</ul>
+    </div>
+  </div>
+</div>
 
-<h2>Services</h2>
+<section id="members" data-magellan-target="members">
+  <div class="row">
+    <div class="small-12 columns">
 
-<ul>
-{% for service in site.services %}
-  <li>
-    <a href="{{ service.url | relative_url }}">
-      {{ service.name }}
-    </a>
-  </li>
-{% endfor %}
-</ul>
+      <h2>Members</h2>
+      <p>Take a look at who is part of the CoTech network</p>
+
+      <div class="view float-center">
+        <ul class="tabs" data-tabs id="coops-view-tabs">
+          <li class="tabs-title is-active"><a href="#grid" aria-selected="true">Grid</a></li>
+          <li class="separator">|</li>
+          <li class="tabs-title"><a href="#map">Map</a></li>
+        </ul>
+      </div>
+
+      <div class="tabs-content" data-tabs-content="coops-view-tabs">
+
+        <!-- START Grid View Content -->
+        <div class="tabs-panel is-active" id="grid">
+          <div class="row small-up-2 medium-up-4 large-up-6 small-collapse">
+            <div class="column">
+              {% for coop in site.coops %}
+                <a class="coop-thumb" href="{{ coop.url | relative_url }}">
+                  <div class="coop-thumb-img has-tip tip-bottom radius" style="background-image: url(/images/coops/{{ coop.slug }}.png)" data-tooltip aria-haspopup="true" title="{{ coop.name }}"></div>
+                </a>
+              {% endfor %}
+            </div>
+            <div class="column">
+              <a href="join" class="coop-thumb">
+                  <h5 id="join-us">Join CoTech</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- END Grid View Content -->
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services" data-magellan-target="services">
+  <div class="row">
+    <div class="small-12 columns">
+
+      <h2>Services</h2>
+      <p>Here are the services the network are able to offer</p>
+
+      <div class="row small-up-3 medium-up-4 large-up-6 small-collapse">
+        {% for service in site.services %}
+          <div class="column">
+            <a href="{{ service.url | relative_url }}" class="service-thumb">
+              <div class="service-thumb-img float-center" style="background-image: url(/images/services/{{ service.slug }}.png)"></div>
+              <h5>{{ service.name }}</h5>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+</section>
+
+<section id="contact" data-magellan-target="contact">
+  <div class="row">
+    <div class="small-12 medium-6 small-centered columns">
+
+      <h2>Get In Touch</h2>
+      <p>
+        If you would like to work with us, or find out more,
+        <a href="mailto:contact@coops.tech">get in touch</a>.
+        <br/> Not sure which tech coop, or coops, are right for you? Drop us a message at
+        <a href="mailto:contact@coops.tech">contact@coops.tech</a>, and we will help you find the perfect match.
+      </p>
+
+    </div>
+  </div>
+</section>
