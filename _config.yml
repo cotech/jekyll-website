@@ -8,6 +8,9 @@ collections:
   services:
     output: true
     permalink: /service/:name
+  technologies:
+    output: true
+    permalink: /technology/:name
 defaults:
   - scope:
       type: coops

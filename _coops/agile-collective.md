@@ -7,6 +7,9 @@ clients:
 services:
   - consultancy
   - development
+technologies:
+  - apache
+  - bash
 ---
 Agile Collective is a small team of designers and developers who make websites for socially positive organisations such as charities, NGOs, social enterprises and educational institutions. We take a highly creative and integrated approach to all of our projects which results in a transparent and empowering working environment for the whole project team – including our client.
 

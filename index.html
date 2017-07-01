@@ -109,6 +109,27 @@ layout: home
     </div>
 </section>
 
+<section id="technologies" data-magellan-target="technologies">
+  <div class="row">
+    <div class="small-12 columns">
+
+      <h2>Technologies</h2>
+      <p>Here are some of the technologies we are currently using - the list continues to grow!</p>
+
+      <div class="row small-up-3 medium-up-4 large-up-6">
+        {% for technology in site.technologies %}
+          <div class="column">
+            <a href="{{ technology.url | relative_url }}" class="technology-thumb">
+              <div class="technology-thumb-img" style="background-image: url(/images/technologies/{{ technology.slug }}.png)"></div>
+              <h5>{{ technology.name }}</h5>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id="contact" data-magellan-target="contact">
   <div class="row">
     <div class="small-12 medium-6 small-centered columns">
