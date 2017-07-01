@@ -36,6 +36,56 @@
     </div>
   </div>
 
+  <div class="row">
+    <div class="small-12 small-centered medium-10 large-8 columns">
+        <div class="row">
+          <!-- Contact -->
+          <div class="small-12 large-4 columns">
+            <section class="row small-up-1 medium-up-4 large-up-1">
+              <div class="column">
+                <ul class="menu social">
+                  {% if page.twitter %}
+                  <li>
+                    <a href="http://twitter.com/{{ page.twitter }}" target="_blank">
+                      <i class="fi-social-twitter"></i>
+                    </a>
+                  </li>
+                  {% endif %}
+                  {% if page.github %}
+                  <li>
+                    <a href="https://github.com/{{ page.github }}" target="_blank">
+                      <i class="fi-social-github"></i>
+                    </a>
+                  </li>
+                  {% endif %}
+                </ul>
+              </div>
+              {% if page.email %}
+              <div class="column">
+                <strong>Email:</strong>
+                <p><a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
+              </div>
+              {% endif %}
+              {% if page.telephone %}
+              <div class="column">
+                <strong>Tel:</strong>
+                <p>{{ page.telephone }}</p>
+              </div>
+              {% endif %}
+              {% if page.address %}
+              <div class="column">
+                <strong>Address:</strong>
+                <p>{{ page.address | split: "," | join: "<br>" }}</p>
+              </div>
+              {% endif %}
+            </section>
+          </div>
+          <!-- /Contact -->
+        </div>
+      </div>
+    </div>
+  </div>
+
   {% include footer.html %}
 
   <script type='text/javascript' src='{{ site.github.url }}/app/themes/coop-tech-oowp-theme/public/js/app.js?ver=4.8'></script>

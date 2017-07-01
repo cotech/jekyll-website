@@ -1,6 +1,11 @@
 ---
 name: Outlandish
 website: http://outlandish.com
+email: hello@outlandish.com
+twitter: outlandish
+github: outlandishideas
+telephone: +44 (0) 207 561 9968
+address: 3rd Floor, 149 Fonthill Road, Finsbury Park, London, United Kingdom, N4 3HF
 services:
   - business-analysis
 ---

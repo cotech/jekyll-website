@@ -1,6 +1,11 @@
 ---
 name: Go Free Range
 website: http://gofreerange.com
+email: lets@gofreerange.com
+twitter: freerange
+github: freerange
+telephone: N/A
+address: London, United Kingdom
 services:
   - business-analysis
   - consultancy
