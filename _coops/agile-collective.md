@@ -5,6 +5,8 @@ email: info@agile.coop
 twitter: AgileCollective
 telephone: 01865 403 120
 address: Room 301, The Old Music Hall, 106-108 Cowley Road, Oxford, United Kingdom, OX4 1JE
+latitude: 51.7483541
+longitude: -1.2412285
 clients:
   - oxfam
   - oxford-city-council

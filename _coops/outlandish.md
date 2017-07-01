@@ -6,6 +6,8 @@ twitter: outlandish
 github: outlandishideas
 telephone: +44 (0) 207 561 9968
 address: 3rd Floor, 149 Fonthill Road, Finsbury Park, London, United Kingdom, N4 3HF
+latitude: 51.5637216
+longitude: -0.1099459
 services:
   - business-analysis
 ---

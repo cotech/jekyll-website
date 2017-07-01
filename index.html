@@ -68,6 +68,26 @@ layout: home
         </div>
         <!-- END Grid View Content -->
 
+        <!-- START Map View Content -->
+        <div class="tabs-panel" id="map">
+          <div class="row small-up-2 medium-up-4 large-up-6 small-collapse">
+            <div id="map-coops"></div>
+            <script type="text/javascript">
+              var app = window.app || {};
+              app.mapEntries = [
+                {% for coop in site.coops %}
+                  {
+                    lat: {{ coop.latitude }},
+                    lng: {{ coop.longitude }},
+                    markerText: '<b><a href=\"{{ coop.url | relative_url }}\">{{ coop.name }}</a></b><br><br>{{ coop.address | split: "," | join: "<br>" }}'
+                  },
+                {% endfor %}
+              ];
+            </script>
+          </div>
+        </div>
+        <!-- END Map View Content -->
+
       </div>
     </div>
   </div>

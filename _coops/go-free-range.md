@@ -6,6 +6,8 @@ twitter: freerange
 github: freerange
 telephone: N/A
 address: London, United Kingdom
+latitude: 51.528308
+longitude: -0.3817794
 services:
   - business-analysis
   - consultancy
