@@ -10,6 +10,7 @@ latitude: 51.5637216
 longitude: -0.1099459
 services:
   - business-analysis
+  - big-data
 ---
 Outlandish is made up of around 20 collaborators and co-owners who love humour, quality code, and apps that challenge the status quo.
 
