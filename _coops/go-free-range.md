@@ -12,6 +12,7 @@ longitude: -0.3817794
 services:
 - business-analysis
 - consultancy
+- Devops
 ---
 
 We are a co-operative with some of the most experienced web-application developers in the UK offering software development and design.
