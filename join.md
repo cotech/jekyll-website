@@ -4,6 +4,7 @@ heading: Join CoTech
 layout: default
 append_email_form: true
 ---
+
 Membership of the Co-operative Technologists network is open to all co-ops that sell technical/digital products or services that are run and owned by their workers.
 
 Secondary co-ops and multi-stakeholder co-ops are also welcome so long as all they (and their members) do not generate money for investors by exploiting their workers.

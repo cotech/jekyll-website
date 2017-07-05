@@ -3,6 +3,7 @@ title: Manifesto
 heading: Our Manifesto
 layout: default
 ---
+
 We believe in a fairer world in which wealth and resources are distributed to the people who need them rather than those best able to take them.
 
 As [Co-operative Technologists][] we aim to ensure that technology plays its part in creating a fairer world.

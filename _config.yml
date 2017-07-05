@@ -1,27 +1,43 @@
+---
+title: Cotech Website
+timezone: UTC
+collections:
+  clients:
+    title: Clients
+    output: false
+  coops:
+    title: Coops
+    output: true
+    permalink: "/co-op/:name"
+  posts:
+    title: Posts
+    output: true
+  services:
+    title: Services
+    output: true
+    permalink: "/service/:name"
+  technologies:
+    title: Technologies
+    output: true
+    permalink: "/technology/:name"
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: coops
+  values:
+    layout: coop
+- scope:
+    path: ''
+    type: services
+  values:
+    layout: service
+- scope:
+    path: ''
+    type: technologies
+  values:
+    layout: technology
 contact_email: contact@coops.tech
 mapbox_access_token: pk.eyJ1IjoiY290ZWNoIiwiYSI6ImNpemgxbzhwODAwMHMzM28zdXF3cGxyYmwifQ.9nPExuEUqwblCCl-6gyFXA
-collections:
-  coops:
-    output: true
-    permalink: /co-op/:name
-  clients:
-    output: false
-  services:
-    output: true
-    permalink: /service/:name
-  technologies:
-    output: true
-    permalink: /technology/:name
-defaults:
-  - scope:
-      type: coops
-    values:
-      layout: coop
-  - scope:
-      type: services
-    values:
-      layout: service
-  - scope:
-      type: technologies
-    values:
-      layout: technology

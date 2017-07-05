@@ -3,6 +3,7 @@ title: About
 heading: About CoTech
 layout: default
 ---
+
 Co-operative Technologists (aka CoTech) is a network of co-operatives that sell tech/digital services. It aims to create a better technology sector in the UK that focuses primarily on worker, customer and end-user needs rather than on generating private profit.
 
 The members of the network aim to use their collective experience, skills, resources and knowledge to radically increase the market share of companies that are owned and run by their workers. We have found that this model creates better workplaces, better digital products and better value for customers. We want to help more people to enjoy the benefits of this model.

@@ -1,24 +1,25 @@
 ---
+title: Agile Collective
 name: Agile Collective
-website: 'http://agile.coop'
+website: http://agile.coop
 email: info@agile.coop
 twitter: AgileCollective
 telephone: 01865 403 120
-address: 'Room 301, The Old Music Hall, 106-108 Cowley Road, Oxford, United Kingdom, OX4 1JE'
+address: Room 301, The Old Music Hall, 106-108 Cowley Road, Oxford, United Kingdom,
+  OX4 1JE
 latitude: 51.7483541
 longitude: -1.2412285
 clients:
-  - oxfam
-  - oxford-city-council
+- oxfam
+- oxford-city-council
 services:
-  - consultancy
-  - development
-  - devops
+- consultancy
+- development
+- devops
 technologies:
-  - apache
-  - bash
+- apache
+- bash
 ---
-
 
 Agile Collective is a small team of designers and developers who make websites for socially positive organisations such as charities, NGOs, social enterprises and educational institutions. We take a highly creative and integrated approach to all of our projects which results in a transparent and empowering working environment for the whole project team – including our client.
 
