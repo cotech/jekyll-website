@@ -18,6 +18,8 @@ The network was founded at <a href="https://wiki.coops.tech/wiki/Main_Page#Wortl
 
 Read [our manifesto][manifesto], [contact us if you want to work with us][contact] or [join us][join].
 
+Blah, blah, blah.
+
 [Loomio]: https://www.loomio.org/g/oVwtKDOn/digital-co-ops
 [wiki]: https://wiki.coops.tech/
 [mailing-list]: https://www.email-lists.org/mailman/listinfo/tech-coops
