@@ -1,3 +1,5 @@
+__This repo is deprecated: [The idea of moving to a static website was proposed and rejected in Loomio](https://www.loomio.org/d/FnHRkxCO)__
+
 # CoTech Website
 
 ## Introduction
