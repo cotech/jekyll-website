@@ -82,6 +82,10 @@ class Coop
     doc.xpath('/html/body/div/div[2]/div/div/div[2]/section[1]').text.strip
   end
 
+  def logo
+    doc.xpath('//*[@id="page-banner"]/div/div/a[1]/img/@src').text
+  end
+
   def erb_binding
     binding
   end
