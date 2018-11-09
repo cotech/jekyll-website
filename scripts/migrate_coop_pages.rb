@@ -4,8 +4,14 @@ require 'active_support/inflector'
 class Coop
   attr_reader :doc
 
-  def initialize(html)
+  def initialize(fn)
+    html = File.read(fn)
+    @fn = fn
     @doc = Nokogiri::HTML(html)
+  end
+
+  def slug
+    File.basename(@fn, '.html')
   end
 
   def name
@@ -79,53 +85,56 @@ class Coop
   def erb_binding
     binding
   end
-end
 
-source_pages = %w(
-  agile-collective.html
-  alpha-communication.html
-  animorph.html
-  aptivate.html
-  autonomic.html
-  blake-house-filmmakers-co-op.html
-  calverts.html
-  cbn.html
-  cetis-llp.html
-  chapel-street-studio.html
-  co-operative-web.html
-  creative-coop.html
-  dev-the-developers-society.html
-  digital-liberties.html
-  dtc-innovation.html
-  fairmondo-uk.html
-  founders-and-coders.html
-  gildedsplinters.html
-  glowbox-design.html
-  go-free-range.html
-  graphics-coop.html
-  mc3.html
-  media-coop.html
-  mediablaze-hosts.html
-  netuxo.html
-  open-data-services.html
-  open-ecommerce.html
-  outlandish.html
-  secure-active-c-i-c.html
-  small-axe.html
-  tableflip.html
-  the-dot-project.html
-  wave.html
-  we-are-open.html
-  webarchitects.html
-)
+  def self.all
+    %w(
+      agile-collective.html
+      alpha-communication.html
+      animorph.html
+      aptivate.html
+      autonomic.html
+      blake-house-filmmakers-co-op.html
+      calverts.html
+      cbn.html
+      cetis-llp.html
+      chapel-street-studio.html
+      co-operative-web.html
+      creative-coop.html
+      dev-the-developers-society.html
+      digital-liberties.html
+      dtc-innovation.html
+      fairmondo-uk.html
+      founders-and-coders.html
+      gildedsplinters.html
+      glowbox-design.html
+      go-free-range.html
+      graphics-coop.html
+      mc3.html
+      media-coop.html
+      mediablaze-hosts.html
+      netuxo.html
+      open-data-services.html
+      open-ecommerce.html
+      outlandish.html
+      secure-active-c-i-c.html
+      small-axe.html
+      tableflip.html
+      the-dot-project.html
+      wave.html
+      we-are-open.html
+      webarchitects.html
+    ).map do |page|
+
+      fn = File.join(File.dirname(__FILE__), 'mirror', 'coops.tech.archived.website', 'co-op', page)
+      new(fn)
+    end
+  end
+end
 
 require 'erb'
 
-source_pages.each do |page|
-  fn = File.join(File.dirname(__FILE__), 'mirror', 'coops.tech.archived.website', 'co-op', page)
-  output_fn = File.join(File.dirname(__FILE__), '..', '_coops', page.gsub('.html','.md'))
-
-  coop = Coop.new(File.read(fn))
+Coop.all.each do |coop|
+  output_fn = File.join(File.dirname(__FILE__), '..', '_coops', coop.slug + '.md')
 
   renderer = ERB.new(File.read('coop.erb.md'), nil, '<>')
   result = renderer.result(coop.erb_binding)
