@@ -1,10 +1,10 @@
 ---
-title: DEV: The Developer Society
-name: DEV: The Developer Society
+title: 'DEV: The Developer Society'
+name: 'DEV: The Developer Society'
 website: https://www.dev.ngo/
 email: studio@dev.ngo
-twitter: 11104001
-github: devsociety_
+twitter: devsociety_
+github:
 telephone: +44 333 344 7800
 address: 191 Fazeley Street,Digbeth,Birmingham, ,B5 5SE
 latitude: 52.47784126596389
