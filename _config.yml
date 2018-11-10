@@ -1,6 +1,7 @@
 ---
 title: Cotech Website
 timezone: UTC
+exclude: ['scripts']
 collections:
   clients:
     title: Clients
