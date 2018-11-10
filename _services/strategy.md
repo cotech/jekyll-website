@@ -1,0 +1,4 @@
+---
+title: Strategy
+name: Strategy
+---
