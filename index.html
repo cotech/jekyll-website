@@ -52,13 +52,13 @@ layout: home
         <!-- START Grid View Content -->
         <div class="tabs-panel is-active" id="grid">
           <div class="row small-up-2 medium-up-4 large-up-6 small-collapse">
+            {% for coop in site.coops %}
             <div class="column">
-              {% for coop in site.coops %}
-                <a class="coop-thumb" href="{{ coop.url | relative_url }}">
+              <a class="coop-thumb" href="{{ coop.url | relative_url }}">
                   <div class="coop-thumb-img has-tip tip-bottom radius" style="background-image: url({{ site.github.url }}/images/coops/{{ coop.slug }}.png)" data-tooltip aria-haspopup="true" title="{{ coop.name }}"></div>
                 </a>
-              {% endfor %}
             </div>
+            {% endfor %}
             <div class="column">
               <a href="join" class="coop-thumb">
                   <h5 id="join-us">Join CoTech</h5>
