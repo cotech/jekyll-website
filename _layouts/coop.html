@@ -122,7 +122,7 @@
                     {% assign c = site.clients | where: "slug", client | first %}
                     <div class="column client-thumb-container">
                       <div class="client-thumb" style="background-image: url({{ site.github.url }}/images/clients/{{ c.slug }}.png)"></div>
-                      <h5 class="client-thumb-header">{{ c.name }}</h5>
+                      <h5 class="client-thumb-header">{{ c.title }}</h5>
                     </div>
                   {% endfor %}
                 </div>
