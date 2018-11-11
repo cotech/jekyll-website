@@ -67,7 +67,12 @@ class Coop
 
   def clients
     doc.css('div.client-thumb-container').map do |node|
-      node.xpath('h5').text&.parameterize
+      style = node.xpath('div/@style')
+      {
+        title: node.xpath('h5').text,
+        slug: node.xpath('h5').text&.parameterize,
+        logo: style.text.match(/background-image: url\((.*)\)/)[1]
+      }
     end
   end
 
