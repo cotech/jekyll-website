@@ -1,0 +1,3 @@
+---
+title: Solidarity Economy Association
+---

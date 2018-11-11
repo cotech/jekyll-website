@@ -1,0 +1,3 @@
+---
+title: Camden New Journal
+---
