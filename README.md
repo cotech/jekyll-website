@@ -22,6 +22,10 @@ Run a local web server so that you can view the site
 
 And visit [localhost:4000](http://localhost:4000) to view the site.
 
+## Deploy CI
+
+When changes are committed the `.gitlab-ci.yml` file triggers the building of the site and then the copying of the results to https://static.coops.tech/
+
 ## Contributing
 
 There's a [list of bugs and improvements](https://git.coop/cotech/website/issues) in the repository. Feel free to add more, discuss or claim any of these issues to work on.
