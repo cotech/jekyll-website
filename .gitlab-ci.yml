@@ -29,8 +29,7 @@ pages:
   stage: deploy
   script:
   - bundle exec jekyll build -d public
-  - ssh -vvv cotech@webarch2.co.uk "echo 'hello world'"
-  - rsync -anv public/ cotech@webarch2.co.uk:sites/default/
+  - rsync -avz public/ cotech@webarch2.co.uk:sites/default/
   artifacts:
     paths:
     - public
