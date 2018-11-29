@@ -22,6 +22,6 @@ Read [our manifesto][manifesto], [contact us if you want to work with us][contac
 [wiki]: https://wiki.coops.tech/
 [mailing-list]: https://www.email-lists.org/mailman/listinfo/tech-coops
 [wortley-hall]: https://www.wortleyhall.org.uk/
-[manifesto]: {{ site.github.url }}/manifesto
-[contact]: {{ site.github.url }}/#contact
-[join]: {{ site.github.url }}/join
+[manifesto]: /manifesto
+[contact]: /#contact
+[join]: /join
