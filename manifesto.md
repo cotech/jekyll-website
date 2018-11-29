@@ -16,5 +16,5 @@ We call upon consumers of digital products -- including trades unions, charities
 
 We hereby give notice to technology companies that do not treat their employees fairly, do not give their workers control of their businesses and do not seek to create a fairer world that your days are numbered. We are more creative, more committed and more resilient. [Join us][join].
 
-[Co-operative Technologists]: {{ site.github.url }}/about
-[join]: {{ site.github.url }}/join
+[Co-operative Technologists]: /about
+[join]: /join

@@ -15,7 +15,7 @@
     <div id="page-banner">
       <div class="row">
         <div class="small-12 small-centered columns">
-          <img src="{{ site.github.url }}/images/technologies/{{ page.slug }}.png" alt="">
+          <img src="/images/technologies/{{ page.slug }}.png" alt="">
           <h2>Coops that use <span>{{ page.name }}</span></h2>
         </div>
       </div>
@@ -40,7 +40,7 @@
                 {% if coop.technologies contains page.slug %}
                   <div class="column">
                     <a href="{{ coop.url | relative_url }}" class="coop-thumb">
-                      <img src="{{ site.github.url }}/images/coops/{{ coop.slug }}.png" alt="">
+                      <img src="/images/coops/{{ coop.slug }}.png" alt="">
                     </a>
                   </div>
                 {% endif %}

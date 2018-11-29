@@ -16,7 +16,7 @@
       <div class="row">
         <div class="small-12 small-centered columns">
           <a href="{{ page.website }}" target="_blank">
-            <img src="{{ site.github.url }}/images/coops/{{ page.slug }}.png" alt="">
+            <img src="/images/coops/{{ page.slug }}.png" alt="">
           </a>
           <h2>{{ page.name }}</h2>
           <a href="{{ page.website }}" target="_blank">{{ page.website }}</a>
@@ -86,7 +86,7 @@
                     {% assign s = site.services | where: "slug", service | first %}
                     <div class="column">
                       <a href="{{ s.url | relative_url }}" class="service-thumb">
-                        <div class="service-thumb-img float-center" style="background-image: url({{ site.github.url }}/images/services/{{ s.slug }}.png)"></div>
+                        <div class="service-thumb-img float-center" style="background-image: url(/images/services/{{ s.slug }}.png)"></div>
                         <h5>{{ s.name }}</h5>
                       </a>
                     </div>
@@ -104,7 +104,7 @@
                     {% assign t = site.technologies | where: "slug", technology | first %}
                     <div class="column">
                       <a href="{{ t.url | relative_url }}" class="technology-thumb">
-                        <div class="technology-thumb-img float-center" style="background-image: url({{ site.github.url }}/images/technologies/{{ t.slug }}.png)"></div>
+                        <div class="technology-thumb-img float-center" style="background-image: url(/images/technologies/{{ t.slug }}.png)"></div>
                         <h5>{{ t.name }}</h5>
                       </a>
                     </div>
@@ -121,7 +121,7 @@
                   {% for client in page.clients %}
                     {% assign c = site.clients | where: "slug", client | first %}
                     <div class="column client-thumb-container">
-                      <div class="client-thumb" style="background-image: url({{ site.github.url }}/images/clients/{{ c.slug }}.png)"></div>
+                      <div class="client-thumb" style="background-image: url(/images/clients/{{ c.slug }}.png)"></div>
                       <h5 class="client-thumb-header">{{ c.title }}</h5>
                     </div>
                   {% endfor %}

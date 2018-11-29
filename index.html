@@ -8,22 +8,22 @@ layout: home
     <div class="small-12 medium-10 large-8 small-centered columns">
 
       <div class="small-3 columns">
-        <img src="{{ site.github.url }}/app/themes/coop-tech-oowp-theme/public/img/icon-coops.png" class="float-center">
+        <img src="/app/themes/coop-tech-oowp-theme/public/img/icon-coops.png" class="float-center">
         <h6>Co-ops</h6>
         <h5>{{ site.coops.size }}</h5>
       </div>
       <div class="small-3 columns">
-        <img src="{{ site.github.url }}/app/themes/coop-tech-oowp-theme/public/img/icon-staff.png" class="float-center">
+        <img src="/app/themes/coop-tech-oowp-theme/public/img/icon-staff.png" class="float-center">
         <h6>Staff</h6>
         <h5>159+</h5>
       </div>
       <div class="small-3 columns">
-        <img src="{{ site.github.url }}/app/themes/coop-tech-oowp-theme/public/img/icon-revenue.png" class="float-center">
+        <img src="/app/themes/coop-tech-oowp-theme/public/img/icon-revenue.png" class="float-center">
         <h6>Revenue</h6>
         <h5>£5.7m</h5>
       </div>
       <div class="small-3 columns">
-        <img src="{{ site.github.url }}/app/themes/coop-tech-oowp-theme/public/img/icon-clients.png" class="float-center">
+        <img src="/app/themes/coop-tech-oowp-theme/public/img/icon-clients.png" class="float-center">
         <h6>Clients</h6>
         <h5>{{ site.clients.size }}+</h5>
       </div>
@@ -55,7 +55,7 @@ layout: home
             {% for coop in site.coops %}
             <div class="column">
               <a class="coop-thumb" href="{{ coop.url | relative_url }}">
-                  <div class="coop-thumb-img has-tip tip-bottom radius" style="background-image: url({{ site.github.url }}/images/coops/{{ coop.slug }}.png)" data-tooltip aria-haspopup="true" title="{{ coop.name }}"></div>
+                  <div class="coop-thumb-img has-tip tip-bottom radius" style="background-image: url(/images/coops/{{ coop.slug }}.png)" data-tooltip aria-haspopup="true" title="{{ coop.name }}"></div>
                 </a>
             </div>
             {% endfor %}
@@ -101,7 +101,7 @@ layout: home
       <div class="row small-up-2 medium-up-3 large-up-6">
         {% for client in site.clients %}
           <div class="column">
-            <div class="client-thumb" style="background-image: url({{ site.github.url }}/images/clients/{{ client.slug }}.png)"></div>
+            <div class="client-thumb" style="background-image: url(/images/clients/{{ client.slug }}.png)"></div>
           </div>
         {% endfor %}
       </div>
@@ -120,7 +120,7 @@ layout: home
         {% for service in site.services %}
           <div class="column">
             <a href="{{ service.url | relative_url }}" class="service-thumb">
-              <div class="service-thumb-img float-center" style="background-image: url({{ site.github.url }}/images/services/{{ service.slug }}.png)"></div>
+              <div class="service-thumb-img float-center" style="background-image: url(/images/services/{{ service.slug }}.png)"></div>
               <h5>{{ service.name }}</h5>
             </a>
           </div>
@@ -140,7 +140,7 @@ layout: home
         {% for technology in site.technologies %}
           <div class="column">
             <a href="{{ technology.url | relative_url }}" class="technology-thumb">
-              <div class="technology-thumb-img" style="background-image: url({{ site.github.url }}/images/technologies/{{ technology.slug }}.png)"></div>
+              <div class="technology-thumb-img" style="background-image: url(/images/technologies/{{ technology.slug }}.png)"></div>
               <h5>{{ technology.name }}</h5>
             </a>
           </div>
