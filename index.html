@@ -99,7 +99,8 @@ layout: home
       <h2>Clients</h2>
       <p>Here are some of the amazing clients we have worked with so far</p>
       <div class="row small-up-2 medium-up-3 large-up-6">
-        {% for client in site.clients %}
+        {% assign clients = site.clients | sample:6 %}
+        {% for client in clients %}
           <div class="column">
             <div class="client-thumb" style="background-image: url(/images/clients/{{ client.slug }}.png)"></div>
           </div>
