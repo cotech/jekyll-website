@@ -19,6 +19,7 @@ clients:
 - european-union
 - gender-action-for-peace-and-security
 - goethe-institut
+- greenpeace
 - hachette-uk
 - hotwire-pr
 - indie-training-fund
