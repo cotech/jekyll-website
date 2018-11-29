@@ -4,7 +4,7 @@ name: Blake House Filmmakers Coop
 website: https://blake.house/
 email: hello@blake.house
 twitter: blake_house
-github: hello%40blake.html
+github:
 telephone: +447779 404510
 address: Unit 1H Clapham North Arts Centre,26-32 Voltaire Rd,London,SW4 6DH
 latitude: 51.46268029999999
