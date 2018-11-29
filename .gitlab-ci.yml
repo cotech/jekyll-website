@@ -24,16 +24,25 @@ test:
   except:
   - master
 
-pages:
+deploy:production:
   stage: deploy
   script:
   - bundle exec jekyll build -d public
   - rsync -aqz public/ cotech@webarch2.co.uk:sites/default/
-  - cd public ; git checkout dev ; cd -
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
+
+
+deploy:dev:
+  stage: deploy
+  script:
   - bundle exec jekyll build -d public
   - rsync -aqz public/ cotech@webarch2.co.uk:sites/dev/
   artifacts:
     paths:
     - public
   only:
-  - master
+  - dev
