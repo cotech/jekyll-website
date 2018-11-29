@@ -24,7 +24,7 @@ And visit [localhost:4000](http://localhost:4000) to view the site.
 
 ## Deploy CI
 
-When changes are committed the `.gitlab-ci.yml` file triggers the building of the site and then the copying of the results to https://static.coops.tech/
+When changes are committed to the `master` branch the `.gitlab-ci.yml` file triggers the building of the site and then the copying of the results to https://static.coops.tech/ and when changes are committed to the `dev` branch the site at https://dev.static.coops.tech/ is updated.
 
 ## Contributing
 
