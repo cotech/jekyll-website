@@ -32,6 +32,9 @@ deploy:production:
   artifacts:
     paths:
     - public
+  environment:
+    name: production
+    url: https://static.coops.tech
   only:
   - master
 
@@ -44,5 +47,8 @@ deploy:dev:
   artifacts:
     paths:
     - public
+  environment:
+    name: dev
+    url: https://dev.static.coops.tech
   only:
   - dev
