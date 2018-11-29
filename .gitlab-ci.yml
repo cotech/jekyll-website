@@ -7,8 +7,7 @@ variables:
 cache:
   key: gems
   paths:
-    - /usr/local/bundle/cache/
-    - /usr/local/bundle/gems/
+    - /usr/local/bundle/
 
 before_script:
   - 'which rsync || ( apt-get update -qq && apt-get install rsync -yqq )'
