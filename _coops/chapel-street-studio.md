@@ -3,8 +3,8 @@ title: Chapel Street Studio
 name: Chapel Street Studio
 website: http://chapelstreetstudio.coop/
 email: info@chapelstreetstudio.coop
-twitter: 
-github: 
+twitter: chapelststudio
+github:
 telephone: 07743 426 846 (Martyn Johnston | Secretary)
 address: Chapel Street Studio,Assembly Bradford, Market Pavilion, Rawson Place,Bradford,West Yorkshire,BD1 3QQ
 latitude: 53.795903
