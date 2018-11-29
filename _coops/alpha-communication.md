@@ -7,8 +7,8 @@ twitter: alpha.coop
 github: AlphaCo_op
 telephone: +441912111938
 address: 6 Charlotte Square,Newcastle upon Tyne,United Kingdom,NE1 4XF
-latitude: 
-longitude: 
+latitude: 54.97101
+longitude: -1.61974
 clients:
 services:
 - animation
