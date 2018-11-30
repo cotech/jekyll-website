@@ -12,7 +12,7 @@ variables:
 cache:
   key: gems
   paths:
-    - /usr/local/bundle/
+    - vendor
 
 before_script:
   - 'which rsync || ( apt-get update -qq && apt-get install rsync -yqq )'
@@ -22,7 +22,7 @@ before_script:
   - chmod 700 ~/.ssh
   - echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
   - chmod 644 ~/.ssh/known_hosts
-  - bundle install
+  - bundle install --path vendor
 
 test:
   stage: test
