@@ -77,6 +77,7 @@
               </section>
               <!-- /About -->
 
+              {% if page.services %}
               <!-- Services -->
               <section>
                 <h4>Services</h4>
@@ -94,7 +95,9 @@
                 </div>
               </section>
               <!-- /Services -->
+              {% endif %}
 
+              {% if page.technologies %}
               <!-- Technologies -->
               <section>
                 <h4>Technologies</h4>
@@ -112,7 +115,9 @@
                 </div>
               </section>
               <!-- /Technologies -->
+              {% endif %}
 
+              {% if page.clients %}
               <!-- Clients -->
               <section>
                 <h4>Clients</h4>
@@ -128,6 +133,7 @@
                 </div>
               </section>
               <!-- /Clients -->
+              {% endif %}
             </div>
           </div>
         </div>
