@@ -4,6 +4,11 @@ variables:
   JEKYLL_ENV: production
   LC_ALL: C.UTF-8
 
+cache:
+  key: gems
+  paths:
+    - /usr/local/bundle/
+
 before_script:
   - 'which rsync || ( apt-get update -qq && apt-get install rsync -yqq )'
   - eval $(ssh-agent -s)
@@ -24,16 +29,31 @@ test:
   except:
   - master
 
-pages:
+deploy:production:
   stage: deploy
   script:
   - bundle exec jekyll build -d public
   - rsync -aqz public/ cotech@webarch2.co.uk:sites/default/
-  - cd public ; git checkout dev ; cd - 
+  artifacts:
+    paths:
+    - public
+  environment:
+    name: production
+    url: https://static.coops.tech
+  only:
+  - master
+
+
+deploy:dev:
+  stage: deploy
+  script:
   - bundle exec jekyll build -d public
   - rsync -aqz public/ cotech@webarch2.co.uk:sites/dev/
   artifacts:
     paths:
     - public
+  environment:
+    name: dev
+    url: https://dev.static.coops.tech
   only:
-  - master
+  - dev

@@ -3,7 +3,7 @@ title: Cetis LLP
 name: Cetis LLP
 website: http://www.cetis.org.uk/
 email: info@cetis.org.uk
-twitter:
+twitter: cetisllp
 github:
 telephone: 07366025747
 address: Halton Mill,Mill Lane,Halton,Lancaster,England,LA2 6ND

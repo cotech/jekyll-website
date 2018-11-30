@@ -3,8 +3,8 @@ title: Outlandish
 name: Outlandish
 website: http://www.outlandish.com
 email: hello@outlandish.com
-twitter: outlandishideas
-github: hello%40outlandish.html
+twitter: outlandish
+github: outlandishideas
 telephone: +44 (0) 207 561 9968
 address: 3rd Floor,149 Fonthill Road,Finsbury Park,London,United Kingdom,N4 3HF
 latitude: 51.56372160000001
@@ -19,6 +19,7 @@ clients:
 - european-union
 - gender-action-for-peace-and-security
 - goethe-institut
+- greenpeace
 - hachette-uk
 - hotwire-pr
 - indie-training-fund

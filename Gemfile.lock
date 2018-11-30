@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/jekyll/jekyll-sass-converter.git
+  revision: c4d4e3e5b1a2222bb94895f9a6ab7e0216236ab8
+  branch: sassc
+  specs:
+    jekyll-sass-converter (1.5.2)
+      sassc (~> 2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -27,8 +35,6 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
-    jekyll-sass-converter (1.5.2)
-      sass (~> 3.4)
     jekyll-watch (2.1.2)
       listen (~> 3.0)
     kramdown (1.17.0)
@@ -41,23 +47,23 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.5)
+    rake (12.3.1)
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
     rouge (2.2.1)
     ruby_dep (1.5.0)
     safe_yaml (1.0.4)
-    sass (3.6.0)
-      sass-listen (~> 4.0.0)
-    sass-listen (4.0.0)
-      rb-fsevent (~> 0.9, >= 0.9.4)
-      rb-inotify (~> 0.9, >= 0.9.7)
+    sassc (2.0.0)
+      ffi (~> 1.9.6)
+      rake
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   jekyll
+  jekyll-sass-converter!
 
 BUNDLED WITH
    1.17.1

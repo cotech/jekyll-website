@@ -3,7 +3,7 @@ title: Animorph
 name: Animorph
 website: https://animorph.coop
 email: we@animorph.coop
-twitter:
+twitter: animorphcoop
 github:
 telephone:
 address: Space4, 149 Fonthill Road,London,N4 3HF

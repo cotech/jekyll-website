@@ -3,7 +3,7 @@ title: Autonomic
 name: Autonomic
 website: https://autonomic.zone/
 email: autonomic-coop@posteo.net
-twitter: autonomic-coop%40posteo.html
+twitter: autonomiccoop
 github:
 telephone:
 address: 1539 Pershore Road,Stirchley,Birmingham,United Kingdom,B30 2JH

@@ -2,10 +2,10 @@
 title: Creative Coop
 name: Creative Coop
 website: https://creative.coop
-email:
+email: hello@creative.coop
 twitter:
 github:
-telephone: 01274574147
+telephone: 01206 574147
 address: 2 Balkerne House, Balkerne Passage,Colchester,United Kingdom,CO1 1PA
 latitude: 51.89010188809361
 longitude: 0.8957915683888586

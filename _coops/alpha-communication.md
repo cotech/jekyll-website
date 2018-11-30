@@ -7,8 +7,8 @@ twitter: alpha.coop
 github: AlphaCo_op
 telephone: +441912111938
 address: 6 Charlotte Square,Newcastle upon Tyne,United Kingdom,NE1 4XF
-latitude:
-longitude:
+latitude: 54.97101
+longitude: -1.61974
 clients:
 services:
 - animation
@@ -41,5 +41,5 @@ Branding, media, print and video all working together.
 We deliver on time and within budget.
 
 KNOWING  
-After 30 years, we know what we’re doing  
+After 30 years, we know what we’re doing.  
 We help you engage with the people you need to reach.
