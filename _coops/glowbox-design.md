@@ -8,8 +8,8 @@ twitter:
 github: 
 telephone: 
 address: London
-latitude: 
-longitude: 
+latitude: 51.5073219
+longitude: -0.1276474
 clients:
 - creating-freedom
 - participatory-economics-uk

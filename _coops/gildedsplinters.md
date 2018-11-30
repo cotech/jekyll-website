@@ -8,8 +8,8 @@ twitter: index.html
 github: 
 telephone: "+44 7793650013"
 address: Virtual
-latitude: 
-longitude: 
+latitude: -26.9041798
+longitude: -49.0924112
 clients: 
 services:
 - branding-and-identity

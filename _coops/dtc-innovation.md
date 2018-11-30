@@ -8,8 +8,8 @@ twitter: dtc-innovation
 github: 
 telephone: 447455921569
 address: London,United Kingdom
-latitude: 
-longitude: 
+latitude: 51.5073219
+longitude: -0.1276474
 clients:
 - bbc
 - data-gouv-fr
