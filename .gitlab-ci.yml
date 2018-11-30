@@ -1,5 +1,10 @@
 image: ruby:2.5.3
 
+stages:
+- test
+- staging
+- production
+
 variables:
   JEKYLL_ENV: production
   LC_ALL: C.UTF-8
@@ -30,7 +35,7 @@ test:
   - master
 
 deploy:dev:
-  stage: deploy
+  stage: staging
   script:
   - bundle exec jekyll build -d public
   - rsync -aqz public/ cotech@webarch2.co.uk:sites/dev/
@@ -44,7 +49,7 @@ deploy:dev:
   - master
 
 deploy:production:
-  stage: deploy
+  stage: production
   script:
   - bundle exec jekyll build -d public
   - rsync -aqz public/ cotech@webarch2.co.uk:sites/default/
