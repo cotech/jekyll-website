@@ -7,7 +7,7 @@ email: outreach@aptivate.org
 twitter: aptivateuk
 github: aptivate
 telephone: "+44 (0)1223 967838"
-address: 25 Signet Court, Swann's Road, Cambridge,United Kingdom,CB5 8LA
+address: 25 Signet Court, Swann&rdquo;s Road, Cambridge,United Kingdom,CB5 8LA
 latitude: 52.21427610000001
 longitude: 0.15076890000000276
 clients:
