@@ -1,6 +1,7 @@
 ---
 title: Alpha Communication
 name: Alpha Communication
+members: 2
 website: http://alpha.coop/
 email: info@alpha.coop
 twitter: alpha.coop

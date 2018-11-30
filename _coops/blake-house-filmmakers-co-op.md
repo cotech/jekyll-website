@@ -1,6 +1,7 @@
 ---
 title: Blake House Filmmakers Coop
 name: Blake House Filmmakers Coop
+members: 2
 website: https://blake.house/
 email: hello@blake.house
 twitter: blake_house

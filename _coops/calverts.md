@@ -1,6 +1,7 @@
 ---
 title: Calverts
 name: Calverts
+members: 13
 website: http://www.calverts.coop/
 email: info@calverts.coop
 twitter: calverts_print_london

@@ -1,6 +1,7 @@
 ---
 title: Aptivate
 name: Aptivate
+members:
 website: http://aptivate.org/
 email: outreach@aptivate.org
 twitter: aptivateuk

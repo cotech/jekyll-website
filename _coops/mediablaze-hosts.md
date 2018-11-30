@@ -1,6 +1,7 @@
 ---
 title: MediaBlaze Hosts
 name: MediaBlaze Hosts
+members:
 website: http://mediablazehosts.coop
 email: letschat@mediablazehosts.coop
 twitter: MediaBlazeHosts

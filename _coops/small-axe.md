@@ -1,6 +1,7 @@
 ---
 title: Small Axe
 name: Small Axe
+members: 5
 website: http://weare.thesmallaxe.com/
 email: hello@thesmallaxe.com
 twitter: wearethesmallaxe

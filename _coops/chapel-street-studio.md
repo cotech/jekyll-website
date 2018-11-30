@@ -1,6 +1,7 @@
 ---
 title: Chapel Street Studio
 name: Chapel Street Studio
+members: 20
 website: http://chapelstreetstudio.coop/
 email: info@chapelstreetstudio.coop
 twitter: chapelststudio

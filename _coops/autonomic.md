@@ -1,6 +1,7 @@
 ---
 title: Autonomic
 name: Autonomic
+members: 6
 website: https://autonomic.zone/
 email: autonomic-coop@posteo.net
 twitter: autonomiccoop

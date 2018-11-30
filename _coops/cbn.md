@@ -1,6 +1,7 @@
 ---
 title: CBN
 name: CBN
+members: 5
 website: http://broadband.coop/
 email: info@broadband.coop
 twitter: cbn_team

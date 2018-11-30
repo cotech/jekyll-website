@@ -1,6 +1,7 @@
 ---
 title: Co-operative Web
 name: Co-operative Web
+members:
 website: http://web.coop
 email: ask@web.coop
 twitter: ask%40web.html

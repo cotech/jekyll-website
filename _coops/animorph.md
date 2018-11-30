@@ -1,6 +1,7 @@
 ---
 title: Animorph
 name: Animorph
+members: 4
 website: https://animorph.coop
 email: we@animorph.coop
 twitter: animorphcoop

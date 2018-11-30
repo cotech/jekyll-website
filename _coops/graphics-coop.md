@@ -1,6 +1,7 @@
 ---
 title: graphics.coop
 name: graphics.coop
+members: 4
 website: https://graphics.coop/
 email: info@graphics.coop
 twitter: graphicscoop

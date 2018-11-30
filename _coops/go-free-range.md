@@ -1,6 +1,7 @@
 ---
 title: Go Free Range
 name: Go Free Range
+members: 4
 website: http://gofreerange.com/
 email: lets@gofreerange.com
 twitter: freerange

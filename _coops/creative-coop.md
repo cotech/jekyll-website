@@ -1,6 +1,7 @@
 ---
 title: Creative Coop
 name: Creative Coop
+members: 4
 website: https://creative.coop
 email: hello@creative.coop
 twitter:

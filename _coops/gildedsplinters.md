@@ -1,6 +1,7 @@
 ---
 title: Gildedsplinters
 name: Gildedsplinters
+members:
 website: http://gildedsplinters.coop/
 email: andrew@gildedsplinters.coop
 twitter: index.html
