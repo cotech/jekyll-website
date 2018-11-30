@@ -6577,6 +6577,11 @@ a:focus {
 #our-manifesto {
   height: 48px !important; }
 
+.homepage-message {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
 .reveal-overlay {
   z-index: 9999; }
 
