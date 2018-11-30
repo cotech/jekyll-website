@@ -4,7 +4,7 @@ name: Co-operative Web
 members: 21
 website: http://web.coop
 email: ask@web.coop
-twitter: ask%40web.html
+twitter: cooperativeweb
 github: CooperativeWeb
 telephone: 0121 2225355
 address: 2 Devon Way,Longbridge,Birmingham,UK,B31 2TS
