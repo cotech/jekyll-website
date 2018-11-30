@@ -35,12 +35,14 @@ technologies:
 ---
 
 We are a not-for-profit digital agency working with NGOs and groups with a progressive mission to help make the world we live in a better place.
+
 We’re the world’s first not-for-profit co-op digital studio run by and for NGOs. We’re dedicated to making access to world leading technology and expertise available to everyone working for good. We’ve worked with amazing groups such as: Oxfam, Save The Children, The Syria Campaign, Help Refugees, Greenpeace, the NHS, Amnesty International, Macmillan Cancer Care, CIVICUS, The Elders and lots more and we’re always keen to hear from new people who are trying to make the world a better place.
+
 We work on all aspects of development and digital impact but specialise in creative problem solving with a focus in the following areas:
 
-Site builds
-Campaign actions and data capture
-Fundraising
-APIs
-Hack Days
-Strategy
+* Site builds  
+* Campaign actions and data capture  
+* Fundraising  
+* APIs  
+* Hack Days  
+* Strategy  

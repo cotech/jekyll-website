@@ -39,6 +39,9 @@ technologies:
 ---
 
 Blake House is a coooperative social enterprise that makes engaging online videos for the third and public sectors.
+
 We use filmmaking as a powerful tool to amplify inspiring stories and causes, driving audience engagement and energising viewers to take action and participate.
+
 The co-op was founded after founding members Ieva and Simon wanted to create a sustainable and dignified alternative to the conventional film industry, challenging the precarious nature of creative work and the lack of equality and social fulfillment in the industry. They decided to form a co-operative, an organisation where all members are equal owners of the business, where all decision making is democratic and where they could work with clients who’s stories they were proud to tell.
+
 Our founding principle is to invest the majority of our surplus each year into our members’ own artistic or community based projects – building self reliance and autonomy and allowing our members to remain creative whilst working on projects that they love.

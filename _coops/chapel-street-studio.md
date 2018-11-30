@@ -3,8 +3,8 @@ title: Chapel Street Studio
 name: Chapel Street Studio
 website: http://chapelstreetstudio.coop/
 email: info@chapelstreetstudio.coop
-twitter: 
-github: 
+twitter:
+github:
 telephone: 07743 426 846 (Martyn Johnston | Secretary)
 address: Chapel Street Studio,Assembly Bradford, Market Pavilion, Rawson Place,Bradford,West Yorkshire,BD1 3QQ
 latitude: 53.795903
@@ -15,26 +15,26 @@ technologies:
 ---
 
 Chapel Street Studio is a not-for-profit, co-operative consortium of creative entrepreneurs, freelancers and businesses collaborating to provide a one-stop-shop for communication services.
+
 Our services include:
 
-
-Animation
-Artwork
-Branding and Identity
-Consultancy
-Copywriting and translation
-Data visualisation
-Development
-Distribution
-Film
-Graphic Design
-Hosting
-Idea generation
-Illustration
-Logo design
-Marketing
-Motion graphics
-Photography
-Print finishing
-Printing
-Web design
+* Animation  
+* Artwork  
+* Branding and Identity  
+* Consultancy  
+* Data visualisation  
+* Copywriting and translation  
+* Distribution  
+* Development  
+* Film  
+* Graphic Design  
+* Hosting  
+* Idea generation  
+* Illustration  
+* Logo design  
+* Marketing  
+* Motion graphics  
+* Photography  
+* Print finishing
+* Printing  
+* Web design  

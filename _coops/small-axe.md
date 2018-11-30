@@ -41,13 +41,17 @@ technologies:
 ---
 
 Our vision is to create movements that are progressive, hopeful and powerful, to inspire people to act on the most pressing issues of our time. We’re a non-profit cooperative setup as a creative campaigning and communications agency.
-Our partners
+
+**Our partners**
+
 We partner with courageous causes to create a better future, from charities and social enterprises to political organisations and coalitions.
- How we make it happen
 
-Creative that cuts through a cynical culture.
-Campaigns that mobilise millions.
-Organising power to change the world.
+**How we make it happen**
 
-Working together
+* Creative that cuts through a cynical culture.
+* Campaigns that mobilise millions.
+* Organising power to change the world.
+
+**Working together**
+
 We’re a group of campaigners with the skills, experience and networks you need to build a social movement in the 21st century.

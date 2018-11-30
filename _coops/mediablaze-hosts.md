@@ -33,10 +33,15 @@ technologies:
 ---
 
 MediaBlaze Hosts | Ethical Web Services
+
 MediaBlaze Hosts is a registered co-operative business and member of Coops UK, originally founded and based in Portsmouth, UK.
+
 Since inception, we have expanded and also have offices located in Manchester and Kent,
+
 We offer web based services nationally, priding ourselves on a friendly and personalised service.
+
 From standard Web Hosting to SSL Certificates and more, including business consultancy, we are here to assist in your move online.
+
 Security is core for us, that’s why we’re always looking for new ways to increase your safety online and provide you with some of the best and trusted services out there at an affordable cost.
+
 Visit: http://mediablazehosts.coop for more information about us and our services, or email: letschat@mediablazehosts.coop
- 

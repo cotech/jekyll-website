@@ -42,4 +42,5 @@ technologies:
 ---
 
 media co-op’s friendly, committed, creative team brings together years of experience creating powerful, engaging, accessible and award-winning work for communications, campaigning, promotion, education, training and broadcast.
+
 We specialize in producing film, animation, web, apps and social media for third and public sector partners; and we have a particular enthusiasm for projects involving co-design and participation where service-users, volunteers and staff can get involved.
