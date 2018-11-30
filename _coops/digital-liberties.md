@@ -1,6 +1,7 @@
 ---
 title: Digital Liberties
 name: Digital Liberties
+members: 7
 website: https://digital-liberties.coop
 email:
 twitter:

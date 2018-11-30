@@ -1,6 +1,7 @@
 ---
 title: Agile Collective
 name: Agile Collective
+members: 9
 website: http://agile.coop/
 email: info@agile.coop
 twitter: AgileCollective

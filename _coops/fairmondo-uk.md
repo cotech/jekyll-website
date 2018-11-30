@@ -1,6 +1,7 @@
 ---
 title: Fairmondo UK
 name: Fairmondo UK
+members:
 website: https://fairmondo.uk/
 email: admin@fairmondo.uk
 twitter: Fairmondouk

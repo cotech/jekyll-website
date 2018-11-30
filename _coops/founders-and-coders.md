@@ -1,6 +1,7 @@
 ---
 title: Founders and Coders
 name: Founders and Coders
+members:
 website: http://www.foundersandcoders.com/
 email: hello@foundersandcoders.com
 twitter: 

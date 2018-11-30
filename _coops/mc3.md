@@ -1,6 +1,7 @@
 ---
 title: MC3
 name: MC3
+members: 2
 website: http://mc3.coop
 email: contact@mc3.coop
 twitter:

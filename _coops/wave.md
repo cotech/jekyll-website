@@ -1,6 +1,7 @@
 ---
 title: wave
 name: wave
+members: 7
 website: https://wave.coop/
 email: info@wave.coop
 twitter: wavedesigncoop

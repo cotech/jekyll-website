@@ -1,6 +1,7 @@
 ---
 title: Glowbox Design
 name: Glowbox Design
+members:
 website: http://www.glowboxdesign.co.uk
 email: contact@glowboxdesign.co.uk
 twitter: 

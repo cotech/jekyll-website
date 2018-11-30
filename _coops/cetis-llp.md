@@ -1,6 +1,7 @@
 ---
 title: Cetis LLP
 name: Cetis LLP
+members: 12
 website: http://www.cetis.org.uk/
 email: info@cetis.org.uk
 twitter: cetisllp

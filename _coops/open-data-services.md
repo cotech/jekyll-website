@@ -1,6 +1,7 @@
 ---
 title: Open Data Services
 name: Open Data Services
+members:
 website: http://www.opendataservices.coop
 email: contact@opendataservices.coop
 twitter: opendatacoop

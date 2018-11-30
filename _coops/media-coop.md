@@ -1,6 +1,7 @@
 ---
 title: media co-op
 name: media co-op
+members: 6
 website: http://mediaco-op.net/
 email: hello@mediaco-op.net
 twitter: themediacoop.html

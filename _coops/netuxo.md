@@ -1,6 +1,7 @@
 ---
 title: Netuxo Ltd
 name: Netuxo Ltd
+members: 4
 website: https://netuxo.coop
 email: office@netuxo.coop
 twitter: netuxoltd

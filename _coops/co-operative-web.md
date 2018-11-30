@@ -1,6 +1,7 @@
 ---
 title: Co-operative Web
 name: Co-operative Web
+members: 21
 website: http://web.coop
 email: ask@web.coop
 twitter: ask%40web.html

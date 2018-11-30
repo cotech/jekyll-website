@@ -1,6 +1,7 @@
 ---
 title: 'DEV: The Developer Society'
 name: 'DEV: The Developer Society'
+members:
 website: https://www.dev.ngo/
 email: studio@dev.ngo
 twitter: devsociety_

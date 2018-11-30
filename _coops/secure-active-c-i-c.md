@@ -1,6 +1,7 @@
 ---
 title: Secure Active C.I.C.
 name: Secure Active C.I.C.
+members:
 website: https://secure.coop
 email: info@secure.coop
 twitter: SecActive

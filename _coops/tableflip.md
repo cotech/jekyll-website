@@ -1,6 +1,7 @@
 ---
 title: TABLEFLIP
 name: TABLEFLIP
+members:
 website: https://tableflip.io/
 email: hello@tableflip.io
 twitter: tableflip

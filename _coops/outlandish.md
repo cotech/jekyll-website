@@ -1,6 +1,7 @@
 ---
 title: Outlandish
 name: Outlandish
+members: 9
 website: http://www.outlandish.com
 email: hello@outlandish.com
 twitter: outlandish

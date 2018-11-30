@@ -1,6 +1,7 @@
 ---
 title: We Are Open Co-op
 name: We Are Open Co-op
+members: 4
 website: http://weareopen.coop/
 email: hello@weareopen.coop
 twitter: weareopen

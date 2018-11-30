@@ -1,6 +1,7 @@
 ---
 title: Open-ecommerce
 name: Open-ecommerce
+members:
 website: http://open-ecommerce.org/
 email: info@open-ecommerce.org
 twitter: timeline

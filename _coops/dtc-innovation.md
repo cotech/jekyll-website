@@ -1,6 +1,7 @@
 ---
 title: dtc innovation
 name: dtc innovation
+members: 3
 website: https://dtc-innovation.org/
 email: contact@dtc-innovation.org
 twitter: dtc-innovation
