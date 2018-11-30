@@ -4,7 +4,7 @@ name: Aptivate
 website: http://aptivate.org/
 email: outreach@aptivate.org
 twitter: aptivateuk
-github: 
+github: aptivate
 telephone: +44 (0)1223 967838
 address: 25 Signet Court, Swann's Road, Cambridge,United Kingdom,CB5 8LA
 latitude: 52.21427610000001
@@ -34,4 +34,5 @@ technologies:
 ---
 
 Aptivate is a UK based NGO that provides IT services for international development. We believe in the power of knowledge and communication to alleviate poverty, suffering and conflict, and in the right of every individual to inform and be informed. We are dedicated to developing ICT services that facilitate communication for unconnected communities, empowering ordinary people across the developing world to improve their lives.
+
 Please see http://aptivate.org/en/about/ for more information.

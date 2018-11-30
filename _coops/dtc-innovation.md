@@ -4,11 +4,11 @@ name: dtc innovation
 website: https://dtc-innovation.org/
 email: contact@dtc-innovation.org
 twitter: dtc-innovation
-github: 
+github:
 telephone: +447455921569
 address: London,United Kingdom
-latitude: 
-longitude: 
+latitude:
+longitude:
 clients:
 - bbc
 - data-gouv-fr
@@ -39,5 +39,6 @@ technologies:
 - reactjs
 ---
 
-We are a pluridisciplinary team of people who bring human-centric innovation, web expertise and co-operation practices to your team and products.
-It translates into iterative design thinking, agile software development and bespoke training consultancy services – remotely and in house.
+We are a _pluridisciplinary_ team of people who bring **human-centric innovation**, **web expertise** and **co-operation practices** to your team and products.
+
+It translates into **iterative design thinking**, **agile software development** and **bespoke training consultancy services** – _remotely_ and _in house_.

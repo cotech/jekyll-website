@@ -45,5 +45,5 @@ We're still working our exactly what this entails but in essence you will provid
 
 If you'd like to find out more and help shape this official supporter role then please get in touch. You can also read more about us and check out our manifesto. You can also read more [about us][about] and check out our [manifesto][].
 
-[about]: {{ site.github.url }}/about
-[manifesto]: {{ site.github.url }}/manifesto
+[about]: /about
+[manifesto]: /manifesto

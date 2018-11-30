@@ -1,6 +1,6 @@
 ---
-title: The Dot Project
-name: The Dot Project
+title: Dot Project
+name: Dot Project
 website: http://www.thedotproject.co/
 email: annie@thedotproject.co
 twitter: dotprojectco
@@ -31,14 +31,10 @@ services:
 technologies:
 ---
 
-The Dot Project connects people and technology. The Dot Project digitally enables organisations, from the inside out with a blended coaching approach to build capacity and confidence across teams.
-The Dot Project strengthens the connections between the enterprises, organisations and individuals who exist within the digital ecosystem to contribute to maximum impact.
+[DOT PROJECT](http://www.dotproject.coop/) enables responsible digital technology.  We support organisations to thrive through the use of enabling technology.  Our focus is on creating more productive organisations, organisations which can provide an inclusive environment for staff by building digital skills and confidence.
 
-We mentor individuals to develop their social enterprise ideas and support a culture of innovation
-We work with organisations to build their internal digital ecosystem and connect them to specialist expertise
-We create collaborative partnerships between organisations with technology needs to those who can support these needs
-We seek out and develop funding opportunities to support innovative initiatives
-We build communities to achieve social impact through our Tech for Good Bath network
-We support organisations to make sustainable and responsible investments in technology
+DOT PROJECT believes in the transformative impact of technology on humanity. We exist to support individuals, organisations and communities to realise the potential of enabling technology in increasing their social impact. We work at the intersection between civil society and technology, passionately increasing confidence and capacity of people who are working to solve complex social issues. Our mission is to increase social impact through the use of creativity and technology.
 
-The Dot Project are passionate about strengthening the Tech for Good movement and we organise the Netsquared Tech for Good group in Bath.
+As catalysts for Tech for Good we work to strengthen the tech for good movement, cooperative movement and increase diversity in the social and creative enterprise sector. We are a women-led social enterprise and cooperative who lead with empathy and compassion.
+
+Our service offers both field mapping expertise and our digital foundation packages including Digital Healthcheck, Opportunity Analysis and Responsible Governance.

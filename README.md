@@ -7,12 +7,25 @@ This is a port of the current Wordpress version of the [CoTech Website][] to a s
 ## Run the site locally
 
 You can run the site on your computer as if it were live online using Jekyll. You will need `git` and `ruby` installed on your machine to do this. Then clone the repository
+    
+### ... using docker
+
+Make sure you have [docker](https://docs.docker.com/install/) (CE is fine) installed and running, then:
 
     git clone git@git.coop:cotech/website.git
+    cd website
+    git checkout dev
+    ./dev
+    
+And visit [localhost:4000](http://localhost:4000) to view the site.
+
+### ... directly on your machine
 
 Install the dependencies for the project
 
+    git clone git@git.coop:cotech/website.git
     cd website
+    git checkout dev
     gem install bundler
     bundle install
 
@@ -24,7 +37,7 @@ And visit [localhost:4000](http://localhost:4000) to view the site.
 
 ## Deploy CI
 
-When changes are committed the `.gitlab-ci.yml` file triggers the building of the site and then the copying of the results to https://static.coops.tech/
+When changes are committed to the `master` branch the `.gitlab-ci.yml` file triggers the building of the site and then the copying of the results to https://static.coops.tech/ and when changes are committed to the `dev` branch the site at https://dev.static.coops.tech/ is updated.
 
 ## Contributing
 

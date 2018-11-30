@@ -73,7 +73,10 @@ technologies:
 - zeplin
 ---
 
-wave | working creatively for a better world
+  > **wave \| working creatively for a better world**
+
 We are a design co-operative specialising in creative print and web design for the not-for-profit sector. We work exclusively with organisations that we feel make a positive difference to society today. We like working with people and organisations who do inspiring, positive work in the world and we are proud to have been ‘waving’ the coop flag for 30 years!
+
 Our services range from brand and identity development, campaign material, print publications and exhibitions to photography, illustration, web design and development, animation, interactive applications and games!
-Please see case studies for some recent work.
+
+Please see case studies for some **recent work**.

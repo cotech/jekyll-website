@@ -3,7 +3,7 @@ title: Webarchitects Co-operative
 name: Webarchitects Co-operative
 website: https://www.webarchitects.coop/
 email: info@webarch.net
-twitter: webarch-coop
+twitter: webarchcoop
 github: info%40webarch.html
 telephone: +44 114 276 9709
 address: Webarch Co-operative Limited,Harland Works,68a John Street,Sheffield,United Kingdom,S2 4QU
@@ -123,6 +123,8 @@ technologies:
 ---
 
 Webarchitects is a Sheffield based, small and friendly, multi-stakeholder co-operative which customers can join and which provides ethical and green, WordPress hosting, general web hosting, virtual servers, email services, domain name services and GNU/Linux sysadmin and devop support services to individuals and progressive organisations.
+
 The purpose of our co-operative is:
-To enable the provision of internet based services for socially responsible groups and individuals, using free open source software wherever possible, in a manner that aims to minimise fossil fuel usage and ecological impacts and which also provides sustainable employment
+   > To enable the provision of internet based services for socially responsible groups and individuals, using free open source software wherever possible, in a manner that aims to minimise fossil fuel usage and ecological impacts and which also provides sustainable employment
+
 We offer free accounts on git.coop to members of our co-op, visit our website to find out more.

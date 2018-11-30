@@ -4,7 +4,7 @@ name: graphics.coop
 website: https://graphics.coop/
 email: info@graphics.coop
 twitter: graphicscoop
-github: 
+github:
 telephone: 01315249779
 address: 32 Annandale Street Lane,Edinburgh,Scotland,EH7 4LS
 latitude: 55.9607296
@@ -41,4 +41,5 @@ technologies:
 ---
 
 We specialise in design, print and digital services for the third sector.
+
 We’ve been working with charities, housing associations, social enterprises, campaigners and communities since 1989, so we know the things that matter to third sector clients. Our values as a worker co-operative mean we’re committed to empowering and inspiring these organisations to communicate their message with confidence and helping them make the world a better place.

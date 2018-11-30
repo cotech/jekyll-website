@@ -1,0 +1,12 @@
+#!/bin/bash
+
+set -eu
+
+docker run --rm -it \
+  -v $(pwd):/src \
+  -p 4000:4000 \
+  ruby:2.5.3 sh -c '
+    cd /src &&
+    bundle --path vendor &&
+    bundle exec jekyll serve --host 0.0.0.0 --port 4000
+  '
