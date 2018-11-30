@@ -42,6 +42,7 @@ deploy:production:
     url: https://static.coops.tech
   only:
   - master
+  when: manual
 
 
 deploy:dev:
@@ -56,4 +57,4 @@ deploy:dev:
     name: dev
     url: https://dev.static.coops.tech
   only:
-  - dev
+  - master
