@@ -6671,6 +6671,8 @@ a:focus {
     box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.1);
     -webkit-transform: scale(1.05);
     transform: scale(1.05); }
+  .coop-thumb img {
+    max-height: 100%; }
 
 .has-tip {
   cursor: pointer;
