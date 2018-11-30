@@ -5,8 +5,8 @@ members: 4
 website: https://graphics.coop/
 email: info@graphics.coop
 twitter: graphicscoop
-github:
-telephone: 01315249779
+github: 
+telephone: '01315249779'
 address: 32 Annandale Street Lane,Edinburgh,Scotland,EH7 4LS
 latitude: 55.9607296
 longitude: -3.182652400000052

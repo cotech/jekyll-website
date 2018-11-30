@@ -1,7 +1,7 @@
 ---
 title: MediaBlaze Hosts
 name: MediaBlaze Hosts
-members:
+members: 
 website: http://mediablazehosts.coop
 email: letschat@mediablazehosts.coop
 twitter: MediaBlazeHosts
@@ -10,7 +10,7 @@ telephone: 0333 335 0166
 address: 31 Station Road,Charing,Ashford,Kent,TN27 0JA
 latitude: 51.20871820000001
 longitude: 0.7920888999999534
-clients:
+clients: 
 services:
 - consultancy
 - domain-names

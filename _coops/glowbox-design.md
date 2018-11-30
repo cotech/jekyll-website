@@ -1,7 +1,7 @@
 ---
 title: Glowbox Design
 name: Glowbox Design
-members:
+members: 
 website: http://www.glowboxdesign.co.uk
 email: contact@glowboxdesign.co.uk
 twitter: 
@@ -32,4 +32,3 @@ technologies:
 - photoshop
 - wordpress
 ---
-

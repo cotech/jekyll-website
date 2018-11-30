@@ -1,12 +1,12 @@
 ---
 title: Open-ecommerce
 name: Open-ecommerce
-members:
+members: 
 website: http://open-ecommerce.org/
 email: info@open-ecommerce.org
 twitter: timeline
 github: open-ecommerce
-telephone: +44 020 3731 9073
+telephone: "+44 020 3731 9073"
 address: Unit 23A Iliffe Yard,,London,UK,SE17 3QD
 latitude: 51.48941875721223
 longitude: -0.10058949123231287

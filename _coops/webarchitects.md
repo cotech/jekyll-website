@@ -6,8 +6,9 @@ website: https://www.webarchitects.coop/
 email: info@webarch.net
 twitter: webarchcoop
 github: info%40webarch.html
-telephone: +44 114 276 9709
-address: Webarch Co-operative Limited,Harland Works,68a John Street,Sheffield,United Kingdom,S2 4QU
+telephone: "+44 114 276 9709"
+address: Webarch Co-operative Limited,Harland Works,68a John Street,Sheffield,United
+  Kingdom,S2 4QU
 latitude: 53.3704644
 longitude: -1.4748352999999952
 clients:

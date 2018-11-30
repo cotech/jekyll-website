@@ -6,7 +6,7 @@ website: http://www.thedotproject.co/
 email: annie@thedotproject.co
 twitter: dotprojectco
 github: techforgoodbath
-telephone: 07496276003
+telephone: '07496276003'
 address: Bath,United Kingdom,BA1
 latitude: 51.375801
 longitude: -2.359903900000063
@@ -29,7 +29,7 @@ services:
 - mentoring
 - research
 - strategy
-technologies:
+technologies: 
 ---
 
 [DOT PROJECT](http://www.dotproject.coop/) enables responsible digital technology.  We support organisations to thrive through the use of enabling technology.  Our focus is on creating more productive organisations, organisations which can provide an inclusive environment for staff by building digital skills and confidence.

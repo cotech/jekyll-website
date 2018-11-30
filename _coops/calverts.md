@@ -6,7 +6,7 @@ website: http://www.calverts.coop/
 email: info@calverts.coop
 twitter: calverts_print_london
 github: calverts
-telephone: +44 (0) 20 7739 1474
+telephone: "+44 (0) 20 7739 1474"
 address: 9-10 The Oval,London,UK,E2 9DT
 latitude: 51.53326029999999
 longitude: -0.05884240000000318

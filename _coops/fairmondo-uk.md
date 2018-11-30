@@ -1,17 +1,17 @@
 ---
 title: Fairmondo UK
 name: Fairmondo UK
-members:
+members: 
 website: https://fairmondo.uk/
 email: admin@fairmondo.uk
 twitter: Fairmondouk
 github: Fairmondouk
-telephone: 07578708442
+telephone: '07578708442'
 address: AES Orchard, Sunderland Street, Worth Way,Keighley,United Kingdom,BD21 5LE
 latitude: 53.8612875
 longitude: -1.91083900000001
-clients:
-services:
+clients: 
+services: 
 technologies:
 - ruby-on-rails
 ---

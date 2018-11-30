@@ -6,7 +6,7 @@ website: http://www.outlandish.com
 email: hello@outlandish.com
 twitter: outlandish
 github: outlandishideas
-telephone: +44 (0) 207 561 9968
+telephone: "+44 (0) 207 561 9968"
 address: 3rd Floor,149 Fonthill Road,Finsbury Park,London,United Kingdom,N4 3HF
 latitude: 51.56372160000001
 longitude: -0.1077572000000373

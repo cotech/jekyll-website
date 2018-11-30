@@ -1,12 +1,12 @@
 ---
 title: TABLEFLIP
 name: TABLEFLIP
-members:
+members: 
 website: https://tableflip.io/
 email: hello@tableflip.io
 twitter: tableflip
 github: hello%40tableflip.html
-telephone:
+telephone: 
 address: Unit 1a, 1 East Dulwich Road,London,SE22 9BA
 latitude: 51.46200700000001
 longitude: -0.06753600000001825

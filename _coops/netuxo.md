@@ -5,12 +5,12 @@ members: 4
 website: https://netuxo.coop
 email: office@netuxo.coop
 twitter: netuxoltd
-github:
-telephone: 02089856843
+github: 
+telephone: '02089856843'
 address: CAN Mezzanine,49-51 East Road,London,United Kingdom,N1 6AH
 latitude: 51.5284201
 longitude: -0.08787919999997484
-clients:
+clients: 
 services:
 - consultancy
 - development

@@ -6,7 +6,7 @@ website: https://wave.coop/
 email: info@wave.coop
 twitter: wavedesigncoop
 github: wavedesign
-telephone: 01424235000
+telephone: '01424235000'
 address: Rock House,49 - 51 Cambridge Road,Hastings,United Kingdom,TN34 1DT
 latitude: 50.86501959934043
 longitude: 0.5873715877532959

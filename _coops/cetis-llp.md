@@ -5,8 +5,8 @@ members: 12
 website: http://www.cetis.org.uk/
 email: info@cetis.org.uk
 twitter: cetisllp
-github:
-telephone: 07366025747
+github: 
+telephone: '07366025747'
 address: Halton Mill,Mill Lane,Halton,Lancaster,England,LA2 6ND
 latitude: 54.075809445607604
 longitude: -2.7540137502212474
@@ -20,7 +20,7 @@ clients:
 services:
 - consultancy
 - development
-technologies:
+technologies: 
 ---
 
 Cetis is a cooperative Limited Liability Partnership and an independent Strategic IT consultancy, specialising in learning, education and training.

@@ -1,7 +1,7 @@
 ---
 title: Founders and Coders
 name: Founders and Coders
-members:
+members: 
 website: http://www.foundersandcoders.com/
 email: hello@foundersandcoders.com
 twitter: 
@@ -10,7 +10,7 @@ telephone: 020 3583 2442
 address: 14 Palmers Road,London,E2 0SY
 latitude: 51.5295318
 longitude: -0.04229490000000169
-clients:
+clients: 
 services:
 - mentoring
 technologies:

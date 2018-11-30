@@ -1,12 +1,12 @@
 ---
 title: Open Data Services
 name: Open Data Services
-members:
+members: 
 website: http://www.opendataservices.coop
 email: contact@opendataservices.coop
 twitter: opendatacoop
-github:
-telephone: + 44 (0)161 298 1213
+github: 
+telephone: "+ 44 (0)161 298 1213"
 address: Remote working team, across the UK,United Kingdom
 latitude: 52.47695163340273
 longitude: -1.8878889083862305

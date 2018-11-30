@@ -5,8 +5,8 @@ members: 4
 website: https://animorph.coop
 email: we@animorph.coop
 twitter: animorphcoop
-github:
-telephone:
+github: 
+telephone: 
 address: Space4, 149 Fonthill Road,London,N4 3HF
 latitude: 51.5635499
 longitude: -0.10782689999996364

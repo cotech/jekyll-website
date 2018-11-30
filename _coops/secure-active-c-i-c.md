@@ -1,16 +1,16 @@
 ---
 title: Secure Active C.I.C.
 name: Secure Active C.I.C.
-members:
+members: 
 website: https://secure.coop
 email: info@secure.coop
 twitter: SecActive
-github:
+github: 
 telephone: Signal +44 (0)7719740566
 address: 62 Beechwood Road,Dalston,Hackney,London,United Kingdom,E8 3DY
 latitude: 51.5452938
 longitude: -0.07338379999998779
-clients:
+clients: 
 services:
 - big-data
 - business-systems

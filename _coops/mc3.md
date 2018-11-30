@@ -4,13 +4,13 @@ name: MC3
 members: 2
 website: http://mc3.coop
 email: contact@mc3.coop
-twitter:
-github:
-telephone: +44 1484 846231
+twitter: 
+github: 
+telephone: "+44 1484 846231"
 address: Huddersfield
-latitude:
-longitude:
-clients:
+latitude: 
+longitude: 
+clients: 
 services:
 - business-analysis
 - business-systems

@@ -5,11 +5,11 @@ members: 3
 website: https://dtc-innovation.org/
 email: contact@dtc-innovation.org
 twitter: dtc-innovation
-github:
-telephone: +447455921569
+github: 
+telephone: 447455921569
 address: London,United Kingdom
-latitude:
-longitude:
+latitude: 
+longitude: 
 clients:
 - bbc
 - data-gouv-fr

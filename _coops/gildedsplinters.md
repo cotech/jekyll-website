@@ -1,16 +1,16 @@
 ---
 title: Gildedsplinters
 name: Gildedsplinters
-members:
+members: 
 website: http://gildedsplinters.coop/
 email: andrew@gildedsplinters.coop
 twitter: index.html
-github:
-telephone: +44 7793650013
+github: 
+telephone: "+44 7793650013"
 address: Virtual
-latitude:
-longitude:
-clients:
+latitude: 
+longitude: 
+clients: 
 services:
 - branding-and-identity
 - business-analysis
@@ -18,7 +18,7 @@ services:
 - ideation
 - marketing
 - mentoring
-technologies:
+technologies: 
 ---
 
 Gildedsplinters is an ideation platform; a cooperative of curious, creative thinkers and doers from a wide range of disciplines including academia, the creative arts, law, marketing and research who come up with clever ways to solve tricky problems

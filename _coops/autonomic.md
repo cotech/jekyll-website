@@ -5,8 +5,8 @@ members: 6
 website: https://autonomic.zone/
 email: autonomic-coop@posteo.net
 twitter: autonomiccoop
-github:
-telephone:
+github: 
+telephone: 
 address: 1539 Pershore Road,Stirchley,Birmingham,United Kingdom,B30 2JH
 latitude: 51.563904
 longitude: -0.10793179999996028

@@ -8,8 +8,8 @@ twitter: weareopen
 github: hello%40weareopen.html
 telephone: N/A
 address: the Internet
-latitude:
-longitude:
+latitude: 
+longitude: 
 clients:
 - creative-commons
 - london-clc

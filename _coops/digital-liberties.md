@@ -3,13 +3,13 @@ title: Digital Liberties
 name: Digital Liberties
 members: 7
 website: https://digital-liberties.coop
-email:
-twitter:
-github:
-telephone: 07908 592 835
+email: 
+twitter: 
+github: 
+telephone: '07908 592 835'
 address: 44 Arkwright Road,London,NW3 6BH
-latitude:
-longitude:
+latitude: 
+longitude: 
 clients:
 - labour-party
 - nesta
@@ -18,7 +18,7 @@ services:
 - game-design
 - research
 - strategy
-technologies:
+technologies: 
 ---
 
 ## Cybernetic Games and Participatory Democracy
