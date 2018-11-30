@@ -5,12 +5,12 @@ members:
 website: https://www.dev.ngo/
 email: studio@dev.ngo
 twitter: devsociety_
-github: 
+github: developersociety
 telephone: "+44 333 344 7800"
 address: 191 Fazeley Street,Digbeth,Birmingham, ,B5 5SE
 latitude: 52.47784126596389
 longitude: -1.881633996963501
-clients: 
+clients:
 services:
 - animation
 - artwork
@@ -41,9 +41,9 @@ We’re the world’s first not-for-profit co-op digital studio run by and for N
 
 We work on all aspects of development and digital impact but specialise in creative problem solving with a focus in the following areas:
 
-* Site builds  
-* Campaign actions and data capture  
-* Fundraising  
-* APIs  
-* Hack Days  
-* Strategy  
+* Site builds
+* Campaign actions and data capture
+* Fundraising
+* APIs
+* Hack Days
+* Strategy
