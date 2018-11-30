@@ -1,7 +1,10 @@
 ---
 title: Cotech Website
 timezone: UTC
-exclude: ['scripts']
+exclude:
+- scripts
+- vendor
+- .idea
 collections:
   clients:
     title: Clients
