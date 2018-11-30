@@ -38,13 +38,13 @@ deploy:dev:
   stage: staging
   script:
   - bundle exec jekyll build -d public
-  - rsync -aqz public/ cotech@webarch2.co.uk:sites/dev/
+  - rsync -aqz --delete-after public/ cotech@webarch2.co.uk:sites/dev/
   artifacts:
     paths:
     - public
   environment:
     name: dev
-    url: https://dev.static.coops.tech
+    url: https://dev.coops.tech
   only:
   - master
 
@@ -52,13 +52,13 @@ deploy:production:
   stage: production
   script:
   - bundle exec jekyll build -d public
-  - rsync -aqz public/ cotech@webarch2.co.uk:sites/default/
+  - rsync -aqz --delete-after public/ cotech@webarch2.co.uk:sites/default/
   artifacts:
     paths:
     - public
   environment:
     name: production
-    url: https://static.coops.tech
+    url: https://www.coops.tech
   only:
   - master
   when: manual
