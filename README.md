@@ -7,7 +7,7 @@ This is a port of the current Wordpress version of the [CoTech Website][] to a s
 ## Run the site locally
 
 You can run the site on your computer as if it were live online using Jekyll. You will need `git` and `ruby` installed on your machine to do this. Then clone the repository
-    
+
 ### ... using docker
 
 Make sure you have [docker](https://docs.docker.com/install/) (CE is fine) installed and running, then:
@@ -16,7 +16,7 @@ Make sure you have [docker](https://docs.docker.com/install/) (CE is fine) insta
     cd website
     git checkout dev
     ./dev
-    
+
 And visit [localhost:4000](http://localhost:4000) to view the site.
 
 ### ... directly on your machine

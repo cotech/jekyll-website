@@ -2,15 +2,4 @@
 layout: none
 permalink: .htaccess
 ---
-# Serve requests for /example using the files at /example.html
-RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.html -f
-RewriteRule ^(.*)$ $1.html
-
-# Redirect requests for /example.html to /example
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.html -f
-RewriteCond %{REQUEST_URI} ^(.+)\.html$
-RewriteRule (.*)\.html$ /$1 [R=301,L]
-
+Options +MultiViews
