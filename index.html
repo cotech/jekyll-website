@@ -59,7 +59,7 @@ layout: home
             {% for coop in site.coops %}
             <div class="column">
               <a class="coop-thumb" href="{{ coop.url | relative_url }}">
-                  <div class="coop-thumb-img has-tip tip-bottom radius" style="background-image: url(/images/coops/{{ coop.slug }}.png)" data-tooltip aria-haspopup="true" title="{{ coop.name }}"></div>
+                  <div class="coop-thumb-img has-tip tip-bottom radius" style="background-image: url(/images/coops/{{ coop.slug }})" data-tooltip aria-haspopup="true" title="{{ coop.name }}"></div>
                 </a>
             </div>
             {% endfor %}
@@ -106,7 +106,7 @@ layout: home
         {% assign clients = site.clients | sample:6 %}
         {% for client in clients %}
           <div class="column">
-            <div class="client-thumb" style="background-image: url(/images/clients/{{ client.slug }}.png)"></div>
+            <div class="client-thumb" style="background-image: url(/images/clients/{{ client.slug }})"></div>
           </div>
         {% endfor %}
       </div>
@@ -125,7 +125,7 @@ layout: home
         {% for service in site.services %}
           <div class="column">
             <a href="{{ service.url | relative_url }}" class="service-thumb">
-              <div class="service-thumb-img float-center" style="background-image: url(/images/services/{{ service.slug }}.png)"></div>
+              <div class="service-thumb-img float-center" style="background-image: url(/images/services/{{ service.slug }})"></div>
               <h5>{{ service.name }}</h5>
             </a>
           </div>
@@ -145,7 +145,7 @@ layout: home
         {% for technology in site.technologies %}
           <div class="column">
             <a href="{{ technology.url | relative_url }}" class="technology-thumb">
-              <div class="technology-thumb-img" style="background-image: url(/images/technologies/{{ technology.slug }}.png)"></div>
+              <div class="technology-thumb-img" style="background-image: url(/images/technologies/{{ technology.slug }})"></div>
               <h5>{{ technology.name }}</h5>
             </a>
           </div>
