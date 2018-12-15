@@ -20,6 +20,27 @@ then:
 
 And visit [localhost:4000](http://localhost:4000) to view the site.
 
+There are two docker volumes used here:
+* `vendor` - caches the ruby gems even if you recreate the containers
+* `site` - holds the built site files to share them with httpd (and not clutter your local filesystem)
+
+A few useful things you might want to do:
+
+    # check the status of the containers
+    docker-compose ps
+
+    # stop all the containers (but don't remove them)
+    docker-compose stop
+
+    # stop and remove the containers (but leave the volumes)
+    docker-compose down
+
+    # remove everything
+    docker-compose down -v
+
+    # bring it back to life from any state you happen to be in
+    docker-compose up -d
+
 ### ... directly on your machine
 
 Install the dependencies for the project
