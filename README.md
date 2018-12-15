@@ -10,12 +10,13 @@ You can run the site on your computer as if it were live online using Jekyll. Yo
 
 ### ... using docker
 
-Make sure you have [docker](https://docs.docker.com/install/) (CE is fine) installed and running, then:
+Make sure you have [docker](https://docs.docker.com/install/) (CE is fine) installed and running,
+and [docker-compose](https://docs.docker.com/compose/install/) installed,
+then:
 
     git clone git@git.coop:cotech/website.git
     cd website
-    git checkout dev
-    ./dev
+    docker-compose up -d
 
 And visit [localhost:4000](http://localhost:4000) to view the site.
 
@@ -25,7 +26,6 @@ Install the dependencies for the project
 
     git clone git@git.coop:cotech/website.git
     cd website
-    git checkout dev
     gem install bundler
     bundle install
 
@@ -35,9 +35,15 @@ Run a local web server so that you can view the site
 
 And visit [localhost:4000](http://localhost:4000) to view the site.
 
-## Deploy CI
+**Note: not all the images will load as there is no `.htaccess` support locally**
 
-When changes are committed to the `master` branch the `.gitlab-ci.yml` file triggers the building of the site and then the copying of the results to https://static.coops.tech/ and when changes are committed to the `dev` branch the site at https://dev.static.coops.tech/ is updated.
+## Deployment
+
+When changes are committed to the `master` branch the `.gitlab-ci.yml` file triggers the building of the site and then the copying of the results to [dev.coops.tech](https://dev.coops.tech).
+
+Once someone has verified that looks ok, you can use the
+[GitLab environments](https://git.coop/cotech/website/environments)
+to promote it to [www.coops.tech](https://www.coops.tech)
 
 ## Contributing
 
