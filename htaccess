@@ -12,6 +12,7 @@ AddType image/png;qs=0.8 png
 # https://kevinlocke.name/bits/2012/07/20/serving-xhtml-with-apache-multiviews/
 Header always edit "Content-Type" ";\s*qs=[0-9]*(?:\.[0-9]+)?\s*" ""
 # Gzip these file types
+AddOutputFilter DEFLATE html
 AddOutputFilter DEFLATE svg 
 AddOutputFilter DEFLATE css
 AddOutputFilter DEFLATE js
