@@ -5,7 +5,7 @@ services:
   web:
     build: docker/web
     volumes:
-      - ./_site:/usr/local/apache2/htdocs/
+      - site:/usr/local/apache2/htdocs/
       - ./docker/web/httpd.conf:/usr/local/apache2/conf/httpd.conf
     ports:
       - "4000:80"
@@ -15,12 +15,14 @@ services:
     command: >
       sh -c '
         cd /src &&
-        bundle --path vendor &&
-        bundle exec jekyll build --watch
+        bundle --path /vendor &&
+        bundle exec jekyll build --destination /site --watch
       '
     volumes:
       - .:/src
-      - vendor:/src/vendor
+      - site:/site
+      - vendor:/vendor
 
 volumes:
   vendor:
+  site:
