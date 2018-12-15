@@ -1,0 +1,26 @@
+---
+version: '3'
+services:
+
+  web:
+    build: docker/web
+    volumes:
+      - ./_site:/usr/local/apache2/htdocs/
+      - ./docker/web/httpd.conf:/usr/local/apache2/conf/httpd.conf
+    ports:
+      - "4000:80"
+
+  jekyll:
+    image: ruby:2.5.3
+    command: >
+      sh -c '
+        cd /src &&
+        bundle --path vendor &&
+        bundle exec jekyll build --watch
+      '
+    volumes:
+      - .:/src
+      - vendor:/src/vendor
+
+volumes:
+  vendor:
