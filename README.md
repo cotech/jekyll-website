@@ -41,6 +41,11 @@ A few useful things you might want to do:
     # bring it back to life from any state you happen to be in
     docker-compose up -d
 
+    # run some ruby/bundler commands
+    docker-compose run jekyll bundle --version
+    docker-compose run jekyll bundle update
+    docker-compose run jekyll bundle exec jekyll --help
+
 ### ... directly on your machine
 
 Install the dependencies for the project
