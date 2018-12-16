@@ -9,7 +9,6 @@ AddType image/png;qs=0.8 png
 Header always edit "Content-Type" ";\s*qs=[0-9]*(?:\.[0-9]+)?\s*" ""
 # Gzip these file types
 AddOutputFilter DEFLATE html
-AddOutputFilter DEFLATE svg 
+AddOutputFilter DEFLATE svg
 AddOutputFilter DEFLATE css
 AddOutputFilter DEFLATE js
-
