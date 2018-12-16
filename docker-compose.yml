@@ -12,10 +12,12 @@ services:
 
   jekyll:
     image: ruby:2.5.3
+    working_dir: /src
+    environment:
+      BUNDLE_PATH: /vendor
     command: >
       sh -c '
-        cd /src &&
-        bundle --path /vendor &&
+        bundle &&
         bundle exec jekyll build --destination /site --watch
       '
     volumes:
