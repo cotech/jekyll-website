@@ -62,3 +62,6 @@ deploy:production:
   only:
   - master
   when: manual
+
+after_script:
+   - rm -rf /root/.ssh/
