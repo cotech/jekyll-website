@@ -31,7 +31,7 @@ technologies:
 - free-bsd
 - lets-encrypt
 - openwrt
-- python-2
+- python
 - ubuntu
 - wordpress
 ---

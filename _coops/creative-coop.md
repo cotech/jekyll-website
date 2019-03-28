@@ -48,7 +48,7 @@ technologies:
 - mysql
 - photoshop
 - php
-- python-2
+- python
 - sql-server
 ---
 

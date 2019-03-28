@@ -46,7 +46,7 @@ technologies:
 - open-street-map
 - php
 - postgresql
-- python-2
+- python
 - rocket-chat
 - sandstorm
 - ubuntu

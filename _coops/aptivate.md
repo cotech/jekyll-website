@@ -31,7 +31,7 @@ technologies:
 - docker
 - javascript
 - php
-- python-2
+- python
 ---
 
 Aptivate is a UK based NGO that provides IT services for international development. We believe in the power of knowledge and communication to alleviate poverty, suffering and conflict, and in the right of every individual to inform and be informed. We are dedicated to developing ICT services that facilitate communication for unconnected communities, empowering ordinary people across the developing world to improve their lives.

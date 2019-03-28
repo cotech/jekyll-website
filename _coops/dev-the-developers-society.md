@@ -31,7 +31,6 @@ services:
 - strategy
 - web-design
 technologies:
-- python-2
 - python
 ---
 
