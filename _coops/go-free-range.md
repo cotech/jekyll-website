@@ -2,18 +2,19 @@
 title: Go Free Range
 name: Go Free Range
 members: 4
-website: http://gofreerange.com/
+website: https://gofreerange.com/
 email: lets@gofreerange.com
 twitter: freerange
 github: freerange
 telephone: N/A
-address: 38 Turner Street,London,United Kingdom,E1 2RA
-latitude: 51.5073509
-longitude: -0.12775829999998223
+address: The Foundry, 156 Blackfriars Road, London, SE1 8EN.
+latitude: 51.501086
+longitude: -0.1064455
 clients:
 - futurelearn
 - government-digital-service
 - o2
+- bbc
 services:
 - business-analysis
 - consultancy
