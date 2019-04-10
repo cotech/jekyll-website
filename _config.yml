@@ -43,5 +43,5 @@ defaults:
     type: technologies
   values:
     layout: technology
-contact_email: contact@coops.tech
+forum: https://community.coops.tech/
 mapbox_access_token: pk.eyJ1IjoiY290ZWNoIiwiYSI6ImNpemgxbzhwODAwMHMzM28zdXF3cGxyYmwifQ.9nPExuEUqwblCCl-6gyFXA

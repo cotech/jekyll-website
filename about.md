@@ -10,7 +10,7 @@ The members of the network aim to use their collective experience, skills, resou
 
 Each member of the network is a company that is owned and democratically run by it's workers (and, in some cases, customers). There are no private shareholders who take money out of the company and/or direct the company's activities. While many of the member co-operatives do not have completely flat structures -- many have boards, management committees, etc. -- they are all democratic workplaces and the members have the opportunity to appoint people to roles or change the structure of their organisations.
 
-Governance of the network currently takes place through a rough consensus process using [Loomio][], [a wiki][wiki] and [a open email list][mailing-list], and all members are invited and encouraged to get involved. As the network develops, we will explore changes to this governance model together.
+Governance of the network currently takes place through a rough consensus process using [Loomio][], [a wiki][wiki] and [our community forum]({{ site.forum }}), and all members are invited and encouraged to get involved. As the network develops, we will explore changes to this governance model together.
 
 The network was founded at <a href="https://wiki.coops.tech/wiki/Main_Page#Wortley_Hall_2016">an event on 14th November 2016</a> at [Wortley Hall -- the worker's stately home][wortley-hall] -- where many of us met for the very first time to share ideas, skills and plans for world domination.
 
@@ -20,7 +20,6 @@ Read [our manifesto][manifesto], [contact us if you want to work with us][contac
 
 [Loomio]: https://www.loomio.org/g/oVwtKDOn/digital-co-ops
 [wiki]: https://wiki.coops.tech/
-[mailing-list]: https://www.email-lists.org/mailman/listinfo/tech-coops
 [wortley-hall]: https://www.wortleyhall.org.uk/
 [manifesto]: /manifesto
 [contact]: /#contact
