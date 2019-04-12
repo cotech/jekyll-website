@@ -65,11 +65,21 @@ And visit [localhost:4000](http://localhost:4000) to view the site.
 
 ## Deployment
 
+### Dev/Staging
+
 When changes are committed to the `master` branch the `.gitlab-ci.yml` file triggers the building of the site and then the copying of the results to [dev.coops.tech](https://dev.coops.tech).
 
-Once someone has verified that looks ok, you can use the
-[GitLab environments](https://git.coop/cotech/website/environments)
-to promote it to [www.coops.tech](https://www.coops.tech)
+### Production
+
+You need to manually deploy the changes from dev to production.
+
+1. View the changes on [dev.coops.tech](https://dev.coops.tech) and ensure you're happy for them to be pushed to production.
+
+2. Visit [GitLab environments](https://git.coop/cotech/website/environments). __NOTE.__ If you don't have access to the environments page then post a message in the [Website category of the CoTech forum](https://community.coops.tech/c/cotech/website) to ask someone to do it for you.
+
+3. Click the "Play" icon on the right of the screen in the row for the "dev" environment and choose "deploy:production".
+
+4. Your changes will be visible in production when the commit listed in the "production" environment row matches the commit listed in the "dev" environment row.
 
 ## Contributing
 
