@@ -6981,3 +6981,8 @@ footer {
         color: #ffffff; }
 
 /*# sourceMappingURL=app.css.map */
+
+
+.forum-links a{
+  margin: 0 auto;
+}
