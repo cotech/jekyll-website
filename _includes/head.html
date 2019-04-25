@@ -1,11 +1,21 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% if page.excerpt %}
+  <meta name="description" content="{{ page.excerpt | strip_html }}" />
+{% elsif page.content %}
+  <meta name="description" content="{{ page.content | strip_html | strip_newlines | condense_spaces | truncate:150 }}" />
+{% else %}
   <meta name="description" content="Building a tech industry that's better for its workers and customers through co-operation, democracy and worker ownership." />
+{% endif %}
   <meta charset="UTF-8">
   <title>{{ page.title }} &laquo; Cooperative Technologists</title>
   <meta property="og:type" content="website" />
   <meta property="og:title" content="{{ page.title }}" />
+{% if page.excerpt %}
+  <meta property="og:description" content="{{ page.excerpt | strip_html }}" />
+{% else %}
   <meta property="og:description" content="Building a tech industry that's better for its workers and customers through co-operation, democracy and worker ownership." />
+{% endif %}
   <meta property="og:site_name" content="Cooperative Technologists" />
   <meta property="og:image" content="/app/themes/coop-tech-oowp-theme/public/img/Cotech_512x512.png" />
   <meta property="og:locale" content="en_GB" />

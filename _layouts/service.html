@@ -17,6 +17,9 @@
         <div class="small-12 small-centered columns">
           <img src="/images/services/{{ page.slug }}.png" alt="">
           <h1>Coops that offer <span>{{ page.name }}</span></h1>
+{% if page.excerpt %}
+          <p>{{ page.excerpt }}</p>
+{% endif %}          
         </div>
       </div>
     </div>

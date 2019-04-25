@@ -4179,7 +4179,8 @@ a {
   color: #2199e8;
   text-decoration: none;
   line-height: inherit;
-  cursor: pointer; }
+  cursor: pointer;
+  word-break: break-all; }
   a:hover, a:focus {
     color: #1585cf; }
   a img {
