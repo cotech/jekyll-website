@@ -18,9 +18,16 @@
 {% endif %}
   <meta property="og:site_name" content="Cooperative Technologists" />
 {% if page.collection == 'coops' %}
-  <!-- img: /images/coops/{{ page.slug }}  -->
-{% endif %}
+  <meta property="og:image" content="/images/coops/{{ page.slug }}" />
+{% elsif page.collection == 'services' %}
+  <meta property="og:image" content="/images/services/{{ page.slug }}" />
+{% elsif page.collection == 'technologies' %}
+  <meta property="og:image" content="/images/technologies/{{ page.slug }}" />
+{% elsif page.collection == 'clients' %}
+  <meta property="og:image" content="/images/clients/{{ page.slug }}" />
+{% else %}
   <meta property="og:image" content="/app/themes/coop-tech-oowp-theme/public/img/Cotech_512x512.png" />
+{% endif %}
   <meta property="og:locale" content="en_GB" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@CotechUK" />
