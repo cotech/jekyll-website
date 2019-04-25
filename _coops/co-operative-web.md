@@ -46,17 +46,16 @@ services:
 - hosting
 - ideation
 - mentoring
-- virtual-servers
 technologies:
 - net
 - angular-1-x
 - centos
 - express-js
 - gitlab
-- google-maps
 - htmlcss
 - java
 - javascript
+- laravel
 - mysql
 - nginx
 - node-js
