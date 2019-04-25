@@ -51,3 +51,6 @@ app.createMapMultiMarker = function(mapId, lat, lng, zoom, markersArray) {
 };
 
 //# sourceMappingURL=app.js.map
+
+
+$('#client-list .column').shuffle();
