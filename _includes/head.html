@@ -5,6 +5,7 @@
   <title>{{ page.title }} &laquo; Cooperative Technologists</title>
   <meta property="og:type" content="website" />
   <meta property="og:title" content="{{ page.title }}" />
+  {% if page.excerpt %}<!-- page.excerpt : {{ page.excerpt | strip_html }} -->{% endif %}
   <meta property="og:description" content="Building a tech industry that's better for its workers and customers through co-operation, democracy and worker ownership." />
   <meta property="og:site_name" content="Cooperative Technologists" />
   <meta property="og:image" content="/app/themes/coop-tech-oowp-theme/public/img/Cotech_512x512.png" />
