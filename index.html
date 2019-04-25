@@ -102,11 +102,11 @@ layout: home
     <div class="small-12 columns">
       <h2>Clients</h2>
       <p>Here are some of the amazing clients we have worked with so far</p>
-      <div class="row small-up-2 medium-up-3 large-up-6">
-        {% assign clients = site.clients | sample:6 %}
+      <div id='client-list' class="row small-up-2 medium-up-3 large-up-6">
+        {% assign clients = site.clients %}
         {% for client in clients %}
-          <div class="column">
-            <div class="client-thumb" style="background-image: url(/images/clients/{{ client.slug }})"></div>
+          <div class="column client">
+            <div class="client-thumb" style='background-image: url(/images/clients/{{ client.slug }}') title="{{client.slug}}"></div>
           </div>
         {% endfor %}
       </div>
