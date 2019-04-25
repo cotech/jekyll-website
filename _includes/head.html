@@ -2,6 +2,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 {% if page.excerpt %}
   <meta name="description" content="{{ page.excerpt | strip_html }}" />
+{% elsif page.content %}
+  <meta name="description" content="{{ page.content | strip_html | strip_newlines | condense_spaces | truncate:150 }}" />
 {% else %}
   <meta name="description" content="Building a tech industry that's better for its workers and customers through co-operation, democracy and worker ownership." />
 {% endif %}
