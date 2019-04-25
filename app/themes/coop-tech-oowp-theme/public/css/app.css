@@ -6709,6 +6709,12 @@ h5#join-us {
 .home #clients {
   background-color: #f7f7f5; }
 
+
+
+.client:nth-child(n+7){
+    display: none;
+}
+
 .client-thumb {
   height: 150px;
   width: 100%;
