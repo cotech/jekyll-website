@@ -1,8 +1,8 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-{% if page.excerpt | strip_html | strip_newlines != blank %}
-  <!-- page.excerpt: {{ page.excerpt }} --> <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines }}" />
-{% elsif page.collection == 'coops' and page.content | strip_html | strip_newlines != blank %}
+{% if page.excerpt | strip_html | strip_newlines | condense_spaces != "" %}
+  <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | condense_spaces }}" />
+{% elsif page.collection == 'coops' and page.content | strip_html | strip_newlines | condense_spaces | truncate:150 != "" %}
   <meta name="description" content="{{ page.content | strip_html | strip_newlines | condense_spaces | truncate:150 }}" />
 {% else %}
   <meta name="description" content="Building a tech industry that's better for its workers and customers through co-operation, democracy and worker ownership." />
@@ -11,9 +11,9 @@
   <title>{{ page.title }} &laquo; Cooperative Technologists</title>
   <meta property="og:type" content="website" />
   <meta property="og:title" content="{{ page.title }}" />
-{% if page.excerpt | strip_html | strip_newlines != blank %}
+{% if page.excerpt | strip_html | strip_newlines | condense_spaces != "" %}
   <meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines }}" />
-{% elsif page.collection == 'coops' and page.content | strip_html | strip_newlines != blank %}
+{% elsif page.collection == 'coops' and page.content | strip_html | strip_newlines | condense_spaces | truncate:150 != "" %}
   <meta property="og:description" content="{{ page.content | strip_html | strip_newlines | condense_spaces | truncate:150 }}" />
 {% else %}
   <meta property="og:description" content="Building a tech industry that's better for its workers and customers through co-operation, democracy and worker ownership." />
