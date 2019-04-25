@@ -52,10 +52,10 @@ technologies:
 - centos
 - express-js
 - gitlab
-- google-maps
 - htmlcss
 - java
 - javascript
+- laravel
 - mysql
 - nginx
 - node-js
