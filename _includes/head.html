@@ -1,8 +1,8 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-{% if page.excerpt and page.excerpt != "" %}
+{% if page.excerpt != blank %}
   <meta name="description" content="{{ page.excerpt | strip_html }}" />
-{% elsif page.collection == 'coops' %}
+{% elsif page.collection == 'coops' and page.ontent != blank %}
   <meta name="description" content="{{ page.content | strip_html | strip_newlines | condense_spaces | truncate:150 }}" />
 {% else %}
   <meta name="description" content="Building a tech industry that's better for its workers and customers through co-operation, democracy and worker ownership." />
