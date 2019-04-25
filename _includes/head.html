@@ -1,8 +1,8 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-{% if page.excerpt %}
+{% if page.excerpt and page.excerpt != "" %}
   <meta name="description" content="{{ page.excerpt | strip_html }}" />
-{% elsif page.content %}
+{% elsif page.collection == 'coops' %}
   <meta name="description" content="{{ page.content | strip_html | strip_newlines | condense_spaces | truncate:150 }}" />
 {% else %}
   <meta name="description" content="Building a tech industry that's better for its workers and customers through co-operation, democracy and worker ownership." />
@@ -17,11 +17,17 @@
   <meta property="og:description" content="Building a tech industry that's better for its workers and customers through co-operation, democracy and worker ownership." />
 {% endif %}
   <meta property="og:site_name" content="Cooperative Technologists" />
-  <meta property="og:image" content="/assets/img/Cotech_512x512.png" />
 {% if page.collection == 'coops' %}
-  <!-- img: /images/coops/{{ page.slug }}  -->
-{% endif %}
+  <meta property="og:image" content="/images/coops/{{ page.slug }}" />
+{% elsif page.collection == 'services' %}
+  <meta property="og:image" content="/images/services/{{ page.slug }}" />
+{% elsif page.collection == 'technologies' %}
+  <meta property="og:image" content="/images/technologies/{{ page.slug }}" />
+{% elsif page.collection == 'clients' %}
+  <meta property="og:image" content="/images/clients/{{ page.slug }}" />
+{% else %}
   <meta property="og:image" content="/assets/img/Cotech_512x512.png" />
+{% endif %}
   <meta property="og:locale" content="en_GB" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@CotechUK" />
