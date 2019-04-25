@@ -6346,7 +6346,9 @@ table.hover tbody tr:nth-of-type(even):hover {
 
 .top-bar-title {
   float: left;
-  margin-right: 1rem; }
+  margin-right: 1rem;
+  width: 100%;
+}
 
 .top-bar-left {
   float: left; }
@@ -6828,6 +6830,9 @@ h5#join-us {
   padding-left: 2rem;
   color: #9196a2; }
 
+.close{
+  float: right;
+}
 #page-banner {
   margin-bottom: 4rem;
   text-align: center; }
