@@ -2,12 +2,12 @@
 title: MediaBlaze Hosts
 name: MediaBlaze Hosts
 members: 
-website: http://mediablazehosts.coop
-email: letschat@mediablazehosts.coop
+website: https://mediablazehosts.coop
+email: cs@mediablazehosts.coop
 twitter: MediaBlazeHosts
 github: mediablazehosts
 telephone: 0333 335 0166
-address: 31 Station Road,Charing,Ashford,Kent,TN27 0JA
+address: MediaBlaze Hosts, 31 Station Road,Charing,Ashford,Kent,TN27 0JA
 latitude: 51.20871820000001
 longitude: 0.7920888999999534
 clients: 
@@ -45,4 +45,4 @@ From standard Web Hosting to SSL Certificates and more, including business consu
 
 Security is core for us, that’s why we’re always looking for new ways to increase your safety online and provide you with some of the best and trusted services out there at an affordable cost.
 
-Visit: http://mediablazehosts.coop for more information about us and our services, or email: letschat@mediablazehosts.coop
+Visit: https://mediablazehosts.coop for more information about us and our services, or email: cs@mediablazehosts.coop

@@ -7,7 +7,7 @@ email: info@open-ecommerce.org
 twitter: timeline
 github: open-ecommerce
 telephone: "+44 020 3731 9073"
-address: Unit 23A Iliffe Yard,,London,UK,SE17 3QD
+address: Unit 23A Iliffe Yard,London,UK,SE17 3QD
 latitude: 51.48941875721223
 longitude: -0.10058949123231287
 clients:

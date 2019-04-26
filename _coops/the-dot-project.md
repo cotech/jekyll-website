@@ -7,7 +7,7 @@ email: annie@thedotproject.co
 twitter: dotprojectco
 github: techforgoodbath
 telephone: '07496276003'
-address: Bath,United Kingdom,BA1
+address: 20 Quarry Rock Gardens, Bath, BA2 6EF
 latitude: 51.375801
 longitude: -2.359903900000063
 clients:

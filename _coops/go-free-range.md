@@ -6,7 +6,7 @@ website: https://gofreerange.com/
 email: lets@gofreerange.com
 twitter: freerange
 github: freerange
-telephone: N/A
+telephone: +44 (0)20 3823 6286
 address: The Foundry, 156 Blackfriars Road, London, SE1 8EN.
 latitude: 51.501086
 longitude: -0.1064455
