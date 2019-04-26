@@ -4179,7 +4179,8 @@ a {
   color: #2199e8;
   text-decoration: none;
   line-height: inherit;
-  cursor: pointer;}
+  cursor: pointer; }
+
   a:hover, a:focus {
     color: #1585cf; }
   a img {
@@ -6982,3 +6983,8 @@ footer {
         color: #ffffff; }
 
 /*# sourceMappingURL=app.css.map */
+
+
+.forum-links a{
+  margin: 0 auto;
+}
