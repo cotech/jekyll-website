@@ -4179,8 +4179,8 @@ a {
   color: #2199e8;
   text-decoration: none;
   line-height: inherit;
-  cursor: pointer;
-  word-break: break-all; }
+  cursor: pointer; }
+
   a:hover, a:focus {
     color: #1585cf; }
   a img {
@@ -6890,6 +6890,9 @@ h5#join-us {
 .coop .client-thumb-container:hover .client-thumb-header, .coop .client-thumb-container:focus .client-thumb-header {
   color: #000000; }
 
+.coop a {
+  word-break: break-all;
+}
 /* ---------------------------------------- SERVICE/TECHNOLOGY  ---------------------------------------- */
 .service #page-banner,
 .technology #page-banner {
@@ -6980,3 +6983,8 @@ footer {
         color: #ffffff; }
 
 /*# sourceMappingURL=app.css.map */
+
+
+.forum-links a{
+  margin: 0 auto;
+}
