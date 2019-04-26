@@ -2,7 +2,37 @@
 
 ## Introduction
 
-This is a port of the current Wordpress version of the [CoTech Website][] to a statically-generated site using [Jekyll][].
+This is a port of the current WordPress version of the CoTech website to a statically-generated site using Jekyll. The site consists of a bunch of markdown files and images stored in git.coop. The Jekyll build process is automated so that there is no need to have Jekyll installed and running to make changes to the site.
+
+  * Live site: https://coops.tech/
+  * Dev site: https://dev.coops.tech/
+
+## Updating the site
+
+It is possible to edit markdown files and upload images through the [GitLab Web IDE](https://docs.gitlab.com/ce/user/project/web_ide/). To use this, got to the [GitLab website page](https://git.coop/cotech/website) and click the Web IDE button to the left below the toolbar.
+
+Each page type lives in it's own folder.
+
+  * _clients contains client pages
+  * _coops contains coop pages
+  * _services contains service pages
+  * _technologies contains technology pages
+
+To change a coop page, edit the relevant coop file in the _coops directory. Each file contains a metadata block at the top of the file, followed by the main text describing the coop. The metadata block contains the coop details and lists of clients, services and technologies associated with the coop.
+
+If using GitLab Web IDE, make your changes to the relevant files and then commit your changes by clicking the commit button in the bottom-left corner. Add a brief description of the changes you have made as a the commit message and then click 'Stage & Commit'. It is okay to commit to the master git branch if you are simply updating your coop details, but if you are making extensive changes to many coop pages it is better to create a new branch and merge request and ask someone else to review your changes before they merge your changes in the master branch.
+
+Once your changes have been committed to the master branch an automatic build of the dev site is triggered. This will take a few minutes to run and you can check the status of the build here: https://git.coop/cotech/website/pipelines. Once the build has completed you will be able to see your changes on the dev site: https://dev.coops.tech/.
+
+If you're happy with they changes on the dev site, then you can deploy them to the live site. See the Deployment section below on how to do this.
+
+### Adding new clients, services and technologies
+
+You will need to add a new markdown file in the relevant directory for the new item. The file only needs to contain a metadata block with the details describing the new item, this is typically just a title and name (which are usually the same), but look at other items for examples.
+
+Along with the new file you will also need to upload a logo or image for the new item. Images live in a sub-directory of the images directory and should be named the same as the markdown file, but with a .png extension. Images should be formatted as a PNG and optimized for the web.
+
+Once the new file and image have been created then you can add the new client, service or technology as a list item in the metadata section of the relevant coop file.
 
 ## Run the site locally
 
