@@ -15,7 +15,7 @@ We refer to these as tech co-ops, though many of us are focused mainly on design
 
 If you are already part of a tech co-op (or an organisation that is practising cooperative principles and in the process of formally becoming a co-op) then we've already tried to find you to invite you to the network.
 
-If you were hiding somewhere or missed our call then get in touch using the form below.
+If you were hiding somewhere or missed our call then [get in touch using our open Discourse forum](https://community.coops.tech/c/cotech).
 
 #### Existing tech/digital companies
 
@@ -29,7 +29,7 @@ Once you're on the path to becoming a co-op you can become a member of the netwo
 
 If you are an individual that would like to work for a tech co-op then you can either apply for a job at an existing member co-op or start your own.
 
-To apply for a job you can contact us using the form below or individually explaining about your skills/experience and why you want to work for a tech co-op.
+To express an interest in working for a tech co-op you can [contact us using the jobs board on our open Discourse forum](https://community.coops.tech/c/jobs) explaining about your skills/experience and why you want to work for a tech co-op.
 
 The majority of jobs in our network are for developers, designers, project managers, etc. but if you have some skills you think we need then let us know. If you would like to start a tech co-op then we'd love to help you.
 
