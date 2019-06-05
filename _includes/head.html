@@ -8,7 +8,11 @@
   <meta name="description" content="{{ site.description }}" />
 {% endif %}
   <meta charset="UTF-8">
+{% if page.layout == "home" %}
   <title>{{ page.title }} &laquo; {{ site.long_title }}</title>
+{% else %}
+  <title>{{ page.title }} &laquo; {{ site.long_title }}</title>
+{% endif %}
   <meta property="og:type" content="website" />
 {% if page.layout == "home" %}
   <meta property="og:title" content="{{ page.title }} &laquo; {{ site.long_title }}" />
