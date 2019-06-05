@@ -5,20 +5,20 @@
 {% elsif page.collection == 'coops' and page.content %}
   <meta name="description" content="{{ page.content | strip_html | strip_newlines | condense_spaces | truncate:150 }}" />
 {% else %}
-  <meta name="description" content="Building a tech industry that's better for its workers and customers through co-operation, democracy and worker ownership." />
+  <meta name="description" content="{{ site.description }}" />
 {% endif %}
   <meta charset="UTF-8">
-  <title>{{ page.title }} &laquo; Cooperative Technologists</title>
+  <title>{{ page.title }} &laquo; {{ site.long_title }}</title>
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:title" content="{{ page.title }} &laquo; {{ site.title }} &laquo; {{ site.long_title }}" />
 {% if page.description %}
   <meta property="og:description" content="{{ page.description | strip_html | strip_newlines }}" />
 {% elsif page.collection == 'coops' and page.content %}
   <meta property="og:description" content="{{ page.content | strip_html | strip_newlines | condense_spaces | truncate:150 }}" />
 {% else %}
-  <meta property="og:description" content="Cooperative Technologists (CoTech) are building a tech industry that's better for its workers and customers through co-operation, democracy and worker ownership." />
+  <meta property="og:description" content="{{ site.description }}" />
 {% endif %}
-  <meta property="og:site_name" content="Cooperative Technologists" />
+  <meta property="og:site_name" content="{{ page.title }} &laquo; {{ site.long_title }}" />
 {% if page.collection == 'coops' %}
   <meta property="og:image" content="/images/coops/{{ page.slug }}.png" />
 {% elsif page.collection == 'services' %}
