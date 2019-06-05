@@ -34,15 +34,15 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@CotechUK" />
 {% if page.collection == 'coops' %}
-  <meta name="twitter:image:src" content="{{ site.url }}/images/coops/{{ page.slug }}.png" />
+  <meta name="twitter:image" content="{{ site.url }}/images/coops/{{ page.slug }}.png" />
 {% elsif page.collection == 'services' %}
-  <meta name="twitter:image:src" content="{{ site.url }}/images/services/{{ page.slug }}.png" />
+  <meta name="twitter:image" content="{{ site.url }}/images/services/{{ page.slug }}.png" />
 {% elsif page.collection == 'technologies' %}
-  <meta name="twitter:image:src" content="{{ site.url }}/images/technologies/{{ page.slug }}.png" />
+  <meta name="twitter:image" content="{{ site.url }}/images/technologies/{{ page.slug }}.png" />
 {% elsif page.collection == 'clients' %}
-  <meta name="twitter:image:src" content="{{ site.url }}/images/clients/{{ page.slug }}.png" />
+  <meta name="twitter:image" content="{{ site.url }}/images/clients/{{ page.slug }}.png" />
 {% else %}
-  <meta name="twitter:image:src" content="{{ site.url }}/assets/img/Cotech_512x512.png" />
+  <meta name="twitter:image" content="{{ site.url }}/assets/img/Cotech_512x512.png" />
 {% endif %}
   <link rel="canonical" href="{{ page.url | absolute_url }}" />
   <link rel='stylesheet' id='app-css' href='/assets/css/app.css?ver=4.8' type='text/css' media='all' />
