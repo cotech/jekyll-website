@@ -1,6 +1,7 @@
 ---
 title: Cotech Website
 timezone: UTC
+site: https://www.coops.tech
 exclude:
 - scripts
 - vendor
