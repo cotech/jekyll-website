@@ -45,6 +45,7 @@ clients:
 - green-black-cross
 - green-bike-project
 - green-homes-sheffield
+- greenpeace
 - greenwich-co-operative-development-agency
 - guardian-observer-chapel-branch-of-the-national-union-of-journalists
 - independent-labour-publications
