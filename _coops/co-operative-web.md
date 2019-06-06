@@ -46,6 +46,7 @@ services:
 - hosting
 - ideation
 - mentoring
+- virtual-servers
 technologies:
 - net
 - angular-1-x
