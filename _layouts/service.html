@@ -15,7 +15,7 @@
     <div id="page-banner">
       <div class="row">
         <div class="small-12 small-centered columns">
-          <img src="/images/services/{{ page.slug }}.png" alt="">
+          <img src="/images/services/{{ page.slug }}" alt="">
           <h1>Coops that offer <span>{{ page.name }}</span></h1>
 {% if page.description %}
           <p>{{ page.description }}</p>
@@ -43,7 +43,7 @@
                 {% if coop.services contains page.slug %}
                   <div class="column">
                     <a href="{{ coop.url | relative_url }}" class="coop-thumb">
-                      <img src="/images/coops/{{ coop.slug }}.png" alt="">
+                      <img src="/images/coops/{{ coop.slug }}" alt="">
                     </a>
                   </div>
                 {% endif %}

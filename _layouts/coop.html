@@ -87,7 +87,7 @@
                   {% assign s = site.services | where: "slug", service | first %}
                   <div class="column">
                     <a href="{{ s.url | relative_url }}" class="service-thumb">
-                      <div class="service-thumb-img float-center" style="background-image: url(/images/services/{{ s.slug }}.png)"></div>
+                      <div class="service-thumb-img float-center" style="background-image: url(/images/services/{{ s.slug }})"></div>
                       <div>{{ s.name }}</div>
                     </a>
                   </div>
@@ -107,7 +107,7 @@
                   {% assign t = site.technologies | where: "slug", technology | first %}
                   <div class="column">
                     <a href="{{ t.url | relative_url }}" class="technology-thumb">
-                      <div class="technology-thumb-img float-center" style="background-image: url(/images/technologies/{{ t.slug }}.png)"></div>
+                      <div class="technology-thumb-img float-center" style="background-image: url(/images/technologies/{{ t.slug }})"></div>
                     <div>{{ t.name }}</div>
                   </a>
                 </div>
@@ -126,7 +126,7 @@
                 {% for client in page.clients %}
                   {% assign c = site.clients | where: "slug", client | first %}
                   <div class="column client-thumb-container">
-                    <div class="client-thumb" style="background-image: url(/images/clients/{{ c.slug }}.png)"></div>
+                    <div class="client-thumb" style="background-image: url(/images/clients/{{ c.slug }})"></div>
                     <div class="client-thumb-header">{{ c.title }}</div>
                   </div>
                 {% endfor %}
