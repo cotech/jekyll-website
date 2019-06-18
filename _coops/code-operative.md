@@ -2,7 +2,7 @@
 title: Code-Operative
 name: Code-Operative
 members: 8
-website: https://www.code-operative.co.uk
+website: https://code-operative.co.uk
 email: contact@code-operative.co.uk
 twitter: code_operative
 github: Code-Operative
