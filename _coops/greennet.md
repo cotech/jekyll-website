@@ -38,17 +38,26 @@ services:
 technologies:
 - apache
 - gnu-bash
-- d3
 - drupal
 - gitlab
 - htmlcss
 - javascript
 - matomo
-- munin
-- mysql
 - php
 - symfony
 - ubuntu
+- ansible
+- civicrm
+- debian
+- docker
+- lets-encrypt
+- mailman
+- mediawiki
+- munin
+- mysql
+- nextcloud
+- wordpress
+- xen-hypervisor
 ---
 
 GreenNet is a not-for-profit non-hierarchical collective established 1985, providing internet services, broadband, web design, email and hosting to supporters of peace, the environment and human rights. We are members of ISPA UK and the APC.
