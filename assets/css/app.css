@@ -6658,6 +6658,7 @@ a:focus {
   height: 123px;
   text-align: center;
   border: solid 1px #e6e5e1;
+  padding: 4px;
   background-color: #ffffff;
   display: block;
   margin-bottom: -1px;
@@ -6893,6 +6894,11 @@ h5#join-us {
 .coop a {
   word-break: break-all;
 }
+
+.coop #page-banner div div {
+  width: 50%;
+} 
+
 /* ---------------------------------------- SERVICE/TECHNOLOGY  ---------------------------------------- */
 .service #page-banner,
 .technology #page-banner {
