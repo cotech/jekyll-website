@@ -36,10 +36,10 @@ services:
 - branding-and-identity
 - consultancy
 - development
-- idea-generation
+- ideation
 - logo-design
 - mentoring
-- seo
+- seo-optimisation
 - strategy
 - sysadmin
 - user-research
