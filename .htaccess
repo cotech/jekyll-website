@@ -12,3 +12,19 @@ AddOutputFilter DEFLATE html
 AddOutputFilter DEFLATE svg
 AddOutputFilter DEFLATE css
 AddOutputFilter DEFLATE js
+# Canonical URLs redirect to the domain with a www
+<IfModule mod_rewrite.c>
+  RewriteCond %{HTTP_HOST} ^coops\.tech$
+  RewriteRule ^/?(.*) https://www.coops.tech/$1 [R,L] 
+<IfModule>
+# Redirect HTTP to HTTPS
+# https://wiki.apache.org/httpd/RewriteHTTPToHTTPS
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteCond %{HTTPS} !=on
+  RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+</IfModule>
+# Strict Transport Security Header, this prevents clients 
+# with STS support from accessing the site using HTTP
+# https://stackoverflow.com/questions/24144552/how-to-set-hsts-header-from-htaccess-only-on-https
+Header set Strict-Transport-Security "max-age=31536000" env=HTTPS
