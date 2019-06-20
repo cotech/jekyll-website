@@ -6653,6 +6653,13 @@ a:focus {
     background-color: transparent;
     color: #1e2637; }
 
+/* Vertical align coop logos on services pages */
+.services #grid .column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Coops Thumb */
 .coop-thumb {
   height: 123px;
@@ -6682,13 +6689,6 @@ a:focus {
     transform: scale(1.05); }
   .coop-thumb img {
     max-height: 100%; }
-
-/* vertical align coop logos on services pages */
-.services #grid .column {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 
 .has-tip {
   cursor: pointer;
