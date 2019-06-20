@@ -6684,7 +6684,7 @@ a:focus {
     max-height: 100%; }
 
 /* Vertical align coop logos on services pages */
-.services #grid .column img.coop-thumb {
+.services #grid .column .coop-thumb {
     display: flex;
     justify-content: center;
     align-items: center;
