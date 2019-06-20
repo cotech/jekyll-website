@@ -33,6 +33,7 @@ clients:
 - sarcoma
 - unicef
 services:
+- analytics
 - branding-and-identity
 - consultancy
 - development
