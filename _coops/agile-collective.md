@@ -11,7 +11,7 @@ address: Room 301,The Old Music Hall,106-108 Cowley Road,Oxford,United Kingdom,O
 latitude: 51.7483161
 longitude: -1.2390645000000404
 clients:
-- global-canopy-programme
+- global-canopy
 - information-architecture-institute
 - international-land-coalition
 - international-planned-parenthood-federation
