@@ -32,16 +32,15 @@ clients:
 - sands
 - sarcoma
 - unicef
-- university-of-oxford
 services:
 - branding-and-identity
 - consultancy
 - development
-- devops
-- graphic-design
-- ideation
+- idea-generation
 - logo-design
-- seo-optimisation
+- mentoring
+- seo
+- strategy
 - sysadmin
 - user-research
 - web-design
