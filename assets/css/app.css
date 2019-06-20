@@ -6885,6 +6885,7 @@ h5#join-us {
   height: 120px; }
 
 .coop .client-thumb-container .client-thumb-header {
+  text-align: center;
   font-family: "open_sansregular", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   color: #555a64; }
 
