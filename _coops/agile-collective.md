@@ -49,6 +49,7 @@ technologies:
 - apache
 - gnu-bash
 - debian
+- discourse
 - d3
 - drupal
 - docker
@@ -64,6 +65,7 @@ technologies:
 - rocket-chat
 - symfony
 - ubuntu
+- wordpress
 ---
 
 Agile Collective is a worker-owned digital agency with a team of 18 based in the UK and Italy.
