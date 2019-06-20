@@ -1,3 +1,4 @@
 ---
 title: Analytics
+name: Analytics
 ---
