@@ -6683,6 +6683,13 @@ a:focus {
   .coop-thumb img {
     max-height: 100%; }
 
+/* vertical align coop logos */
+.services .coop-thumb {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .has-tip {
   cursor: pointer;
   cursor: hand;
