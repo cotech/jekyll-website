@@ -39,6 +39,7 @@ services:
 - ideation
 - logo-design
 - mentoring
+- research
 - seo-optimisation
 - strategy
 - sysadmin
