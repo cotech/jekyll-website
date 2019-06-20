@@ -12,6 +12,8 @@ AddOutputFilter DEFLATE html
 AddOutputFilter DEFLATE svg
 AddOutputFilter DEFLATE css
 AddOutputFilter DEFLATE js
+# URL's that changed
+Redirect /coops/ https://www.coops.tech/co-op/
 # Canonical URLs redirect to the domain with a www
 <IfModule mod_rewrite.c>
   RewriteEngine on
