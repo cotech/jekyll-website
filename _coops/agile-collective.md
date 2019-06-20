@@ -60,6 +60,7 @@ technologies:
 - munin
 - mysql
 - php
+- rocket-chat
 - symfony
 - ubuntu
 ---
