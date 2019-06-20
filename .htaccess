@@ -14,6 +14,7 @@ AddOutputFilter DEFLATE css
 AddOutputFilter DEFLATE js
 # Canonical URLs redirect to the domain with a www
 <IfModule mod_rewrite.c>
+  RewriteEngine on
   RewriteCond %{HTTP_HOST} ^coops\.tech$
   RewriteRule ^/?(.*) https://www.coops.tech/$1 [R,L] 
 <IfModule>
