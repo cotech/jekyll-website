@@ -11,15 +11,26 @@ address: Room 301,The Old Music Hall,106-108 Cowley Road,Oxford,United Kingdom,O
 latitude: 51.7483161
 longitude: -1.2390645000000404
 clients:
+- actionaid
+- basw
+- bond
+- climate-outreach
+- co-operatives-uk
+- eden-project
+- ethical-consumer
+- food-standards-agency
+- freedom-from-torture
+- fundraising-regulator
 - global-canopy
 - information-architecture-institute
 - international-land-coalition
 - international-planned-parenthood-federation
+- modern-art-oxford
 - oxfam-international
 - oxford-city-council
 - oxfordshire-county-council
 - sands
-- the-eden-project
+- sarcoma
 - unicef
 - university-of-oxford
 services:
