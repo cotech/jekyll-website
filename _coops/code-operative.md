@@ -15,9 +15,8 @@ clients:
 - generation-rent
 - alpha-complex
 - land-explorer
-- webpost
-- reinventory
-- political-education-network
+- health-in-touch
+- the-politics-network
 services:
 - development
 - consultancy
