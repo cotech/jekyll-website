@@ -1,3 +1,3 @@
 ---
-title: Open University
+title: The Open University
 ---
