@@ -10,10 +10,10 @@ telephone: '07908 592 835'
 address: 44 Arkwright Road,London,NW3 6BH
 latitude: 51.5509322
 longitude: -0.1833781
-clients:
+clients: 
 - labour-party
 - nesta
-services:
+services: 
 - community-building
 - game-design
 - research

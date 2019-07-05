@@ -6,7 +6,7 @@ website: http://mc3.coop
 email: contact@mc3.coop
 twitter: 
 github: 
-telephone: "+44 1484 846231"
+telephone: '+44 1484 846231'
 address: 24 Bridge Street, Slaithwaite, Huddersfield, HD7 5JN
 latitude: 53.6466645
 longitude: -1.7822482

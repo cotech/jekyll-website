@@ -10,7 +10,7 @@ telephone: '07496276003'
 address: 20 Quarry Rock Gardens, Bath, BA2 6EF
 latitude: 51.375801
 longitude: -2.359903900000063
-clients:
+clients: 
 - department-for-international-development
 - disability-snowsports-uk
 - global-ehealth-foundation
@@ -18,7 +18,7 @@ clients:
 - shaw-trust
 - torchbox
 - university-of-bath
-services:
+services: 
 - branding-and-identity
 - business-analysis
 - business-systems

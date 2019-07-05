@@ -6,11 +6,11 @@ website: https://uniteddiversity.coop/
 email: josef@uniteddiversity.coop
 twitter: uniteddiversity
 github: uniteddiversity
-telephone: 07974 88 88 95
+telephone: '07974 88 88 95'
 address: 4 Melville Square, East Street, Bridport, DT6 3LS
 latitude: 50.7332462
 longitude: -2.7572083
-clients:
+clients: 
 - stir-to-action
 - media-reform-coalition
 - campaign-for-press-and-broadcasting-freedom
@@ -34,7 +34,7 @@ clients:
 - sse
 - en10ergy
 - neweconomics
-services:
+services: 
 - branding-and-identity
 - community-building
 - consultancy
@@ -44,7 +44,7 @@ services:
 - research
 - strategy
 - web-design
-technologies:
+technologies: 
 - discourse
 - drupal
 - htmlcss

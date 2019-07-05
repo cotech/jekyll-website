@@ -6,11 +6,11 @@ website: https://creative.coop
 email: hello@creative.coop
 twitter: 
 github: 
-telephone: 01206 574147
+telephone: '01206 574147;
 address: 2 Balkerne House, Balkerne Passage,Colchester,United Kingdom,CO1 1PA
 latitude: 51.89010188809361
 longitude: 0.8957915683888586
-clients:
+clients: 
 - big-lottery-fund
 - co-operative-press-limited
 - co-operatives-uk
@@ -25,7 +25,7 @@ clients:
 - save-the-children
 - social-investment-business
 - wales-co-operative-centre
-services:
+services: 
 - artwork
 - branding-and-identity
 - hosting
@@ -37,7 +37,7 @@ services:
 - printing
 - seo-optimisation
 - web-design
-technologies:
+technologies: 
 - c
 - centos
 - dreamweaver

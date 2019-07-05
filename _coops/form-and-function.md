@@ -1,5 +1,5 @@
 ---
-title: Form & Function Digital Co-operative
+title: Form &amp; Function Digital Co-operative
 name: Form & Function Digital Co-operative
 members: 3
 website: https://www.formandfunction.coop/

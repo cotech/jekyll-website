@@ -6,16 +6,16 @@ website: http://weare.thesmallaxe.com/
 email: hello@thesmallaxe.com
 twitter: wearethesmallaxe
 github: thesmallaxecom
-telephone: 020 3540 7467
+telephone: '020 3540 7467;
 address: 7-15 Greatorex St,London,United Kingdom,E1 5NF
 latitude: 51.5178935
 longitude: -0.06747700000005352
-clients:
+clients: 
 - mind
 - national-union-of-teachers
 - robin-hood-tax
 - save-the-children
-services:
+services: 
 - artwork
 - branding-and-identity
 - consultancy
@@ -29,7 +29,7 @@ services:
 - strategy
 - user-research
 - web-design
-technologies:
+technologies: 
 - after-effects
 - drupal
 - htmlcss

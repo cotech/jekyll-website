@@ -9,7 +9,7 @@ github: Code-Operative
 address: Baltic Business Quarters, Abbott's Hill, Gateshead, United Kingdom, NE8 3DF
 latitude: 54.966587
 longitude: -1.595418
-clients:
+clients: 
 - acorn
 - weco
 - generation-rent
@@ -17,13 +17,13 @@ clients:
 - land-explorer
 - health-in-touch
 - the-politics-network
-services:
+services: 
 - development
 - consultancy
 - database-solutions
 - machine-learning
 - web-design
-technologies:
+technologies: 
 - angular
 - ionic
 - reactjs

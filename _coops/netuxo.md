@@ -11,13 +11,13 @@ address: CAN Mezzanine,49-51 East Road,London,United Kingdom,N1 6AH
 latitude: 51.5284201
 longitude: -0.08787919999997484
 clients: 
-services:
+services: 
 - consultancy
 - development
 - email
 - hosting
 - web-design
-technologies:
+technologies: 
 - apache
 - htmlcss
 - lets-encrypt

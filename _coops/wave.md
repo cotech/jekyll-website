@@ -10,7 +10,7 @@ telephone: '01424235000'
 address: Rock House,49 - 51 Cambridge Road,Hastings,United Kingdom,TN34 1DT
 latitude: 50.86501959934043
 longitude: 0.5873715877532959
-clients:
+clients: 
 - alzheimers
 - association-for-progressive-communications
 - child-accident-prevention-trust
@@ -38,7 +38,7 @@ clients:
 - uol-institute-in-paris
 - war-on-want
 - wateraid
-services:
+services: 
 - animation
 - artwork
 - branding-and-identity
@@ -59,7 +59,7 @@ services:
 - user-research
 - virtual-servers
 - web-design
-technologies:
+technologies: 
 - dreamweaver
 - drupal
 - htmlcss

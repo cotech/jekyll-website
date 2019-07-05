@@ -10,13 +10,13 @@ telephone: "+44 (0)1223 967838"
 address: 25 Signet Court, Swann&rdquo;s Road, Cambridge,United Kingdom,CB5 8LA
 latitude: 52.21427610000001
 longitude: 0.15076890000000276
-clients:
+clients: 
 - e-immigrate
 - ippf
 - leds-gp
 - mapaction
 - world-bank
-services:
+services: 
 - business-systems
 - consultancy
 - database-solutions
@@ -26,7 +26,7 @@ services:
 - strategy
 - user-research
 - web-design
-technologies:
+technologies: 
 - django-2
 - docker
 - javascript

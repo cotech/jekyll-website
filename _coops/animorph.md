@@ -7,16 +7,16 @@ email: we@animorph.coop
 twitter: animorphcoop
 github: 
 telephone: 
-address: Space4, 149 Fonthill Road,London,N4 3HF
+address: Space4,149 Fonthill Road,London,N4 3HF
 latitude: 51.5635499
 longitude: -0.10782689999996364
-clients:
+clients: 
 - halo-post-production
 - southbank-centre
 - open-university
 - packt
 - isd
-services:
+services: 
 - animation
 - artwork
 - augmented-reality
@@ -31,7 +31,7 @@ services:
 - mixed-reality
 - motion-graphics
 - virtual-reality
-technologies:
+technologies: 
 - c
 - htmlcss
 - javascript

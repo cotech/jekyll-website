@@ -6,12 +6,12 @@ website: https://secure.coop
 email: info@secure.coop
 twitter: SecActive
 github: 
-telephone: Signal +44 (0)7719740566
+telephone: 'Signal +44 (0)7719740566'
 address: 62 Beechwood Road,Dalston,Hackney,London,United Kingdom,E8 3DY
 latitude: 51.5452938
 longitude: -0.07338379999998779
 clients: 
-services:
+services: 
 - big-data
 - business-systems
 - community-building
@@ -23,7 +23,7 @@ services:
 - research
 - strategy
 - user-research
-technologies:
+technologies: 
 - bash
 - centos
 - debian

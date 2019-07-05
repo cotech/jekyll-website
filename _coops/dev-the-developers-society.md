@@ -6,12 +6,12 @@ website: https://www.dev.ngo/
 email: studio@dev.ngo
 twitter: devsociety_
 github: developersociety
-telephone: "+44 333 344 7800"
-address: 191 Fazeley Street,Digbeth,Birmingham, ,B5 5SE
+telephone: '+44 333 344 7800'
+address: 191 Fazeley Street,Digbeth,Birmingham,B5 5SE
 latitude: 52.47784126596389
 longitude: -1.881633996963501
-clients:
-services:
+clients: 
+services: 
 - animation
 - artwork
 - branding-and-identity
@@ -30,7 +30,7 @@ services:
 - research
 - strategy
 - web-design
-technologies:
+technologies: 
 - python
 ---
 
@@ -38,7 +38,7 @@ We are a not-for-profit digital agency working with NGOs and groups with a progr
 
 We’re the world’s first not-for-profit co-op digital studio run by and for NGOs. We’re dedicated to making access to world leading technology and expertise available to everyone working for good. We’ve worked with amazing groups such as: Oxfam, Save The Children, The Syria Campaign, Help Refugees, Greenpeace, the NHS, Amnesty International, Macmillan Cancer Care, CIVICUS, The Elders and lots more and we’re always keen to hear from new people who are trying to make the world a better place.
 
-We work on all aspects of development and digital impact but specialise in creative problem solving with a focus in the following areas:
+We work on all aspects of development and digital impact but specialise in creative problem solving with a focus in the following areas: 
 
 * Site builds
 * Campaign actions and data capture

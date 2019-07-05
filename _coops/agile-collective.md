@@ -10,7 +10,7 @@ telephone: '+44 (0) 1865 403 120'
 address: The Old Music Hall,106-108 Cowley Road,Oxford,OX4 1JE,United Kingdom
 latitude: 51.7483161
 longitude: -1.2390645000000404
-clients:
+clients: 
 - actionaid
 - basw
 - bond
@@ -32,7 +32,7 @@ clients:
 - sands
 - sarcoma
 - unicef
-services:
+services: 
 - analytics
 - branding-and-identity
 - consultancy
@@ -45,7 +45,7 @@ services:
 - sysadmin
 - user-research
 - web-design
-technologies:
+technologies: 
 - apache
 - bash
 - debian

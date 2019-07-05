@@ -6,11 +6,11 @@ website: http://mediaco-op.net/
 email: hello@mediaco-op.net
 twitter: themediacoop.html
 github: mediaco_op.html
-telephone: 0141 551 9813
+telephone: '0141 551 9813'
 address: 406 White Studios,62 Templeton Street,Glasgow,United Kingdom,G40 1DA
 latitude: 55.850882122227354
 longitude: -4.232032299041748
-clients:
+clients: 
 - bbc
 - co-operatives-uk
 - favor
@@ -22,14 +22,14 @@ clients:
 - shakti-women-s-aid
 - the-woodcraft-folk
 - women-s-support-project
-services:
+services: 
 - animation
 - film
 - ideation
 - photography
 - user-research
 - web-design
-technologies:
+technologies: 
 - angular
 - django-2
 - htmlcss

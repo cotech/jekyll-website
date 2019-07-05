@@ -6,11 +6,11 @@ website: http://www.outlandish.com
 email: hello@outlandish.com
 twitter: outlandish
 github: outlandishideas
-telephone: "+44 (0) 207 561 9968"
+telephone: '+44 (0) 207 561 9968'
 address: 3rd Floor,149 Fonthill Road,Finsbury Park,London,United Kingdom,N4 3HF
 latitude: 51.56372160000001
 longitude: -0.1077572000000373
-clients:
+clients: 
 - act-now
 - authors-licensing-and-collecting-society
 - bbc
@@ -39,7 +39,7 @@ clients:
 - the-british-council
 - ulster-university
 - university-of-glasgow
-services:
+services: 
 - big-data
 - branding-and-identity
 - business-analysis
@@ -54,7 +54,7 @@ services:
 - rapid-application-development
 - user-research
 - web-design
-technologies:
+technologies: 
 - angular
 - d3
 - express-js

@@ -6,18 +6,18 @@ website: http://weareopen.coop/
 email: hello@weareopen.coop
 twitter: weareopen
 github: hello%40weareopen.html
-telephone: N/A
+telephone: 'N/A'
 address: the Internet
 latitude: 19.37218875
 longitude: -72.3346544510523
-clients:
+clients: 
 - creative-commons
 - london-clc
 - passbolt
 - sussex-downs-college
 - tapyness
 - university-of-south-hampton
-services:
+services: 
 - artwork
 - community-building
 - consultancy
@@ -25,7 +25,7 @@ services:
 - illustration
 - leadership-development
 - strategy
-technologies:
+technologies: 
 - htmlcss
 - adobe-illustrator
 - indesign

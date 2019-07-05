@@ -10,17 +10,17 @@ telephone:
 address: Unit 1a, 1 East Dulwich Road,London,SE22 9BA
 latitude: 51.46200700000001
 longitude: -0.06753600000001825
-clients:
+clients: 
 - kitmapper
 - shared-assets
-services:
+services: 
 - consultancy
 - data-visualisation
 - database-solutions
 - development
 - devops
 - rapid-application-development
-technologies:
+technologies: 
 - htmlcss
 - mongodb
 - node-js

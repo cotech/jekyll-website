@@ -6,11 +6,11 @@ website: http://web.coop
 email: ask@web.coop
 twitter: cooperativeweb
 github: CooperativeWeb
-telephone: 0121 2225355
+telephone: '0121 2225355'
 address: 2 Devon Way,Longbridge,Birmingham,UK,B31 2TS
 latitude: 52.39791473393062
 longitude: -1.985548227508616
-clients:
+clients: 
 - aston-villa-fc
 - bluqube
 - bnp-paribas
@@ -35,7 +35,7 @@ clients:
 - the-midcounties-co-operative
 - waid
 - wolverhampton-city-council
-services:
+services: 
 - big-data
 - business-analysis
 - business-systems
@@ -47,7 +47,7 @@ services:
 - ideation
 - mentoring
 - virtual-servers
-technologies:
+technologies: 
 - net
 - angular
 - centos

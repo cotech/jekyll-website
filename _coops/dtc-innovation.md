@@ -6,17 +6,17 @@ website: https://dtc-innovation.org/
 email: contact@dtc-innovation.org
 twitter: dtc-innovation
 github: 
-telephone: 447455921569
+telephone: '+44 7455 921569'
 address: London,United Kingdom
 latitude: 51.5073219
 longitude: -0.1276474
-clients:
+clients: 
 - bbc
 - data-gouv-fr
 - open-data-france
 - open-data-institute
 - radio-france
-services:
+services: 
 - business-systems
 - data-standards
 - development
@@ -26,7 +26,7 @@ services:
 - rapid-application-development
 - research
 - user-research
-technologies:
+technologies: 
 - ansible
 - d3
 - docker

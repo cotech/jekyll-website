@@ -12,7 +12,7 @@ latitude: 53.8612875
 longitude: -1.91083900000001
 clients: 
 services: 
-technologies:
+technologies: 
 - ruby-on-rails
 ---
 

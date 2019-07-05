@@ -6,11 +6,11 @@ website: https://www.webarchitects.coop/
 email: info@webarch.net
 twitter: webarchcoop
 github: https://github.com/webarch-coop
-telephone: "+44 114 276 9709"
+telephone: '+44 114 276 9709'
 address: Webarch Co-operative Limited,Harland Works,68a John Street,Sheffield,United Kingdom,S2 4QU
 latitude: 53.3704644
 longitude: -1.4748352999999952
-clients:
+clients: 
 - alitura-landscape-and-garden-design
 - atmoterra
 - badge-wiki
@@ -82,7 +82,7 @@ clients:
 - unicorn-grocery
 - william-morris-house
 - zero-carbon-yorkshire
-services:
+services: 
 - business-systems
 - database-solutions
 - devops
@@ -92,7 +92,7 @@ services:
 - it-security
 - sysadmin
 - virtual-servers
-technologies:
+technologies: 
 - ansible
 - apache
 - bash
@@ -126,7 +126,7 @@ technologies:
 
 [Webarchitects](https://www.webarchitects.coop/) is a Sheffield based, small and friendly, [multi-stakeholder co-operative](https://www.webarchitects.coop/about) which [customers can join](https://www.webarchitects.coop/join) and which provides [ethical](https://www.webarchitects.coop/ethics) and [green](https://www.webarchitects.coop/green-energy), [WordPress hosting](https://www.webarchitects.coop/wordpress), [Discourse hosting](https://www.webarchitects.coop/discourse), [Nextcloud hosting](https://www.webarchitects.coop/nextcloud), [general web hosting](https://www.webarchitects.coop/shared-hosting), [virtual servers](https://www.webarchitects.coop/virtual-servers), [email services](https://www.webarchitects.coop/email), [domain name services](https://www.webarchitects.coop/domain-names) and [GNU/Linux sysadmin](https://www.webarchitects.coop/support) and [DevOps support services](https://www.webarchitects.coop/development) to individuals and progressive organisations.
 
-The purpose of our co-operative is:
+The purpose of our co-operative is: 
 
 > To enable the provision of internet based services for socially responsible groups and individuals, using free open source software wherever possible, in a manner that aims to minimise fossil fuel usage and ecological impacts and which also provides sustainable employment
 

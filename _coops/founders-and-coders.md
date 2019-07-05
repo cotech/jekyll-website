@@ -6,14 +6,14 @@ website: http://www.foundersandcoders.com/
 email: hello@foundersandcoders.com
 twitter: founderscoders
 github: foundersandcoders
-telephone: 020 3583 2442
+telephone: '020 3583 2442'
 address: 14 Palmers Road,London,E2 0SY
 latitude: 51.5295318
 longitude: -0.04229490000000169
 clients: 
-services:
+services: 
 - mentoring
-technologies:
+technologies: 
 - express-js
 - node-js
 - postgresql

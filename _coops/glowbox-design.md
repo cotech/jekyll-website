@@ -10,11 +10,11 @@ telephone:
 address: London
 latitude: 51.5073219
 longitude: -0.1276474
-clients:
+clients: 
 - creating-freedom
 - participatory-economics-uk
 - stand-up-for-labour
-services:
+services: 
 - artwork
 - branding-and-identity
 - development
@@ -23,7 +23,7 @@ services:
 - logo-design
 - user-research
 - web-design
-technologies:
+technologies: 
 - after-effects
 - htmlcss
 - adobe-illustrator

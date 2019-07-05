@@ -10,14 +10,14 @@ telephone: '07366025747'
 address: Halton Mill,Mill Lane,Halton,Lancaster,England,LA2 6ND
 latitude: 54.075809445607604
 longitude: -2.7540137502212474
-clients:
+clients: 
 - hediip
 - hesa
 - jisc
 - manchester-metropolitan-university
 - oxford-university-press
 - university-of-oxford
-services:
+services: 
 - consultancy
 - development
 technologies: 

@@ -6,19 +6,19 @@ website: https://mediablazehosts.coop
 email: cs@mediablazehosts.coop
 twitter: MediaBlazeHosts
 github: mediablazehosts
-telephone: 0333 335 0166
+telephone: '0333 335 0166'
 address: MediaBlaze Hosts, 31 Station Road,Charing,Ashford,Kent,TN27 0JA
 latitude: 51.20871820000001
 longitude: 0.7920888999999534
 clients: 
-services:
+services: 
 - consultancy
 - domain-names
 - email
 - hosting
 - it-security
 - virtual-servers
-technologies:
+technologies: 
 - apache
 - centos
 - htmlcss

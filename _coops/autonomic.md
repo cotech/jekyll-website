@@ -10,10 +10,10 @@ telephone:
 address: 1539 Pershore Road,Stirchley,Birmingham,United Kingdom,B30 2JH
 latitude: 51.563904
 longitude: -0.10793179999996028
-clients:
+clients: 
 - iww
 - ojuso
-services:
+services: 
 - community-building
 - consultancy
 - development
@@ -26,7 +26,7 @@ services:
 - sysadmin
 - virtual-servers
 - web-design
-technologies:
+technologies: 
 - ansible
 - bash
 - civicrm
@@ -53,7 +53,7 @@ technologies:
 - wordpress
 ---
 
-We build technologies and infrastructure to empower users to make a positive impact on the world. All of our services reflect our commitment to our core values:
+We build technologies and infrastructure to empower users to make a positive impact on the world. All of our services reflect our commitment to our core values: 
 
 * Sustainability
 * Transparency

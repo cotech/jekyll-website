@@ -6,17 +6,16 @@ website: http://broadband.coop/
 email: info@broadband.coop
 twitter: cbn_team
 github: 
-telephone: 0161 283 2675
-address: c/o McKellans,11 Riverview, The Embankment Business Park,Vale Road, Heaton
-  Mersey,Stockport,UK,SK4 3GN
+telephone: "0161 283 2675"
+address: c/o McKellans,11 Riverview, The Embankment Business Park,Vale Road, Heaton Mersey,Stockport,UK,SK4 3GN
 latitude: 53.4067704
 longitude: -2.202668899999935
-clients:
+clients: 
 - brighton-hove-city-council
 - manchester-city-council
 - nottingham-city-council
 - tameside-metropolitan-borough-council
-services:
+services: 
 - business-analysis
 - consultancy
 technologies: 

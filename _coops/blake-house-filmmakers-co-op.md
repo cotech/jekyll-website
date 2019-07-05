@@ -10,7 +10,7 @@ telephone: "+447779 404510"
 address: Unit 1H Clapham North Arts Centre,26-32 Voltaire Rd,London,SW4 6DH
 latitude: 51.46268029999999
 longitude: -0.14825569999993604
-clients:
+clients: 
 - basildon-council
 - cast
 - co-operatives-uk
@@ -25,13 +25,13 @@ clients:
 - transition-town-brixton
 - university-college-london
 - university-of-cambridge
-services:
+services: 
 - animation
 - consultancy
 - film
 - marketing
 - motion-graphics
-technologies:
+technologies: 
 - after-effects
 - indesign
 - lightroom
