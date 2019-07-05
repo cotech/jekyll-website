@@ -55,7 +55,7 @@ services:
 - user-research
 - web-design
 technologies:
-- angular-1-x
+- angular
 - d3
 - express-js
 - google-maps

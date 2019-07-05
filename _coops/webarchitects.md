@@ -1,7 +1,7 @@
 ---
 title: Webarchitects Co-operative
 name: Webarchitects Co-operative
-members: 60
+members: 3
 website: https://www.webarchitects.coop/
 email: info@webarch.net
 twitter: webarchcoop
@@ -95,7 +95,7 @@ services:
 technologies:
 - ansible
 - apache
-- gnu-bash
+- bash
 - centos
 - debian
 - discourse

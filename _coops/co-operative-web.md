@@ -49,7 +49,7 @@ services:
 - virtual-servers
 technologies:
 - net
-- angular-1-x
+- angular
 - centos
 - express-js
 - gitlab

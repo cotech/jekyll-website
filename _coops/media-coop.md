@@ -30,7 +30,7 @@ services:
 - user-research
 - web-design
 technologies:
-- angular-1-x
+- angular
 - django-2
 - htmlcss
 - invision

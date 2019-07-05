@@ -6658,6 +6658,7 @@ a:focus {
   height: 123px;
   text-align: center;
   border: solid 1px #e6e5e1;
+  padding: 8px;
   background-color: #ffffff;
   display: block;
   margin-bottom: -1px;
@@ -6681,6 +6682,14 @@ a:focus {
     transform: scale(1.05); }
   .coop-thumb img {
     max-height: 100%; }
+
+/* Vertical align coop logos on technology and services pages */
+.technology #grid .coop-thumb, 
+.service #grid .coop-thumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .has-tip {
   cursor: pointer;
@@ -6884,6 +6893,7 @@ h5#join-us {
   height: 120px; }
 
 .coop .client-thumb-container .client-thumb-header {
+  text-align: center;
   font-family: "open_sansregular", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   color: #555a64; }
 
@@ -6893,6 +6903,11 @@ h5#join-us {
 .coop a {
   word-break: break-all;
 }
+
+.coop #page-banner div div {
+  width: 50%;
+} 
+
 /* ---------------------------------------- SERVICE/TECHNOLOGY  ---------------------------------------- */
 .service #page-banner,
 .technology #page-banner {

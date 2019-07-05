@@ -31,7 +31,7 @@ services:
 - strategy
 technologies:
 - apache
-- gnu-bash
+- bash
 - debian
 - django-2
 - htmlcss

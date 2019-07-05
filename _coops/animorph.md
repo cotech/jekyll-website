@@ -1,7 +1,7 @@
 ---
 title: Animorph
 name: Animorph
-members: 4
+members: 5
 website: https://animorph.coop
 email: we@animorph.coop
 twitter: animorphcoop
@@ -13,15 +13,21 @@ longitude: -0.10782689999996364
 clients:
 - halo-post-production
 - southbank-centre
+- open-university
+- packt
+- isd
 services:
 - animation
 - artwork
 - augmented-reality
+- big-data
 - branding-and-identity
 - development
 - exhibition-and-display
+- game-design
 - graphic-design
 - ideation
+- machine-learning
 - mixed-reality
 - motion-graphics
 - virtual-reality
@@ -29,16 +35,21 @@ technologies:
 - c
 - htmlcss
 - javascript
+- node-js
 - python
 - unity-3d
 ---
 
-We are an immersive media workers’ co-operative specialising in virtual, augmented and mixed reality.
+Animorph addresses unmet medical and social needs using augmented and virtual reality.
 
-Our projects range from 3D interface integration, art and research, through simulations, education and app optimisation, to strictly practical applications.
+We specialise in developing digital medicines and cognitive prosthetics that empower users to achieve what was previously impossible. 
 
-We collaboratively conceive and develop applications that provide quality matching the capacity of the new media realm.
+We provide a full range of services and products geared towards bespoke immersive app development, including  research, design workshops, programming, consultation, video production, and sound design.
 
-We look forward to engaging in cutting-edge endeavours that build bridges across disciplines and environments in order to bring people together.
+Since early 2016, we have been collaborating with social enterprises, medical researchers, and organisations including Southbank Centre, The Open University, and Google Innovation Fund.
+
+All stakeholders are invited to actively participate in our development process. We excel at understanding the challenges expressed by our end-users; every story takes us on a unique journey.
+
+Animorph Co-operative is democratically owned and run, with great care for the well-being of our workers,  supporting professional as well as personal development. 
 
 Let’s forge alliances for the future we want to live in.
