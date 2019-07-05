@@ -7,6 +7,8 @@ email: hello@sleuth.coop
 twitter: simpson_hilary
 linkedin: https://www.linkedin.com/in/hilary-simpson-02395418/
 address: Sleuth Cooperative,Nye Bevan House,London,SW6 7TB,United Kingdom
+latitude: 51.48202
+longitude: -0.20514 
 clients: 
 - woda
 - barbourlogic
