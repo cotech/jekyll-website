@@ -12,9 +12,11 @@ latitude: 53.8008
 longitude: 1.5491
 clients:
 services:
+- development
 - consultancy
 - community-building
 - data-standards
+- it-security
 technologies:
 - bash
 - docker
