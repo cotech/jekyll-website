@@ -6,7 +6,7 @@ website: https://code-operative.co.uk
 email: contact@code-operative.co.uk
 twitter: code_operative
 github: Code-Operative
-address: Baltic Business Quarters, Abbott's Hill, Gateshead, United Kingdom, NE8 3DF
+address: Baltic Business Quarters, Abbott&rdquo;s Hill, Gateshead, United Kingdom, NE8 3DF
 latitude: 54.966587
 longitude: -1.595418
 clients: 
