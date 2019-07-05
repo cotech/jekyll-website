@@ -15,6 +15,7 @@ AddOutputFilter DEFLATE js
 # URL's that changed
 Redirect /coops/ https://www.coops.tech/co-op/
 Redirect /technology/gnu-bash https://www.coops.tech/technology/bash
+Redirect /co-op/graphics-coop https://www.coops.tech/co-op/form-and-function
 # Canonical URLs redirect to the domain with a www
 <IfModule mod_rewrite.c>
   RewriteEngine on
