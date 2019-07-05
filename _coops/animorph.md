@@ -20,11 +20,14 @@ services:
 - animation
 - artwork
 - augmented-reality
+- big-data
 - branding-and-identity
 - development
 - exhibition-and-display
+- game-design
 - graphic-design
 - ideation
+- machine-learning
 - mixed-reality
 - motion-graphics
 - virtual-reality
@@ -32,6 +35,7 @@ technologies:
 - c
 - htmlcss
 - javascript
+- node-js
 - python
 - unity-3d
 ---
