@@ -47,7 +47,7 @@ services:
 - web-design
 technologies:
 - apache
-- gnu-bash
+- bash
 - debian
 - discourse
 - d3

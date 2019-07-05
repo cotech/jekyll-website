@@ -37,7 +37,7 @@ services:
 
 technologies:
 - apache
-- gnu-bash
+- bash
 - drupal
 - gitlab
 - htmlcss

@@ -95,7 +95,7 @@ services:
 technologies:
 - ansible
 - apache
-- gnu-bash
+- bash
 - centos
 - debian
 - discourse

@@ -24,7 +24,7 @@ services:
 - strategy
 - user-research
 technologies:
-- gnu-bash
+- bash
 - centos
 - debian
 - discourse

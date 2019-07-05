@@ -1,4 +1,0 @@
----
-title: Bash
-name: Bash
----

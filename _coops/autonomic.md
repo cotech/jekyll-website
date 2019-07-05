@@ -28,7 +28,7 @@ services:
 - web-design
 technologies:
 - ansible
-- gnu-bash
+- bash
 - civicrm
 - d3
 - debian
