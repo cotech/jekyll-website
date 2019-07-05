@@ -1,5 +1,5 @@
-# Serve .html files without extensions
-Options +MultiViews
+# Serve .html files without extensions and allow directory listings
+Options +MultiViews +Indexes
 # If a SVG and a PNG exists the prefer the SVG
 AddType image/svg+xml;qs=0.9 svg sgvz
 AddType image/png;qs=0.8 png
@@ -33,3 +33,9 @@ Redirect /co-op/graphics-coop https://www.coops.tech/co-op/form-and-function
 # with STS support from accessing the site using HTTP
 # https://stackoverflow.com/questions/24144552/how-to-set-hsts-header-from-htaccess-only-on-https
 Header set Strict-Transport-Security "max-age=31536000" env=HTTPS
+# Directory Listings
+HeaderName /top.html
+ReadmeName /bot.html
+IndexOptions FancyIndexing VersionSort HTMLTable NameWidth=* DescriptionWidth=*
+IndexOptions Charset=UTF-8 SuppressHTMLPreamble XHTML TrackModified IconsAreLinks
+IndexOptions SuppressDescription
