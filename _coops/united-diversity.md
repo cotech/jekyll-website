@@ -18,6 +18,22 @@ clients:
 - better-media
 - co-operatives-london
 - wiki-factory
+- solarcentury
+- opencoop
+- offgrid-festival
+- mhsgroup
+- opendemocracy
+- ideo
+- stethelburgas
+- 1010uk
+- ovesco
+- londonpermaculture
+- bioregional
+- commonfutures
+- kaizen
+- sse
+- en10ergy
+- neweconomics
 services:
 - branding-and-identity
 - community-building
