@@ -4,16 +4,29 @@ name: DCDC.io
 members: 4
 website: DCDC.io
 email: team@dcdc.io
-twitter: 
+twitter: dcdc.io
 github: 
 telephone: 
 address: 
-latitude: 0
-longitude: 0
+latitude: 53.8008
+longitude: 1.5491
 clients:
 services:
+- consultancy
+- community-building
+- data-standards
 technologies:
-
+- bash
+- docker
+- gitlab
+- htmlcss
+- java
+- javascript
+- json-schema
+- python
+- ruby
+- ruby-on-rails
+- ubuntu
 ---
 
-Description dcdc
+DCDC is a cooperative body built with technology at its heart (a platform coop). We dare to dream of a future where software is created collaboratively and distributed frictionlessly, a future where tech companies operate fairly and transparently, and a future where technology empowers individuals, by protecting the privacy and self-sovereignity of their data.
