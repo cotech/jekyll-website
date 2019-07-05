@@ -42,8 +42,8 @@
               {% for coop in site.coops %}
                 {% if coop.services contains page.slug %}
                   <div class="column">
-                    <a href="{{ coop.url | relative_url }}" class="coop-thumb">
-                      <img src="/images/coops/{{ coop.slug }}" alt="{{ coop.name }}" id="#{{ coop.slug }}">
+                    <a href="{{ coop.url | relative_url }}" class="coop-thumb" id="#{{ coop.slug }}">
+                      <img src="/images/coops/{{ coop.slug }}" alt="{{ coop.name }}">
                     </a>
                   </div>
                 {% endif %}

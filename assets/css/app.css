@@ -6683,7 +6683,8 @@ a:focus {
   .coop-thumb img {
     max-height: 100%; }
 
-/* Vertical align coop logos on services pages */
+/* Vertical align coop logos on technology and services pages */
+.technology #grid .coop-thumb, 
 .service #grid .coop-thumb {
   display: flex;
   justify-content: center;
