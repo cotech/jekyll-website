@@ -24,7 +24,6 @@ services:
 - branding-and-identity
 - development
 - exhibition-and-display
-- game-design
 - graphic-design
 - ideation
 - machine-learning
@@ -40,16 +39,14 @@ technologies:
 - unity-3d
 ---
 
-Animorph addresses unmet medical and social needs using augmented and virtual reality.
+Animorph addresses unmet social and medical needs using augmented and virtual reality.
 
-We specialise in developing digital medicines and cognitive prosthetics that empower users to achieve what was previously impossible. 
+We provide a full range of services and products geared towards bespoke immersive app development, including research, design workshops, programming, consultation, video production, and sound design.
 
-We provide a full range of services and products geared towards bespoke immersive app development, including  research, design workshops, programming, consultation, video production, and sound design.
+Since early 2016, we have been collaborating with social enterprises, medical researchers, and organisations including Southbank Centre, The Open University, and Institute for Strategic Dialogue.
 
-Since early 2016, we have been collaborating with social enterprises, medical researchers, and organisations including Southbank Centre, The Open University, and Google Innovation Fund.
+We invite all stakeholders to participate in the development process. We excel at understanding the challenges expressed by our end-users; every story takes us on a unique journey.
 
-All stakeholders are invited to actively participate in our development process. We excel at understanding the challenges expressed by our end-users; every story takes us on a unique journey.
-
-Animorph Co-operative is democratically owned and run, with great care for the well-being of our workers,  supporting professional as well as personal development. 
+Animorph Co-operative is democratically owned and run, with great care for the well-being of our workers, supporting professional as well as personal development.
 
 Let’s forge alliances for the future we want to live in.
