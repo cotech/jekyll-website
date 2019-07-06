@@ -9,7 +9,7 @@ github:
 telephone: 
 address: 
 latitude: 53.8008
-longitude: 1.5491
+longitude: -1.5491
 clients:
 services:
 - development
