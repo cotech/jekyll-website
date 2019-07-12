@@ -17,6 +17,7 @@ clients:
 - ctrl-shift
 - better-media
 - co-operatives-london
+- gcda
 - wiki-factory
 - solarcentury
 - opencoop

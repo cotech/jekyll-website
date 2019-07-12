@@ -42,6 +42,7 @@ clients:
 - european-services-strategy-unit
 - forest-recycling-project
 - frack-off
+- gcda
 - green-black-cross
 - green-bike-project
 - green-homes-sheffield
