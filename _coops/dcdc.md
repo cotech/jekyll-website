@@ -5,7 +5,7 @@ members: 5
 website: https://dcdc.io/
 email: team@dcdc.io
 twitter: dcdc.io
-github: http://gitlab.dcdc.io/
+github:
 telephone: 
 address: 
 latitude: 53.8008
