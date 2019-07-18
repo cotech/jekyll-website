@@ -1,11 +1,11 @@
 ---
 title: DCDC.io
 name: DCDC.io
-members: 4
-website: DCDC.io
+members: 5
+website: https://dcdc.io/
 email: team@dcdc.io
 twitter: dcdc.io
-github: 
+github: http://gitlab.dcdc.io/
 telephone: 
 address: 
 latitude: 53.8008
