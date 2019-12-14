@@ -1,6 +1,6 @@
 ---
 title: InFact 
-name: Infact Digital Co-operative
+name: InFact
 members: 3
 website: http://www.infactcoop.com
 email: hello@infactcoop.com
@@ -10,22 +10,22 @@ address: Space4, 113 Fonthill Road,Finsbury Park,London,United Kingdom,N4 3HH
 latitude: 51.564620
 longitude: -0.108610
 clients: 
--south-london-and-maudsley-nhs-trust
--guys-and-st-thomas'-charity
--shift-design
--action-for-children
--wales-cooperative-network
--founders-and-coders
--your-sanctuary
--ava-against-violence-and-abuse
--centre-for-acceleration-of-social-technology
--law-centres-network
--lancashire-women's-centers
--friend-indeed
--catapillr
--read-with-audrey
--anna-freud-centre
--blue-cross
+- south-london-and-maudsley-nhs-trust
+- guys-and-st-thomas'-charity
+- shift-design
+- action-for-children
+- wales-cooperative-network
+- founders-and-coders
+- your-sanctuary
+- ava-against-violence-and-abuse
+- centre-for-acceleration-of-social-technology
+- law-centres-network
+- lancashire-women's-centers
+- friend-indeed
+- catapillr
+- read-with-audrey
+- anna-freud-centre
+- blue-cross
 services: 
 - branding-and-identity
 - data-visualisation
