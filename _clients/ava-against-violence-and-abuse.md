@@ -1,4 +1,4 @@
 ---
-title: AVA: Against Violence & Abuse
+title: AVA Project
 website: https://avaproject.org.uk/
 ---

@@ -14,7 +14,7 @@ clients:
 - guys-and-st-thomas-charity
 - shift-design
 - action-for-children
-- wales-cooperative-centre
+- wales-co-operative-centre
 - founders-and-coders
 - your-sanctuary
 - ava-against-violence-and-abuse
