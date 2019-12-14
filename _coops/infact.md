@@ -11,16 +11,16 @@ latitude: 51.564620
 longitude: -0.108610
 clients: 
 - south-london-and-maudsley-nhs-trust
-- guys-and-st-thomas'-charity
+- guys-and-st-thomas-charity
 - shift-design
 - action-for-children
-- wales-cooperative-network
+- wales-cooperative-centre
 - founders-and-coders
 - your-sanctuary
 - ava-against-violence-and-abuse
-- centre-for-acceleration-of-social-technology
+- cast
 - law-centres-network
-- lancashire-women's-centers
+- lancashire-womens-centers
 - friend-indeed
 - catapillr
 - read-with-audrey
