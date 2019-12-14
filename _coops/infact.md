@@ -20,7 +20,7 @@ clients:
 - ava-against-violence-and-abuse
 - cast
 - law-centres-network
-- lancashire-womens-centers
+- lancashire-womens-centres
 - friend-indeed
 - catapillr
 - read-with-audrey
