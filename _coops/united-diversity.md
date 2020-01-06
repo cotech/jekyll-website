@@ -6,7 +6,6 @@ website: https://uniteddiversity.coop/
 email: josef@uniteddiversity.coop
 twitter: uniteddiversity
 github: uniteddiversity
-telephone: '07974 88 88 95'
 address: 4 Melville Square, East Street, Bridport, DT6 3LS
 latitude: 50.7332462
 longitude: -2.7572083
