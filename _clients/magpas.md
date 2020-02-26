@@ -1,3 +1,3 @@
 ---
-Magpas 
+title: Magpas 
 ---

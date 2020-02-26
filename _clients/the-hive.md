@@ -1,3 +1,3 @@
 ---
-The Hive 
+title: The Hive 
 ---

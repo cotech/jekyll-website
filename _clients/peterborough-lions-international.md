@@ -1,3 +1,3 @@
 ---
-Peterborough Lions International
+title: Peterborough Lions International
 ---

@@ -1,3 +1,3 @@
 ---
-Kindling Trust 
+title: Kindling Trust 
 ---

@@ -1,3 +1,3 @@
 ---
-Vivacity 
+title: Vivacity 
 ---

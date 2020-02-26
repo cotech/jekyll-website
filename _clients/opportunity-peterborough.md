@@ -1,3 +1,3 @@
 ---
-Opportunity Peterborough 
+title: Opportunity Peterborough 
 ---
