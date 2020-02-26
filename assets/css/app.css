@@ -6900,9 +6900,11 @@ h5#join-us {
 .coop .client-thumb-container:hover .client-thumb-header, .coop .client-thumb-container:focus .client-thumb-header {
   color: #000000; }
 
-.coop a {
-  word-break: break-all;
-}
+/* This breaks words in weird places!
+ * .coop a {
+ *  word-break: break-all;
+ * }
+ */
 
 .coop #page-banner div div {
   width: 50%;

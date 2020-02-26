@@ -45,16 +45,15 @@ services:
 - exhibition-and-display
 - film
 - graphic-design
-- idea-generation
+- ideation
 - illustration
 - logo-design
 - motion-graphics
 - web-design
 technologies:
-- illustrator
+- adobe-illustrator
 - after-effects
-- html
-- css
+- htmlcss
 - indesign
 - photoshop
 - risograph
