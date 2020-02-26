@@ -10,7 +10,6 @@ address: Workshop G6, Allia Future Business Centre, London Road, Peterborough, P
 latitude: 52.5636273
 longitude: -0.2432229
 clients:
-- allia
 - allia-future-business-centre
 - bbc
 - bbc-ideas
