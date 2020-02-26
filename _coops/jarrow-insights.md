@@ -16,19 +16,27 @@ services:
 - consultancy
 - data-visualisation
 - film
-- idea-generation
+- ideation
 - graphic-design
 - motion-graphics
-- seo
+- seo-optimisation
 - strategy
 - user-research
 technologies:
-- illustrator
-- premiere-pro
+- adobe-illustrator
+- adobe-premiere-pro
 - after-effects
-- in-design
+- indesign
 - photoshop
-
+clients:
+- blake-house
+- deliveroo
+- just-eat
+- kaspersky
+- labour
+- paul-murphy
+- primark
+- zero-books
 ---
 
 Jarrow Insights is a full-service, data-driven creative strategy and
