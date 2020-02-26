@@ -33,7 +33,7 @@ clients:
 - deliveroo
 - just-eat
 - kaspersky
-- labour
+- labour-party
 - paul-murphy
 - primark
 - zero-books
