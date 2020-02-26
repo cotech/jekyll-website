@@ -1,7 +1,7 @@
 ---
 title: Paper Rhino
 name: Paper Rhino
-members: 4
+members: 5
 website: https://paperrhino.co.uk/
 email: mail@paperrhino.co.uk
 twitter: paper_rhino
