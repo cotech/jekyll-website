@@ -28,6 +28,13 @@ technologies:
 - after-effects
 - indesign
 - photoshop
+- awario
+- brandwatch
+- gephi
+- ibm-cognos
+- similarweb
+- tableau
+- tubular
 clients:
 - blake-house
 - deliveroo
