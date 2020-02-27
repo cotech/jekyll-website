@@ -1,7 +1,7 @@
 ---
 title: Jarrow Insights
 name: Jarrow Insights
-members: 3
+members: 2
 website: https://jarrow-insights.co/
 email: team@jarrow-insights.co
 address: 113-115 Fonthill Rd, Finsbury Park, London N4 3HH
