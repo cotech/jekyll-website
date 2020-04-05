@@ -4177,12 +4177,13 @@ h6 {
 
 a {
   color: #2199e8;
-  text-decoration: none;
+  text-decoration: underline dotted #1e2637;
   line-height: inherit;
   cursor: pointer; }
 
   a:hover, a:focus {
-    color: #1585cf; }
+    color: #1585cf;
+    text-decoration: underline dashed #1585cf; }
   a img {
     border: 0; }
 
