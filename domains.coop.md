@@ -1,10 +1,11 @@
 ---
 title: Domians.coop
+description: Four UK based co-operatives are willing and able to take over Domains.coop email and web hosting services.
 heading: Domains.coop terminating email and hosting services
 layout: default
 ---
 
-Domains.coop have announced [The Termination of all Domains.coop Email and Hosting services](https://domains.coop/support/).
+Domains.coop have announced [the termination of all Domains.coop email and hosting services](https://domains.coop/support/).
 
 Co-operative Technologists (CoTech) represents technology co-operatives across the UK. It has 46 coops in membership.
 
