@@ -4183,7 +4183,7 @@ a {
 
   a:hover, a:focus {
     color: #1585cf;
-    text-decoration: underline dashed #1585cf; }
+    text-decoration: underline solid #1585cf; }
   a img {
     border: 0; }
 
