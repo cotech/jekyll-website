@@ -3,7 +3,7 @@ title: Autonomic
 name: Autonomic
 members: 6
 website: https://autonomic.zone/
-email: autonomic-coop@posteo.net
+email: helo@autonomic.zone
 twitter: autonomiccoop
 github: 
 telephone: 
