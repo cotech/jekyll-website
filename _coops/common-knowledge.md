@@ -25,11 +25,16 @@ services:
 - user-research
 - web-design
 technologies:
+- ansible
+- django
+- drupal
 - htmlcss
 - javascript
+- laravel
 - node-js
 - php
 - postgresql
+- python
 - reactjs
 - wordpress
 ---
