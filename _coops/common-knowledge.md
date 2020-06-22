@@ -26,7 +26,7 @@ services:
 - web-design
 technologies:
 - ansible
-- django
+- django-2
 - drupal
 - htmlcss
 - javascript
