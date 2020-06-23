@@ -37,6 +37,8 @@ technologies:
 - python
 - reactjs
 - wordpress
+- ruby
+- ruby-on-rails
 ---
 
 Common Knowledge is a not-for-profit worker cooperative that designs and builds digital tools for grassroots activists.
