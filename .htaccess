@@ -13,6 +13,7 @@ AddOutputFilter DEFLATE svg
 AddOutputFilter DEFLATE css
 AddOutputFilter DEFLATE js
 # URL's that changed
+Redirect /co-op/the-dot-project https://www.coops.tech/co-op/dot-project
 Redirect /coops/ https://www.coops.tech/co-op/
 Redirect /technology/gnu-bash https://www.coops.tech/technology/bash
 Redirect /co-op/graphics-coop https://www.coops.tech/co-op/form-and-function

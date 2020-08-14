@@ -111,6 +111,7 @@ class Coop
       creative-coop.html
       dev-the-developers-society.html
       digital-liberties.html
+      dot-project.html
       dtc-innovation.html
       fairmondo-uk.html
       founders-and-coders.html
@@ -128,7 +129,6 @@ class Coop
       secure-active-c-i-c.html
       small-axe.html
       tableflip.html
-      the-dot-project.html
       wave.html
       we-are-open.html
       webarchitects.html
