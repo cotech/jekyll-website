@@ -2,8 +2,8 @@
 title: Dot Project
 name: Dot Project
 members: 2
-website: http://www.thedotproject.co/
-email: annie@thedotproject.co
+website: http://www.dotproject.coop/
+email: hello@dotproject.coop
 twitter: dotprojectco
 github: techforgoodbath
 telephone: '07496276003'
