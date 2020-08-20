@@ -70,10 +70,11 @@
                 ];
 
                 $(document).ready(function() {
-                    window.app.createMapMultiMarker('map-services', 54.7, -4.2, 6, mapEntries);
+                    var map = window.app.createMapMultiMarker('map-services', 54.7, -4.2, 6, mapEntries);
+                    $('#coops-view-tabs').on('change.zf.tabs', function() {
+                      map.invalidateSize();
+                    });
                 });
-
-                // TODO fix bug with tiles not displaying properly until window resized
 
               </script>
             </div>

@@ -34,6 +34,7 @@ app.createMapSingleMarker = function(mapId, lat, lng, zoom, markerText) {
         var marker = L.marker([lat - 0.0005, lng]).addTo(myMap);
         marker.bindPopup(markerText).openPopup();
     }
+    return window.app.map;
 }
 
 app.createMapMultiMarker = function(mapId, lat, lng, zoom, markersArray) {
@@ -48,6 +49,7 @@ app.createMapMultiMarker = function(mapId, lat, lng, zoom, markersArray) {
           marker.bindPopup(markerVar.markerText);
       });
   }
+  return window.app.map;
 };
 
 //# sourceMappingURL=app.js.map
