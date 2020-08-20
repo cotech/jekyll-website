@@ -6649,6 +6649,7 @@ a:focus {
 
 .tabs-title > a {
   color: #999999;
+  padding: 1.25rem 1.25rem;
   font-size: 1rem; }
   .tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
     background-color: transparent;
