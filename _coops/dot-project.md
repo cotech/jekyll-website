@@ -3,11 +3,11 @@ title: Dot Project
 name: Dot Project
 members: 2
 website: http://www.dotproject.coop/
-email: hello@dotproject.coop
+email: annie@dotproject.coop
 twitter: dotprojectco
 github: techforgoodbath
 telephone: '07496276003'
-address: 20 Quarry Rock Gardens, Bath, BA2 6EF
+address: 2 Beech View, Claverton Down Road, Bath, BA2 6DX
 latitude: 51.375801
 longitude: -2.359903900000063
 clients: 
@@ -32,10 +32,21 @@ services:
 technologies: 
 ---
 
-[DOT PROJECT](http://www.dotproject.coop/) enables responsible digital technology.  We support organisations to thrive through the use of enabling technology.  Our focus is on creating more productive organisations, organisations which can provide an inclusive environment for staff by building digital skills and confidence.
+[DOT PROJECT](http://www.dotproject.coop/) believes in the transformative impact of technology on humanity. We exist to support individuals, organisations and communities to realise the potential of enabling technology in increasing their social impact. We work at the intersection between civil society and technology, passionately increasing confidence and capacity of people who are working to solve complex social issues. Our mission is to increase social impact through the use of creativity and technology.
 
-DOT PROJECT believes in the transformative impact of technology on humanity. We exist to support individuals, organisations and communities to realise the potential of enabling technology in increasing their social impact. We work at the intersection between civil society and technology, passionately increasing confidence and capacity of people who are working to solve complex social issues. Our mission is to increase social impact through the use of creativity and technology.
+DOT PROJECT is a cooperative of practitioners who coach people and organisations to be their digital best, together.  We bring together practitioners with strong technical skills as well as practitioners who focus on creating a collaborative environment to enable in-house teams to share challenges openly. We coach organisations and people to explore how they can harness their unique organisational fabric, their morale, their capabilities and strengths to harness the potential technology provides in order to thrive in a world that is constantly changing.
 
-As catalysts for Tech for Good we work to strengthen the tech for good movement, cooperative movement and increase diversity in the social and creative enterprise sector. We are a women-led social enterprise and cooperative who lead with empathy and compassion.
+Our clients are broadly across the social sector from charities and social enterprises, through to intermediary funding bodies to strengthen their capacity to practice technology and digitalisation.
 
-Our service offers both field mapping expertise and our digital foundation packages including Digital Healthcheck, Opportunity Analysis and Responsible Governance.
+SERVICES
+
+Business Analysis(https://www.coops.tech/service/business-analysis)
+Business Systems
+Community Building
+Consultancy
+Leadership Development
+Mentoring
+Research
+Strategy
+User research
+
