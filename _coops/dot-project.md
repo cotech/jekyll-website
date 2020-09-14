@@ -19,16 +19,15 @@ clients:
 - torchbox
 - university-of-bath
 services: 
-- branding-and-identity
 - business-analysis
 - business-systems
 - community-building
 - consultancy
 - leadership-development
-- marketing
 - mentoring
 - research
 - strategy
+- user-research
 technologies: 
 ---
 
