@@ -36,16 +36,3 @@ technologies:
 DOT PROJECT is a cooperative of practitioners who coach people and organisations to be their digital best, together.  We bring together practitioners with strong technical skills as well as practitioners who focus on creating a collaborative environment to enable in-house teams to share challenges openly. We coach organisations and people to explore how they can harness their unique organisational fabric, their morale, their capabilities and strengths to harness the potential technology provides in order to thrive in a world that is constantly changing.
 
 Our clients are broadly across the social sector from charities and social enterprises, through to intermediary funding bodies to strengthen their capacity to practice technology and digitalisation.
-
-SERVICES
-
-Business Analysis(https://www.coops.tech/service/business-analysis)
-Business Systems
-Community Building
-Consultancy
-Leadership Development
-Mentoring
-Research
-Strategy
-User research
-
