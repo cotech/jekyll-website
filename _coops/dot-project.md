@@ -14,7 +14,7 @@ clients:
 - British-Tinnitus-Association
 - Carefree
 - carerssupportcentre
-- CAST
+- cast
 - Charity-Digital
 - comicrelief
 - coopsUK
