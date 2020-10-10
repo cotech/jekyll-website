@@ -29,7 +29,7 @@ clients:
 - num
 - openup
 - Parkinsons-UK
-- Power-to-Change
+- power-to-change
 - SARSAS
 - stirtoaction
 - Surviving-Economic-Abuse
