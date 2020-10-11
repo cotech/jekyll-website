@@ -11,10 +11,10 @@ address: The Foundry, 156 Blackfriars Road, London, SE1 8EN.
 latitude: 51.501086
 longitude: -0.1064455
 clients:
+- bbc
 - futurelearn
 - government-digital-service
 - o2
-- bbc
 services:
 - business-analysis
 - consultancy
