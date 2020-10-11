@@ -1,4 +1,4 @@
-image: ruby:2.5.8
+image: ruby:2.6.6
 
 stages:
 - test
