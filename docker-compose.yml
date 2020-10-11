@@ -11,7 +11,7 @@ services:
       - "4000:80"
 
   jekyll:
-    image: ruby:2.5.3
+    image: ruby:2.5.8
     working_dir: /src
     environment:
       BUNDLE_PATH: /vendor
