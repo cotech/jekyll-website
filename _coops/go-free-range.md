@@ -12,10 +12,23 @@ latitude: 51.501086
 longitude: -0.1064455
 clients:
 - bbc
+- bhrrc
+- cast
+- crown-commercial-service
 - futurelearn
 - government-digital-service
+- hookline
+- makielab
+- mudlark
+- mubi
 - o2
+- the-audience-agency
+- trainline
+- university-of-oxford
+- voicenet
+- you-gov
 services:
+- big-data
 - business-analysis
 - consultancy
 - database-solutions
@@ -23,8 +36,10 @@ services:
 - devops
 - rapid-application-development
 technologies:
+- docker
 - htmlcss
 - javascript
+- aws-lambda
 - mysql
 - postgresql
 - ruby
