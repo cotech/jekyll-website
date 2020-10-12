@@ -15,6 +15,7 @@ clients:
 - bhrrc
 - cast
 - crown-commercial-service
+- ctrl-group
 - futurelearn
 - government-digital-service
 - hookline
