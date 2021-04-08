@@ -41,7 +41,7 @@ technologies:
 - javascript
 - node-js
 - python
-- vuejs
+- django
 - unity-3d
 ---
 
