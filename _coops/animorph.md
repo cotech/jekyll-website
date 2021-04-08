@@ -16,6 +16,9 @@ clients:
 - open-university
 - packt
 - isd
+- nesta
+- the executive office
+- belfast city council
 services: 
 - animation
 - artwork
@@ -30,12 +33,15 @@ services:
 - mixed-reality
 - motion-graphics
 - virtual-reality
+- web apps
+- 3d websites
 technologies: 
 - c
 - htmlcss
 - javascript
 - node-js
 - python
+- vuejs
 - unity-3d
 ---
 
