@@ -2,23 +2,25 @@
 title: Animorph
 name: Animorph
 members: 5
-website: https://animorph.coop
+website: https://www.animorph.coop
 email: we@animorph.coop
 twitter: animorphcoop
 github: 
 telephone: 
-address: Space4,149 Fonthill Road,London,N4 3HF
+address: Fonthill House,113-115 Fonthill Road,London,N4 3HH
 latitude: 51.5635499
 longitude: -0.10782689999996364
-clients: 
-- halo-post-production
-- southbank-centre
-- open-university
-- packt
-- isd
-- nesta
+clients:
 - the-executive-office
 - belfast-city-council
+- open-university
+- university-of-east-anglia
+- nihr
+- nesta
+- isd
+- southbank-centre
+- halo-post-production
+- packt
 services: 
 - animation
 - artwork
@@ -43,16 +45,14 @@ technologies:
 - python
 - django
 - unity-3d
+- vue-js
+- three-js
 ---
 
-We make software that enhances human potential. Specialising in #ExtendedReality for industry training, education, medical and urban planning uses.
+Animorph makes software that enhances human potential. 
 
-We provide a full range of services and products geared towards bespoke immersive app development, including research, design workshops, programming, consultation, video production, and sound design.
+We design, build, and support technological solutions to complex challenges spanning training, education, therapy, rehabilitation, and urban planning. 
 
-Since early 2016, we have been collaborating with social enterprises, medical researchers, and organisations including Southbank Centre, The Open University, Institute for Strategic Dialogue, Nesta and The Executive Office of Northern Ireland.
+As a full service creative powerhouse we work from ideation and brief-crafting stages, into design and development, all the way through to deployment and maintenance. Specialising in extended reality, we have created virtual and augmented reality mobile apps, immersive websites, games and full stack systems.
 
-We invite all stakeholders to participate in the development process. We excel at understanding the challenges expressed by our end-users; every story takes us on a unique journey.
-
-Animorph Co-operative is democratically owned and run, with great care for the well-being of our workers, supporting professional as well as personal development.
-
-Let’s forge alliances for the future we want to live in.
+Our company has a spotless record of delivering above expectation with our clients since 2016. We seek productive relationships with purpose-driven organisations, so reach out and let’s forge alliances to make the future we want to live in.
