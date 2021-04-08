@@ -43,7 +43,7 @@ technologies:
 - javascript
 - node-js
 - python
-- django
+- django-3
 - unity-3d
 - vue-js
 - three-js
