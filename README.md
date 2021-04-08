@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a port of the current WordPress version of the CoTech website to a statically-generated site using Jekyll. The site consists of a bunch of markdown files and images stored in git.coop. The Jekyll build process is automated so that there is no need to have Jekyll installed and running to make changes to the site.
+This is a port of the old WordPress version of the CoTech website to a statically-generated site using Jekyll. The site consists of a bunch of markdown files and images stored in git.coop. The Jekyll build process is automated so that there is no need to have Jekyll installed and running to make changes to the site.
 
   * Live site: https://coops.tech/
   * Dev site: https://dev.coops.tech/
