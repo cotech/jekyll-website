@@ -45,11 +45,11 @@ technologies:
 - unity-3d
 ---
 
-Animorph addresses unmet social and medical needs using augmented and virtual reality.
+We make software that enhances human potential. Specialising in #ExtendedReality for industry training, education, medical and urban planning uses.
 
 We provide a full range of services and products geared towards bespoke immersive app development, including research, design workshops, programming, consultation, video production, and sound design.
 
-Since early 2016, we have been collaborating with social enterprises, medical researchers, and organisations including Southbank Centre, The Open University, and Institute for Strategic Dialogue.
+Since early 2016, we have been collaborating with social enterprises, medical researchers, and organisations including Southbank Centre, The Open University, Institute for Strategic Dialogue, Nesta and The Executive Office of Northern Ireland.
 
 We invite all stakeholders to participate in the development process. We excel at understanding the challenges expressed by our end-users; every story takes us on a unique journey.
 
