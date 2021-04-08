@@ -17,8 +17,8 @@ clients:
 - packt
 - isd
 - nesta
-- the executive office
-- belfast city council
+- the-executive-office
+- belfast-city-council
 services: 
 - animation
 - artwork
