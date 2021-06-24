@@ -13,7 +13,7 @@ longitude: -72.3346544510523
 clients: 
 - greenpeace
 - red-hat
-- catalyst
+- the-catalyst
 - near
 - participate
 - creative-commons
