@@ -12,7 +12,7 @@ latitude: 19.37218875
 longitude: -72.3346544510523
 clients: 
 - greenpeace
-- red-hat
+- redhat
 - the-catalyst
 - near
 - participate
