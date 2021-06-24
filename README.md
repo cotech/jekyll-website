@@ -1,5 +1,12 @@
 # CoTech Website
 
+This repo is [hosted at git.coop](https://git.coop/cotech/website) and [push mirrored to GitHub](https://github.com/cotech/jekyll-website).
+
+If you would like to contribute to this repo you have two options:
+
+1. [Join Webarchitects](https://webarch.coop/join) to [create an account at git.coop](https://webarch.coop/git#free) and then request access to the [CoTech group](https://git.coop/cotech) and whan that has been grated you can update this repo directly.
+2. Use a GitHub account to create a [pull request](https://github.com/cotech/jekyll-website/pulls) at GitHub and then ask someone who is a member of [Webarchitects](https://www.webarchitects.coop/) to [patch the repo for you](https://community.coops.tech/t/cotech-website-repo-mirroring-to-github/2818). 
+
 ## Introduction
 
 This is a port of the old WordPress version of the CoTech website to a statically-generated site using Jekyll. The site consists of a bunch of markdown files and images stored in git.coop. The Jekyll build process is automated so that there is no need to have Jekyll installed and running to make changes to the site.
