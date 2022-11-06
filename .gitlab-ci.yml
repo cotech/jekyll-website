@@ -1,9 +1,10 @@
+---
 image: ruby:2.6.6
 
 stages:
-- test
-- staging
-- production
+  - test
+  - staging
+  - production
 
 variables:
   JEKYLL_ENV: production
@@ -27,41 +28,44 @@ before_script:
 test:
   stage: test
   script:
-  - bundle exec jekyll build -d test
+    - bundle exec jekyll build -d test
   artifacts:
     paths:
-    - test
+      - test
   except:
-  - master
+    - master
 
 deploy:dev:
   stage: staging
   script:
-  - bundle exec jekyll build -d public
-  - rsync -aqz --delete-after public/ cotech@web.cotech.uk:sites/dev/
+    - bundle exec jekyll build -d public
+    - rsync -aqz --delete-after public/ cotech@web.cotech.uk:sites/dev/
   artifacts:
     paths:
-    - public
+      - public
   environment:
     name: dev
     url: https://dev.coops.tech
   only:
-  - master
+    - master
+    - servermigration
 
 deploy:production:
   stage: production
   script:
-  - bundle exec jekyll build -d public
-  - rsync -aqz --delete-after public/ cotech@web.cotech.uk:sites/default/
+    - bundle exec jekyll build -d public
+    - rsync -aqz --delete-after public/ cotech@web.cotech.uk:sites/default/
   artifacts:
     paths:
-    - public
+      - public
   environment:
     name: production
     url: https://www.coops.tech
   only:
-  - master
+    - master
+    - servermigration
   when: manual
 
 after_script:
-   - rm -rf /root/.ssh/
+  - rm -rf /root/.ssh/
+...
