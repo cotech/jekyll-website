@@ -20,7 +20,7 @@ before_script:
   - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
   - mkdir -p ~/.ssh
   - chmod 700 ~/.ssh
-  - echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+  - ssh-keyscan web.cotech.uk > ~/.ssh/known_hosts
   - chmod 644 ~/.ssh/known_hosts
   - bundle install --path vendor
 
@@ -38,7 +38,7 @@ deploy:dev:
   stage: staging
   script:
   - bundle exec jekyll build -d public
-  - rsync -aqz --delete-after public/ cotech@webarch2.co.uk:sites/dev/
+  - rsync -aqz --delete-after public/ cotech@web.cotech.uk:sites/dev/
   artifacts:
     paths:
     - public
@@ -52,7 +52,7 @@ deploy:production:
   stage: production
   script:
   - bundle exec jekyll build -d public
-  - rsync -aqz --delete-after public/ cotech@webarch2.co.uk:sites/default/
+  - rsync -aqz --delete-after public/ cotech@web.cotech.uk:sites/default/
   artifacts:
     paths:
     - public
