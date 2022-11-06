@@ -22,7 +22,7 @@ before_script:
   - mkdir -p ~/.ssh
   - chmod 700 ~/.ssh
   - ssh-keyscan web.cotech.uk > ~/.ssh/known_hosts
-  - ssh-keyscan 81.95.52.59 > ~/.ssh/known_hosts
+  - ssh-keyscan 81.95.52.59 >> ~/.ssh/known_hosts
   - chmod 644 ~/.ssh/known_hosts
   - bundle install --path vendor
 
