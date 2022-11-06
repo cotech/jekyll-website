@@ -49,7 +49,6 @@ deploy:dev:
     url: https://dev.coops.tech
   only:
     - master
-    - servermigration
 
 deploy:production:
   stage: production
@@ -64,7 +63,6 @@ deploy:production:
     url: https://www.coops.tech
   only:
     - master
-    - servermigration
   when: manual
 
 after_script:
