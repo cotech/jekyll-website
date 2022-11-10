@@ -1,3 +1,4 @@
+---
 title: Fractals
 name: Fractals
 members: 4
@@ -11,5 +12,3 @@ longitude: 1.7420506
 clients: 
 services: 
 technologies: 
-
-
