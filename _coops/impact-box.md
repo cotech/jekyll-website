@@ -1,8 +1,8 @@
 title: Impact Box
 name: Impact Box
-members:
+members: 7
 website: https://impactbox.coop/
-email: hello@fractals.coop
+email: hello@impactbox.coop
 twitter: 
 github:
 address: Lytchett House Wareham Road, Lytchett Matravers, Poole, England, BH16 6FA

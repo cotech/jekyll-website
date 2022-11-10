@@ -1,6 +1,6 @@
 title: Fractals
 name: Fractals
-members:
+members: 4
 website: https://fractals.coop/
 email: hello@fractals.coop
 twitter: 
