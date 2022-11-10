@@ -11,4 +11,8 @@ latitude: 55.0497996
 longitude: 1.7420506
 clients: 
 services: 
+- strategy
 technologies: 
+---
+
+Impact Box... 
