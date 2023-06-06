@@ -17,6 +17,7 @@ services:
       BUNDLE_PATH: /vendor
     command: >
       sh -c '
+        gem update --system &&
         bundle &&
         bundle exec jekyll build --destination /site --watch
       '
