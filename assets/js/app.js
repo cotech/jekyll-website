@@ -9,12 +9,12 @@ var app = window.app || {};
 
 var mapboxAccessToken = window.mapboxAccessToken || '';
 
-app.apiUrl = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=' + mapboxAccessToken;
+app.apiUrl = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=' + mapboxAccessToken;
 
 app.tileLayerOptions = {
     maxZoom: 18,
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' + '<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' + 'Imagery © <a href="http://mapbox.com">Mapbox</a>',
-    id: 'mapbox.streets',
+    id: 'mapbox/streets-v12',
     token: window.mapboxAccessToken
 };
 
