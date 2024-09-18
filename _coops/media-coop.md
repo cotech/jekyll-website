@@ -30,18 +30,9 @@ services:
 - user-research
 - web-design
 technologies: 
-- angular
-- django-2
-- htmlcss
-- invision
-- java
-- photoshop
-- adobe-premiere-pro
-- python
-- symfony
 - wordpress
 ---
 
-media co-op’s friendly, committed, creative team brings together years of experience creating powerful, engaging, accessible and award-winning work for communications, campaigning, promotion, education, training and broadcast.
+media co-op creates powerful, engaging, accessible award-winning film, animation and design for third and public sector communications, advocacy, campaigning, promotion, education and training.
 
-We specialize in producing film, animation, web, apps and social media for third and public sector partners; and we have a particular enthusiasm for projects involving co-design and participation where service-users, volunteers and staff can get involved.
+We specialize in co-production, co-design and participation involving service-users, volunteers, staff and stakeholders.
