@@ -7,6 +7,8 @@ append_email_form: true
 
 Our vision is a fairer world in which wealth and resources are distributed to the people who need them rather than those best able to take them.
 
+Co-operative Technologists (CoTech) is made up of UK based workers co-ops that are members of [workers.coop](https://www.workers.coop/) &mdash; to join CoTech you need to first [join workers.coop](https://www.workers.coop/join/).
+
 ## Why join CoTech?
 
 As an existing worker cooperative there are many reasons why you might want to join the fastest growing UK tech worker coop network.
