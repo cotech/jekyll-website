@@ -1,15 +1,15 @@
 ---
 title: Creative Coop
 name: Creative Coop
-members: 4
+members: 5
 website: https://creative.coop
 email: hello@creative.coop
 twitter: 
 github: 
 telephone: '01206 574147'
-address: 2 Balkerne House, Balkerne Passage,Colchester,United Kingdom,CO1 1PA
-latitude: 51.89010188809361
-longitude: 0.8957915683888586
+address: The Minories 74 High Street, Colchester, Essex CO1 1UE
+latitude: 51.889807069540005, 
+longitude: 0.9051138709545999
 clients: 
 - big-lottery-fund
 - co-operative-press-limited
