@@ -7,7 +7,7 @@ append_email_form: true
 
 Our vision is a fairer world in which wealth and resources are distributed to the people who need them rather than those best able to take them.
 
-Co-operative Technologists (CoTech) are members of [workers.coop](https://www.workers.coop/) &mdash; to join CoTech you need to first [join workers.coop](https://www.workers.coop/join/).
+Co-operative Technologists (CoTech) are part of [workers.coop](https://www.workers.coop/) &mdash; to join CoTech you need to first [join workers.coop](https://www.workers.coop/join/).
 
 ## Why join CoTech?
 
@@ -16,10 +16,10 @@ As an existing tech worker cooperative there are many reasons why you might want
 ### 1. More work and better business
 
 Joining the CoTech network will allow you to:
-* get referrals from other members,
-* collaborate or partner on projects,
-* supplement your team with skills that you don’t have,
-* meet the needs of your own clients.
+* get referrals from other members
+* collaborate or partner on projects
+* supplement your team with skills that you don’t have
+* meet the needs of your own clients
 
 Being part of a larger network can increase your own reputation as a business and value proposition that will enable you to win work and grow your business.
 
@@ -35,16 +35,17 @@ Sharing skills and knowledge helps us all to be more efficient and reduce the li
 
 ### 3. More support and a better network
 You will join a friendly and welcoming network of co-operative businesses and people. We support each other through
-* regular meetups and workshops,
-* peer-to-peer mentoring and shadowing,
-* access to private threads on our community forum,
-* co-working opportunities,
+* in person gatherings and workshops
+* regular online drop-ins
+* peer-to-peer mentoring and shadowing
+* access to private threads on our community forum
+* co-working opportunities
 
 Meeting like minded people is a crucial aspect of building trust and solidarity within the network and will provide a vital support network of like-minded individuals for your co-op.
 
 ## Who can join?
 
-To join CoTech you need to [join workers.coop](https://www.workers.coop/join/) and be a worker owned co-operative providing digital or technical services in the UK.
+To join CoTech you need to be a worker owned co-operative providing digital or technical services in the UK and [join workers.coop](https://www.workers.coop/join/).
 
 For more details on who can join and how to join, please see the wiki pages linked to below:
 
