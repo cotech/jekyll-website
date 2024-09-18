@@ -45,7 +45,7 @@ Meeting like minded people is a crucial aspect of building trust and solidarity 
 
 ## Who can join?
 
-To join CoTech you need to be a worker owned co-operative providing digital or technical services in the UK and [join workers.coop](https://www.workers.coop/join/).
+To join CoTech you need to be a worker owned co-operative providing digital or technical services in the UK, and [become a member of workers.coop](https://www.workers.coop/join/).
 
 For more details on who can join and how to join, please see the wiki pages linked to below:
 
