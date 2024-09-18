@@ -11,7 +11,7 @@ Co-operative Technologists (CoTech) is made up of UK based workers co-ops that a
 
 ## Why join CoTech?
 
-As an existing worker cooperative there are many reasons why you might want to join the fastest growing UK tech worker coop network.
+As an existing tech worker cooperative there are many reasons why you might want to join, workers.coop and CoTech.
 
 ### 1. More work and better business
 
