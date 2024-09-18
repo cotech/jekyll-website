@@ -50,6 +50,7 @@ technologies:
 - php
 - python
 - sql-server
+- wordpress
 ---
 
 **We are a design studio specialising in Branding, Design and Web Development.**
