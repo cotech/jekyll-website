@@ -11,7 +11,7 @@ Co-operative Technologists (CoTech) are part of [workers.coop](https://www.worke
 
 ## Why join CoTech?
 
-As an existing tech worker cooperative there are many reasons why you might want to join, workers.coop and CoTech.
+As an existing tech worker cooperative there are many [reasons why you might want to join, workers.coop](https://www.workers.coop/reasons-to-join/) and CoTech.
 
 ### 1. More work and better business
 
