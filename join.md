@@ -7,7 +7,7 @@ append_email_form: true
 
 Our vision is a fairer world in which wealth and resources are distributed to the people who need them rather than those best able to take them.
 
-Co-operative Technologists (CoTech) are members of [workers.coop](https://www.workers.coop/) &mdash; to join CoTech you need to first [join workers.coop](https://www.workers.coop/join/).
+Co-operative Technologists (CoTech) are part of [workers.coop](https://www.workers.coop/) &mdash; to join CoTech you need to first [join workers.coop](https://www.workers.coop/join/).
 
 ## Why join CoTech?
 
