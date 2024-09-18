@@ -15,7 +15,7 @@ At CoTech we openly share skills, knowledge, and resources to facilitate communi
 * seconding employees to each other to meet specific needs
 * working on projects together
 
-Governance of the CoTech network is a collaborative process. We make decisions by consensus using tools like [Loomio](https://www.loomio.com/d/IwREmaVl/co-operative-technologists-community), our [wiki](jttps://wiki.coops.tech/)), and [community forum](https://community.coops.tech/). All members are encouraged to participate and help shape our direction as we grow.
+Governance of the CoTech network is a collaborative process. We make decisions by consensus using tools like [Loomio](https://www.loomio.com/d/IwREmaVl/co-operative-technologists-community), our [wiki](jttps://wiki.coops.tech/), and [community forum](https://community.coops.tech/). All members are encouraged to participate and help shape our direction as we grow.
 
 The network was founded at <a href="https://wiki.coops.tech/wiki/Main_Page#Wortley_Hall_2016">an event on 14th November 2016</a> at [Wortley Hall -- the worker's stately home][wortley-hall] -- where many of us met for the very first time to share ideas, skills and plans for world domination.
 
