@@ -39,17 +39,18 @@ You will join a friendly and welcoming network of co-operative businesses and pe
 * peer-to-peer mentoring and shadowing,
 * access to private threads on our community forum,
 * co-working opportunities,
-* a private Slack channel.
 
 Meeting like minded people is a crucial aspect of building trust and solidarity within the network and will provide a vital support network of like-minded individuals for your co-op.
 
 ## Who can join?
 
-To join CoTech you need to be a worker owned co-operative providing digital or technical services in the UK.
+To join CoTech you need to [join workers.coop](https://www.workers.coop/join/) and be a worker owned co-operative providing digital or technical services in the UK.
+
 For more details on who can join and how to join, please see the wiki pages linked to below:
 
-* [https://wiki.coops.tech/wiki/Who_can_join_CoTech](https://wiki.coops.tech/wiki/Who_can_join_CoTech)
-* [https://wiki.coops.tech/wiki/How_to_join_CoTech](https://wiki.coops.tech/wiki/How_to_join_CoTech)
+* [workers.coop/join](https://www.workers.coop/join/)
+* [wiki.coops.tech/wiki/Who_can_join_CoTech](https://wiki.coops.tech/wiki/Who_can_join_CoTech)
+* [wiki.coops.tech/wiki/How_to_join_CoTech](https://wiki.coops.tech/wiki/How_to_join_CoTech)
 
 [about]: /about
 [manifesto]: /manifesto
