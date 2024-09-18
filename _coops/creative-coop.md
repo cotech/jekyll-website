@@ -8,7 +8,7 @@ twitter:
 github: 
 telephone: '01206 574147'
 address: The Minories 74 High Street, Colchester, Essex CO1 1UE
-latitude: 51.889807069540005, 
+latitude: 51.889807069540005
 longitude: 0.9051138709545999
 clients: 
 - big-lottery-fund
@@ -28,6 +28,7 @@ clients:
 services: 
 - artwork
 - branding-and-identity
+- development
 - hosting
 - illustration
 - logo-design
