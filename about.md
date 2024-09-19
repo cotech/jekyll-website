@@ -17,12 +17,12 @@ layout: default
 * seconding employees to each other to meet specific needs
 * working on projects together
 
-*Governance of the CoTech network is a collaborative process.* We make decisions by consensus using tools like [Loomio](https://www.loomio.com/d/IwREmaVl/co-operative-technologists-community), our [wiki](jttps://wiki.coops.tech/), and [community forum](https://community.coops.tech/). All members are encouraged to participate and help shape our direction as we grow.
+*Governance of the CoTech network is a collaborative process.* We make decisions by consensus using tools like [Loomio](https://www.loomio.com/cotech/), our [wiki](jttps://wiki.coops.tech/), and [community forum](https://community.coops.tech/). All members are encouraged to participate and help shape our direction as we grow.
 
 
 Read [our manifesto][manifesto], [contact us if you want to work with us][contact] or [join us][join].
 
-[Loomio]: https://www.loomio.org/g/oVwtKDOn/digital-co-ops
+[Loomio]: https://www.loomio.com/cotech/
 [wiki]: https://wiki.coops.tech/
 [wortley-hall]: https://www.wortleyhall.org.uk/
 [manifesto]: /manifesto
