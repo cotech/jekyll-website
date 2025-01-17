@@ -7,9 +7,9 @@ email: info@cetis.org.uk
 twitter: cetisllp
 github: 
 telephone: '07366025747'
-address: Halton Mill,Mill Lane,Halton,Lancaster,England,LA2 6ND
-latitude: 54.075809445607604
-longitude: -2.7540137502212474
+address: 17 Main Street,Ponteland,Newcastle Upon Tyne,NE20 9NH
+latitude: 55.049750
+longitude: -1.744077
 clients: 
 - hediip
 - hesa
