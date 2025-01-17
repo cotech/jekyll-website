@@ -5,22 +5,22 @@ members: 12
 website: http://www.cetis.org.uk/
 email: info@cetis.org.uk
 twitter: cetisllp
-github: 
+github:
 telephone: '07366025747'
 address: 17 Main Street,Ponteland,Newcastle Upon Tyne,NE20 9NH
-latitude: 55.049750
-longitude: -1.744077
-clients: 
+latitude: 55.0497996
+longitude: -1.7420506
+clients:
 - hediip
 - hesa
 - jisc
 - manchester-metropolitan-university
 - oxford-university-press
 - university-of-oxford
-services: 
+services:
 - consultancy
 - development
-technologies: 
+technologies:
 ---
 
 Cetis is a cooperative Limited Liability Partnership and an independent Strategic IT consultancy, specialising in learning, education and training.
