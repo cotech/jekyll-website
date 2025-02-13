@@ -29,19 +29,19 @@ clients:
 - neuronic-games
 - third-sector-accountancy
 services:
-- community-building
-- consultancy
-- design
 - development
+- consultancy
 - devops
 - domain-names
 - email
 - hosting
 - it-security
 - sysadmin
-- user-research
 - virtual-servers
+- graphic-design
 - web-design
+- user-research
+- community-building
 technologies:
 - ansible
 - bash
@@ -64,10 +64,12 @@ technologies:
 - php
 - postgresql
 - python
+- wordpress
 - rocket-chat
 - sandstorm
 - ubuntu
-- wordpress
+- javascript
+- reactjs
 ---
 
 We build technologies and infrastructure to empower users to make a positive impact on the world. All of our services reflect our commitment to our core values:
