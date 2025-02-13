@@ -3,22 +3,31 @@ title: Autonomic
 name: Autonomic
 members: 12
 website: https://autonomic.zone/
-email: helo@autonomic.zone
-twitter: autonomiccoop
-github:
+email: boop@autonomic.zone
+github: https://git.autonomic.zone/
+twitter: https://sunbeam.city/@autonomic
 telephone:
-address: 1539 Pershore Road,Stirchley,Birmingham,United Kingdom,B30 2JH
+address: 986 Pershore Road,Selly Park,Birmingham,United Kingdom,B29 7PX
 latitude: 51.563904
 longitude: -0.10793179999996028
 clients:
+- london-school-of-economics
+- kings-college-london
+- erasmus-student-network
+- coolfarm-alliance
+- fashion-revolution
+- iww
+- radhr
+- lumbung-space
+- open-data-services
+- food-data-collaboration
+- campaign-against-arms-trade
+- big-brother-watch
 - anarchy-rules
 - biobulkbende
 - good-night-out
-- iww
-- fashion-revolution
 - neuronic-games
 - third-sector-accountancy
-- campaign-against-arms-trade
 services:
 - community-building
 - consultancy
