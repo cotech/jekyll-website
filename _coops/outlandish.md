@@ -71,6 +71,7 @@ technologies:
 - symfony
 - wordpress
 - laravel
+- civicrm
 ---
 
 Outlandish is made up of around 20 collaborators and co-owners who love quality code, and apps that challenge the status quo.
