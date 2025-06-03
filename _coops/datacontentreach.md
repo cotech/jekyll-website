@@ -18,6 +18,8 @@ services:
 - strategy
 - user-research
 technologies:
+clients:
+- lgd
 ---
 
 Data Content Reach helps mission-focused organisations to succeed in the digital world.

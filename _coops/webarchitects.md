@@ -10,7 +10,7 @@ telephone: '+44 114 276 9709'
 address: Webarch Co-operative Limited,Harland Works,68a John Street,Sheffield,United Kingdom,S2 4QU
 latitude: 53.3704644
 longitude: -1.4748352999999952
-clients: 
+clients:
 - alitura-landscape-and-garden-design
 - atmoterra
 - badge-wiki
