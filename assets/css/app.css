@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'open_sansregular';
+  src: url("/assets/fonts/OpenSans-Regular-webfont.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sansbold';
+  src: url("/assets/fonts/OpenSans-Bold-webfont.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+p, li, a {
+  font-family: "open_sansregular", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  color: #1e2637;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "open_sansbold", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
