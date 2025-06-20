@@ -120,8 +120,24 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--cotech-light-grey);
 }
 
+.slice--blue {
+  background-color: var(--cotech-blue);
+}
+
 .slice-subtitle {
   color: var(--cotech-light-grey);
+}
+
+.slice--blue .slice_title {
+  color: var(--cotech-white);
+}
+
+.slice p {
+  max-width: 70ch;
+}
+
+.slice--blue p {
+  color: var(--cotech-white);
 }
 
 .metadata {
