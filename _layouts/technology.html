@@ -1,50 +1,31 @@
----
----
-
 <!doctype html>
 <html lang="en">
 
 {% include head.html %}
 
 <body>
-
   {% include header.html %}
 
-  <div class="technology">
+  <section>
+    <h1>Coops that use <span>{{ page.name }}</span></h1>
+    {% if page.description %}
+    <p>{{ page.description }}</p>
+    {% endif %}
+  </section>
 
-    <div id="page-banner">
-      <div class="row">
-        <div class="small-12 small-centered columns">
-          <h1>Coops that use <span>{{ page.name }}</span></h1>
-{% if page.description %}
-          <p>{{ page.description }}</p>
-{% endif %}
-        </div>
-      </div>
+  <section>
+    {% for coop in site.coops %}
+    {% if coop.technologies contains page.slug %}
+    <div>
+      <a href="{{ coop.url | relative_url }}" class="coop-thumb" id="#{{ coop.slug }}">
+        <img src="/images/coops/{{ coop.slug }}" alt="{{ coop.name }}">
+      </a>
     </div>
-
-    <div class="row">
-      <div class="small-12 columns">
-        <div id="grid">
-          <div class="row small-up-2 medium-up-4 large-up-6 small-collapse">
-            {% for coop in site.coops %}
-            {% if coop.technologies contains page.slug %}
-            <div class="column">
-              <a href="{{ coop.url | relative_url }}" class="coop-thumb" id="#{{ coop.slug }}">
-                <img src="/images/coops/{{ coop.slug }}" alt="{{ coop.name }}">
-              </a>
-            </div>
-            {% endif %}
-            {% endfor %}
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+    {% endif %}
+    {% endfor %}
+  </section>
 
   {% include footer.html %}
-
-  {% include javascripts.html %}
 </body>
 
 </html>
