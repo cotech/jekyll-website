@@ -120,6 +120,14 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--cotech-light-grey);
 }
 
+.slice--dark {
+  background-color: #212a3d;
+}
+
+.slice--darker {
+  background-color: #1e2637;
+}
+
 .slice--blue {
   background-color: var(--cotech-blue);
 }
@@ -138,6 +146,22 @@ h1, h2, h3, h4, h5, h6 {
 
 .slice--blue p {
   color: var(--cotech-white);
+}
+
+.slice--dark p {
+  color: var(--cotech-white);
+}
+
+.slice--dark a {
+  color: var(--cotech-white);
+}
+
+.slice--darker p {
+  color: #7b8290;
+}
+
+.slice--darker a {
+  color: #7b8290;
 }
 
 .metadata {
@@ -207,4 +231,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo-grid_img:hover {
   transform: scale(1.1);
+}
+
+.footer-links {
+  list-style-type: none;
+  display: flex;
+  gap: var(--space-lg);
 }
