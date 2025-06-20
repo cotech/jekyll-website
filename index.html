@@ -70,64 +70,6 @@ layout: home
   </div>
 </section>
 
-<section id="clients" data-magellan-target="clients">
-  <div class="row">
-    <div class="small-12 columns">
-      <h2>Clients</h2>
-      <p>Here are some of the amazing clients we have worked with so far</p>
-      <div id='client-list' class="row small-up-2 medium-up-3 large-up-6">
-        {% assign clients = site.clients %}
-        {% for client in clients %}
-          <div class="column client">
-            <div class="client-thumb" style='background-image: url(/images/clients/{{ client.slug }}') title="{{client.slug}}"></div>
-          </div>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="services" data-magellan-target="services">
-  <div class="row">
-    <div class="small-12 columns">
-
-      <h2>Services</h2>
-      <p>Here are the services the network are able to offer</p>
-
-      <div class="row small-up-3 medium-up-4 large-up-6 small-collapse">
-        {% for service in site.services %}
-          <div class="column">
-            <a href="{{ service.url | relative_url }}" class="service-thumb">
-              <div class="service-thumb-img float-center" style="background-image: url(/images/services/{{ service.slug }})"></div>
-              <h5>{{ service.name }}</h5>
-            </a>
-          </div>
-        {% endfor %}
-      </div>
-    </div>
-</section>
-
-<section id="technologies" data-magellan-target="technologies">
-  <div class="row">
-    <div class="small-12 columns">
-
-      <h2>Technologies</h2>
-      <p>Here are some of the technologies we are currently using - the list continues to grow!</p>
-
-      <div class="row small-up-3 medium-up-4 large-up-6">
-        {% for technology in site.technologies %}
-          <div class="column">
-            <a href="{{ technology.url | relative_url }}" class="technology-thumb">
-              <div class="technology-thumb-img" style="background-image: url(/images/technologies/{{ technology.slug }})"></div>
-              <h5>{{ technology.name }}</h5>
-            </a>
-          </div>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-</section>
-
 <section id="contact" data-magellan-target="contact">
   <div class="row">
     <div class="small-12 medium-6 small-centered columns">
