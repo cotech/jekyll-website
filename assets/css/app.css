@@ -132,8 +132,9 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--cotech-blue);
 }
 
-.slice-subtitle {
-  color: var(--cotech-light-grey);
+.slice_title {
+  font-family: "open_sansbold", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 2.5rem;
 }
 
 .slice--blue .slice_title {
@@ -162,6 +163,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .slice--darker a {
   color: #7b8290;
+}
+
+.slice_logo {
+  max-width: 200px;
 }
 
 .metadata {
@@ -236,5 +241,29 @@ h1, h2, h3, h4, h5, h6 {
 .footer-links {
   list-style-type: none;
   display: flex;
+  gap: var(--space-lg);
+}
+
+.two-column {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: var(--space-xl);
+  padding: var(--space-lg)
+}
+
+.two-column p {
+  max-width: 70ch;
+}
+
+.two-column_left {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.two-column_right {
+  display: flex;
+  flex-direction: column;
   gap: var(--space-lg);
 }
