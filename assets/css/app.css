@@ -20,3 +20,33 @@ p, li, a {
 h1, h2, h3, h4, h5, h6 {
   font-family: "open_sansbold", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
+
+.header {
+  display: flex;
+  padding: 1.4rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header a:hover {
+  text-decoration: underline;
+  color: #38aad5;
+}
+
+.header_logo-link {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.header_menu-list {
+  list-style-type: none;
+  display: flex;
+  gap: 0.7rem;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+}
