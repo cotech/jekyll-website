@@ -39,19 +39,20 @@ layout: home
   <p>If you’re a tech co-op or a co-operatively minded freelancer, <a href="/join">please join us</a>.
 </section>
 
-<section id="members">
-  <h2>Members</h2>
-  <p>Take a look at who is part of the CoTech network</p>
+<section id="members" class="slice">
+  <h2 class="slice_title">Members</h2>
+  <p class="slice_subtitle">Take a look at who is part of the CoTech network</p>
 
-  <ul>
+  <div class="logo-grid">
     {% for coop in site.coops %}
-    <li>
-      <a href="{{ coop.url | relative_url }}">{{ coop.name }}
-        <img src="/images/coops/{{ coop.slug }}" alt="" />
-      </a>
-    </li>
+    <a class="logo-grid_link" href="{{ coop.url | relative_url }}">
+      <div class="logo-grid_item">
+        <img class="logo-grid_img" src="/images/coops/{{ coop.slug }}" alt="{{ coop.name }}" />
+      </div>
+    </a>
     {% endfor %}
-  </ul>
+  </div>
+
 </section>
 
 <section>

@@ -120,6 +120,10 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--cotech-light-grey);
 }
 
+.slice-subtitle {
+  color: var(--cotech-light-grey);
+}
+
 .metadata {
   display: flex;
   gap: var(--space-xl);
@@ -142,4 +146,49 @@ h1, h2, h3, h4, h5, h6 {
 .metadata_value {
   font-size: 2.2rem;
   letter-spacing: 0.02em;
+}
+
+.logo-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+@media screen and (width >= 480px) {
+  .logo-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (width >= 720px) {
+  .logo-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (width >= 960px) {
+  .logo-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.logo-grid_item {
+  width: 240px;
+  height: 120px;
+  border: 1px solid var(--cotech-light-grey);
+  padding: var(--space-sm);
+}
+
+.logo-grid_link {
+  width: 100%;
+}
+
+.logo-grid_img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform .2s;
+}
+
+.logo-grid_img:hover {
+  transform: scale(1.1);
 }
