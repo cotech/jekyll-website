@@ -50,3 +50,41 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1rem;
   letter-spacing: 0.05em;
 }
+
+.hero {
+  width: 100%;
+  padding: 8rem;
+  background-image: url(/assets/img/banner-collage.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  text-align: center;
+
+}
+
+.hero_body {
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 1.6;
+  color: #ffffff;
+  max-width: 50ch;
+}
+
+.hero_title {
+  display: none;
+}
+
+.hero_button {
+  cursor: pointer;
+  padding: 1rem;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.hero_button a {
+  color: white;
+}
