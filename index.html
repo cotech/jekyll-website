@@ -3,33 +3,35 @@ title: CoTech
 layout: home
 ---
 
-<section>
-  <div>
-    <h6>Co-ops</h6>
-    <h5>{{ site.coops.size }}</h5>
-  </div>
+<section class="slice slice--light-grey">
+  <div class="metadata">
+    <div class="metadata_item">
+      <h6 class="metadata_heading">Co-ops</h6>
+      <h5 class="metadata_value">{{ site.coops.size }}</h5>
+    </div>
 
-  <div>
-    <h6>Staff</h6>
-    {% assign total_members = 0 %}
-    {% for coop in site.coops %}
-    {% assign total_members = total_members | plus: coop.members %}
-    {% endfor %}
-    <h5>{{ total_members }}+</h5>
-  </div>
+    <div class="metadata_item">
+      <h6 class="metadata_heading">Staff</h6>
+      {% assign total_members = 0 %}
+      {% for coop in site.coops %}
+      {% assign total_members = total_members | plus: coop.members %}
+      {% endfor %}
+      <h5 class="metadata_value">{{ total_members }}+</h5>
+    </div>
 
-  <div>
-    <h6>Revenue</h6>
-    <h5>£10.3m</h5>
-  </div>
+    <div class="metadata_item">
+      <h6 class="metadata_heading">Revenue</h6>
+      <h5 class="metadata_value">£10.3m</h5>
+    </div>
 
-  <div>
-    <h6>Clients</h6>
-    <h5>{{ site.clients.size }}+</h5>
+    <div class="metadata_item">
+      <h6 class="metadata_heading">Clients</h6>
+      <h5 class="metadata_value">{{ site.clients.size }}+</h5>
+    </div>
   </div>
 </section>
 
-<section>
+<section class="slice slice--light-grey">
   <p>Co-tech is a network of ethical tech, digital and creative co-operatives.</p>
   <p>We're part of <a href="https://www.workers.coop">workers.coop</a>, <a href="/join">join us!</a></p>
   <p>Working with co-operatives has major benefits: you’ll work directly with the people who own the business, who have a stake in making sure your project succeeds. With no private shareholders drawing out dividends, you’ll get genuine value for money.  And on top of that, you’ll get the benefit of working with small and responsive businesses which draw on the skills, specialisms and security of a large network.</p>

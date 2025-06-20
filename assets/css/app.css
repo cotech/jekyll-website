@@ -23,13 +23,15 @@
   --space-xxl:  calc(5.25 * var(--space-unit));
 
   --cotech-white: white;
-  --cotech-grey: #1e2637;
+  --cotech-light-grey: #f7f7f5;
+  --cotech-grey: #7b8290;
+  --cotech-dark-grey: #1e2637;
   --cotech-blue: #38aad5;
 }
 
 p, li, a {
   font-family: "open_sansregular", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  color: var(--cotech-grey);
+  color: var(--cotech-dark-grey);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -102,4 +104,42 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero_button a {
   color: var(--cotech-white);
+}
+
+.slice {
+  width: 100%;
+  padding: var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-sm);
+  text-align: center;
+}
+
+.slice--light-grey {
+  background-color: var(--cotech-light-grey);
+}
+
+.metadata {
+  display: flex;
+  gap: var(--space-xl);
+}
+
+.metadata_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.metadata_heading {
+  font-family: "open_sansregular", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  text-transform: uppercase;
+  color: var(--cotech-grey);
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+}
+
+.metadata_value {
+  font-size: 2.2rem;
+  letter-spacing: 0.02em;
 }
