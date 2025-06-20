@@ -55,4 +55,4 @@ Find out more about who can join and how to join on the following pages:
 * [wiki.coops.tech/wiki/How_to_join_CoTech](https://wiki.coops.tech/wiki/How_to_join_CoTech)
 
 [about]: /about
-[manifesto]: /manifesto
+[manifesto]: /about#manifesto
