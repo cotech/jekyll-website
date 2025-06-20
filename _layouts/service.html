@@ -19,7 +19,7 @@
           <h1>Coops that offer <span>{{ page.name }}</span></h1>
 {% if page.description %}
           <p>{{ page.description }}</p>
-{% endif %}          
+{% endif %}
         </div>
       </div>
     </div>
@@ -27,59 +27,18 @@
     <div class="row">
       <div class="small-12 columns">
 
-        <div class="view float-center">
-          <ul class="tabs" data-tabs id="coops-view-tabs">
-            <li class="tabs-title is-active"><a href="#grid" aria-selected="true">Grid</a></li>
-            <li class="separator">|</li>
-            <li class="tabs-title"><a href="#map">Map</a></li>
-          </ul>
-        </div>
-
-        <div class="tabs-content" data-tabs-content="coops-view-tabs">
-          <!-- START Grid View Content -->
-          <div class="tabs-panel is-active" id="grid">
-            <div class="row small-up-2 medium-up-4 large-up-6 small-collapse">
-              {% for coop in site.coops %}
-                {% if coop.services contains page.slug %}
-                  <div class="column">
-                    <a href="{{ coop.url | relative_url }}" class="coop-thumb" id="#{{ coop.slug }}">
-                      <img src="/images/coops/{{ coop.slug }}" alt="{{ coop.name }}">
-                    </a>
-                  </div>
-                {% endif %}
-              {% endfor %}
+        <div id="grid">
+          <div class="row small-up-2 medium-up-4 large-up-6 small-collapse">
+            {% for coop in site.coops %}
+            {% if coop.services contains page.slug %}
+            <div class="column">
+              <a href="{{ coop.url | relative_url }}" class="coop-thumb" id="#{{ coop.slug }}">
+                <img src="/images/coops/{{ coop.slug }}" alt="{{ coop.name }}">
+              </a>
             </div>
+            {% endif %}
+            {% endfor %}
           </div>
-          <!-- END Grid View Content -->
-
-          <!-- START Map View Content -->
-          <div class="tabs-panel" id="map">
-            <div class="row small-up-2 medium-up-4 large-up-6 small-collapse">
-              <div id="map-services"></div>
-              <script type="text/javascript">
-                var mapEntries = [
-                  {% for coop in site.coops %}
-                    {% if coop.services contains page.slug %}
-                      {
-                        lat: {{ coop.latitude }},
-                        lng: {{ coop.longitude }},
-                        markerText: '<b><a href=\"{{ coop.url | relative_url }}\">{{ coop.name }}</a></b><br><br>{{ coop.address | split: "," | join: "<br>" }}'
-                      },
-                    {% endif %}
-                  {% endfor %}
-                ];
-
-                $(document).ready(function() {
-                    var map = window.app.createMapMultiMarker('map-services', 54.7, -4.2, 6, mapEntries);
-                    $('#coops-view-tabs').on('change.zf.tabs', function() {
-                      map.invalidateSize();
-                    });
-                });
-
-              </script>
-            </div>
-          </div>
-          <!-- END Map View Content -->
         </div>
       </div>
     </div>
