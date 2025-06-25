@@ -26,7 +26,10 @@
   --cotech-light-grey: #f7f7f5;
   --cotech-grey: #7b8290;
   --cotech-dark-grey: #1e2637;
+  --cotech-light-blue: #7b8290;
   --cotech-blue: #38aad5;
+  --cotech-dark-blue: #212a3d;
+  --cotech-darker-blue: #1e2637;
 }
 
 p, li, a {
@@ -121,11 +124,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .slice--dark {
-  background-color: #212a3d;
+  background-color: var(--cotech-dark-blue);
 }
 
 .slice--darker {
-  background-color: #1e2637;
+  background-color: var(--cotech-darker-blue);
 }
 
 .slice--blue {
@@ -158,11 +161,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .slice--darker p {
-  color: #7b8290;
+  color: var(--cotech-light-blue);
 }
 
 .slice--darker a {
-  color: #7b8290;
+  color: var(--cotech-light-blue);
 }
 
 .slice_logo {
