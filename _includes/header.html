@@ -5,6 +5,14 @@
     </a>
   </div>
   <div>
+    <button class="header_burger-btn" aria-label="Toggle menu">
+      <svg class="header_burger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+        <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <svg class="header_close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+        <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </button>
     <ul class="header_menu-list">
       <li><a href="/#members">Members</a></li>
       <li><a href="/about">About</a></li>
@@ -12,4 +20,23 @@
       <li><a href="/#contact">Contact</a></li>
     </ul>
   </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const burgerBtn = document.querySelector('.header_burger-btn');
+      const menuList = document.querySelector('.header_menu-list');
+
+      burgerBtn.addEventListener('click', function() {
+        menuList.classList.toggle('active');
+        burgerBtn.classList.toggle('active');
+      });
+
+      const menuLinks = document.querySelectorAll('.header_menu-list a');
+      menuLinks.forEach(link => {
+        link.addEventListener('click', function() {
+          menuList.classList.remove('active');
+        });
+      });
+    });
+  </script>
 </header>
