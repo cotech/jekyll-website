@@ -118,7 +118,7 @@ section.content h2 {
 
 .hero {
   width: 100%;
-  padding: var(--space-xxl);
+  padding: var(--space-lg) var(--space-sm);
   background-image: url(/assets/img/banner-collage.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -128,6 +128,12 @@ section.content h2 {
   gap: var(--space-md);
   align-items: center;
   text-align: center;
+}
+
+@media screen and (width >= 480px) {
+  .hero {
+    padding: var(--space-xxl);
+  }
 }
 
 .hero_body {
@@ -155,12 +161,18 @@ section.content h2 {
 
 .slice {
   width: 100%;
-  padding: var(--space-lg);
+  padding: var(--space-sm);
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: var(--space-sm);
   text-align: center;
+}
+
+@media screen and (width >= 480px) {
+  .slice {
+    padding: var(--space-lg);
+  }
 }
 
 .slice--light-grey {
@@ -217,8 +229,14 @@ section.content h2 {
 }
 
 .metadata {
-  display: flex;
-  gap: var(--space-xl);
+  display: none;
+}
+
+@media screen and (width >= 480px) {
+  .metadata {
+    display: flex;
+    gap: var(--space-xl);
+  }
 }
 
 .metadata_item {
