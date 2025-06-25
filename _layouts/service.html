@@ -6,25 +6,26 @@
   <body>
     {% include header.html %}
 
-    <section>
-      <h1>Coops that offer <span>{{ page.name }}</span></h1>
-      {% if page.description %}
-      <p>{{ page.description }}</p>
-      {% endif %}
-    </section>
+    <div class="default-wrapper">
+      <section class="page-heading">
+        <h2>Coops that offer <span>{{ page.name }}</span></h2>
+        {% if page.description %}
+        <p>{{ page.description }}</p>
+        {% endif %}
+      </section>
 
-    <section>
-      {% for coop in site.coops %}
-      {% if coop.services contains page.slug %}
-      <div>
-        <a href="{{ coop.url | relative_url }}" class="coop-thumb" id="#{{ coop.slug }}">
-          <img src="/images/coops/{{ coop.slug }}" alt="{{ coop.name }}">
+      <div class="logo-grid">
+        {% for coop in site.coops %}
+        {% if coop.services contains page.slug %}
+        <a class="logo-grid_link" href="{{ coop.url | relative_url }}">
+          <div class="logo-grid_item">
+            <img class="logo-grid_img" src="/images/coops/{{ coop.slug }}" alt="{{ coop.name }}" />
+          </div>
         </a>
+        {% endif %}
+        {% endfor %}
       </div>
-      {% endif %}
-      {% endfor %}
-    </section>
-
+    </div>
     {% include footer.html %}
   </body>
 </html>
