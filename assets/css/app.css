@@ -312,9 +312,17 @@ section.content h2 {
 .two-column {
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   gap: var(--space-xl);
   padding: var(--space-lg)
+}
+
+@media screen and (width >= 480px) {
+  .two-column {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .two-column p {
