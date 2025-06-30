@@ -3,10 +3,11 @@ title: Asterisk Labs
 name: Asterisk Labs
 members: 3
 website: https://asterisk.coop/
+logo: asterisk-labs-white.png
 email: hello@asterisk.coop
 twitter: asterisk_labs
 address: 86-90 Paul Street, London, England, EC2A 4NE
-latitude: 51.52571799125181 
+latitude: 51.52571799125181
 longitude: -0.08362067116456023
 ---
 

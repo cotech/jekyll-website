@@ -3,6 +3,7 @@ title: Solidarity Economy Association
 name: Solidarity Economy Association
 members: 3
 website: https://www.solidarityeconomy.coop/
+logo: solidarity-economy-association-white.png
 email: info@solidarityeconomy.coop
 twitter: solidarityecon
 address: Community Base, 113 Queens Road, Brighton, BN1 3XG

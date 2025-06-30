@@ -380,10 +380,13 @@ section.content h2 {
 }
 
 .logo-grid_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 240px;
   height: 120px;
   border: 1px solid var(--cotech-light-grey);
-  padding: var(--space-md);
+  padding: var(--space-sm);
 }
 
 .logo-grid_link {
@@ -394,6 +397,7 @@ section.content h2 {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  filter: grayscale(100);
 }
 
 .logo-grid_img:hover {

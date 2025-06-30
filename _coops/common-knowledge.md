@@ -3,6 +3,7 @@ title: Common Knowledge
 name: Common Knowledge
 members: 4
 website: https://commonknowledge.coop/
+logo: common-knowledge-white.png
 email: hello@commonknowledge.coop
 twitter: cmmonknowledge
 github: commonknowledge

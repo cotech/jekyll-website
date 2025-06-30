@@ -3,6 +3,7 @@ title: We Are Open Co-op
 name: We Are Open Co-op
 members: 4
 website: http://weareopen.coop/
+logo: we-are-open-white.png
 email: hello@weareopen.coop
 twitter: weareopen
 github: hello%40weareopen.html
@@ -10,7 +11,7 @@ telephone: 'N/A'
 address: the Internet
 latitude: 19.37218875
 longitude: -72.3346544510523
-clients: 
+clients:
 - greenpeace
 - redhat
 - the-catalyst
@@ -22,7 +23,7 @@ clients:
 - sussex-downs-college
 - tapyness
 - university-of-south-hampton
-services: 
+services:
 - artwork
 - branding-and-identity
 - community-building
@@ -32,7 +33,7 @@ services:
 - leadership-development
 - strategy
 - user-research
-technologies: 
+technologies:
 - htmlcss
 - adobe-illustrator
 - indesign

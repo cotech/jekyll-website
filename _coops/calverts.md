@@ -3,6 +3,7 @@ title: Calverts
 name: Calverts
 members: 13
 website: http://www.calverts.coop/
+logo: calverts-white.png
 email: info@calverts.coop
 twitter: calverts_print_london
 github: calverts
@@ -10,7 +11,7 @@ telephone: "+44 (0) 20 7739 1474"
 address: 9-10 The Oval,London,UK,E2 9DT
 latitude: 51.53326029999999
 longitude: -0.05884240000000318
-clients: 
+clients:
 - ace-hotel
 - banksy
 - bates-wells-braithwaite-llp
@@ -34,7 +35,7 @@ clients:
 - swarovski
 - university-college-london
 - wrangler
-services: 
+services:
 - artwork
 - binding-and-special-effects
 - branding-and-identity
@@ -53,7 +54,7 @@ services:
 - printing
 - reprographics
 - web-design
-technologies: 
+technologies:
 - epson
 - heidelberg
 - adobe-illustrator
@@ -73,7 +74,7 @@ Calverts is a creative design, print and production coop in Bethnal Green, east 
 
 We design and produce all kinds of 2D media, from print to web, display, wayfinding and exhibition.
 
-Calverts design and reprographics studio creates and implements visual identities, brand graphics, campaigns, publications and websites. Our services range from communication strategy, design consultancy and workshops to copywriting, illustration, photography, artwork, typesetting and page makeup.  
+Calverts design and reprographics studio creates and implements visual identities, brand graphics, campaigns, publications and websites. Our services range from communication strategy, design consultancy and workshops to copywriting, illustration, photography, artwork, typesetting and page makeup.
 
 Calverts in house print includes Heidelberg offset litho, digital, large format inkjet, giclée and Risograph. We’re experts in the latest and best print technology, as well as traditional craft and special applications. We deliver, fulfill and mail out locally and across the world.
 

@@ -3,6 +3,7 @@ title: Cetis LLP
 name: Cetis LLP
 members: 12
 website: http://www.cetis.org.uk/
+logo: cetis-llp-white.png
 email: info@cetis.org.uk
 twitter: cetisllp
 github:

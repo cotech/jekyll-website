@@ -3,14 +3,15 @@ title: MC3
 name: MC3
 members: 2
 website: http://mc3.coop
+logo: mc3-white.png
 email: contact@mc3.coop
-twitter: 
-github: 
+twitter:
+github:
 telephone: '+44 1484 846231'
 address: 24 Bridge Street, Slaithwaite, Huddersfield, HD7 5JN
 latitude: 53.6466645
 longitude: -1.7822482
-clients: 
+clients:
 services:
 - business-analysis
 - business-systems

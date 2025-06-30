@@ -3,6 +3,7 @@ title: Data Content Reach
 name: Data Content Reach
 members: 3
 website: https://datacontentreach.co/
+logo: datacontentreach-white.png
 email: hello@datacontentreach.co
 telephone: '07714098369'
 address: Glossop Gasworks, Arundel Street, Glossop, SK138HZ
