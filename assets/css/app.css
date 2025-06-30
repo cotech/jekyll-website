@@ -1,13 +1,27 @@
 @font-face {
   font-family: 'open_sansregular';
-  src: url("/assets/fonts/OpenSans-Regular-webfont.woff");
+  src: url("/assets/fonts/OpenSans-Regular-webfont.ttf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'open_sansbold';
-  src: url("/assets/fonts/OpenSans-Bold-webfont.woff");
+  src: url("/assets/fonts/OpenSans-Bold-webfont.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'source_serif_regular';
+  src: url("/assets/fonts/SourceSerif4-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'source_serif_bold';
+  src: url("/assets/fonts/SourceSerif4-Bold.ttf");
   font-weight: normal;
   font-style: normal;
 }
@@ -23,29 +37,36 @@
   --space-xxl:  calc(5.25 * var(--space-unit));
 
   --cotech-white: white;
-  --cotech-light-grey: #f7f7f5;
+  --cotech-black: #000000;
+  --cotech-light-grey: #646464;
   --cotech-grey: #7b8290;
   --cotech-dark-grey: #1e2637;
   --cotech-light-blue: #7b8290;
-  --cotech-blue: #38aad5;
+  --cotech-blue: #2da9d7;
+  --cotech-blue-10-percent-tint: #42b2db;
   --cotech-dark-blue: #212a3d;
   --cotech-darker-blue: #1e2637;
 }
 
 p, li, a {
   font-family: "open_sansregular", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  color: var(--cotech-dark-grey);
+  color: var(--cotech-white);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "open_sansbold", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "source_serif_regular", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  color: var(--cotech-white);
+}
+
+body {
+  background-color: var(--cotech-black);
 }
 
 .default-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: var(--space-lg);
+  gap: var(--space-sm);
   margin-bottom: var(--space-lg);
 }
 
@@ -54,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   align-items: center;
   gap: var(--space-md);
-  padding: var(--space-md);
+  padding: var(--space-sm);
   text-align: center;
 }
 
@@ -72,6 +93,12 @@ section.content {
   width: 100%;
 }
 
+@media screen and (width >= 480px) {
+  section.content {
+    padding: var(--space-md);
+  }
+}
+
 section.content p {
   font-size: 1rem;
   line-height: 1.6rem;
@@ -87,18 +114,12 @@ section.content ul {
 section.content h2 {
   font-size: 1.5rem;
   line-height: 1.6rem;
-  margin-bottom: 1rem;
-}
-
-@media screen and (width >= 480px) {
-  section.content {
-    padding: var(--space-xl);
-  }
+  margin: 2rem 0;
 }
 
 .header {
   display: flex;
-  padding: var(--space-md);
+  padding: var(--space-lg) var(--space-md);
   align-items: center;
   justify-content: space-between;
 }
@@ -109,7 +130,6 @@ section.content h2 {
 
 .header a:hover {
   text-decoration: underline;
-  color: var(--cotech-blue);
 }
 
 .header_logo-link {
@@ -119,11 +139,16 @@ section.content h2 {
 }
 
 .header_menu-list {
+  font-family: 'open_sansbold';
   list-style-type: none;
   display: flex;
-  gap: var(--space-sm);
+  gap: var(--space-md);
   font-size: 1rem;
   letter-spacing: 0.05em;
+}
+
+.header_menu-list a {
+  font-family: 'open_sansbold';
 }
 
 .header_burger-btn {
@@ -132,7 +157,7 @@ section.content h2 {
   border: none;
   cursor: pointer;
   padding: var(--space-xs);
-  color: var(--cotech-dark-grey);
+  color: var(--cotech-white);
 }
 
 .header_close-icon {
@@ -154,7 +179,7 @@ section.content h2 {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: var(--cotech-white);
+    background-color: var(--cotech-black);
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -162,7 +187,6 @@ section.content h2 {
     font-size: 1.5rem;
     z-index: 1000;
     transform: translateX(-100%);
-    transition: transform 0.2s ease;
   }
 
   .header_menu-list.active {
@@ -185,11 +209,14 @@ section.content h2 {
 
 .hero {
   width: 100%;
-  padding: var(--space-lg) var(--space-sm);
-  background-image: url(/assets/img/banner-collage.jpg);
-  background-position: center center;
+  background-image: url(/assets/img/pixel-background.svg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.hero_container {
+  padding: var(--space-lg) var(--space-sm);
+  background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.1) 100%);
   display: flex;
   flex-direction: column;
   gap: var(--space-md);
@@ -198,7 +225,7 @@ section.content h2 {
 }
 
 @media screen and (width >= 480px) {
-  .hero {
+  .hero_container {
     padding: var(--space-xxl);
   }
 }
@@ -218,12 +245,17 @@ section.content h2 {
 .hero_button {
   cursor: pointer;
   padding: var(--space-sm);
-  border: 1px solid var(--cotech-white);
   border-radius: 4px;
+  background-color: var(--cotech-blue);
+}
+
+.hero_button:hover {
+  background-color: var(--cotech-blue-10-percent-tint);
 }
 
 .hero_button a {
   color: var(--cotech-white);
+  text-decoration: none;
 }
 
 .slice {
@@ -247,19 +279,18 @@ section.content h2 {
 }
 
 .slice--dark {
-  background-color: var(--cotech-dark-blue);
+  background-color: var(--cotech-black);
 }
 
 .slice--darker {
-  background-color: var(--cotech-darker-blue);
+  background-color: var(--cotech-black);
 }
 
 .slice--blue {
-  background-color: var(--cotech-blue);
+  background-color: var(--cotech-black);
 }
 
 .slice_title {
-  font-family: "open_sansbold", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 2.5rem;
 }
 
@@ -284,14 +315,15 @@ section.content h2 {
 }
 
 .slice--darker p {
-  color: var(--cotech-light-blue);
+  color: var(--cotech-light-grey);
 }
 
 .slice--darker a {
-  color: var(--cotech-light-blue);
+  color: var(--cotech-light-grey);
 }
 
 .slice_logo {
+  width: 200px;
   max-width: 200px;
 }
 
@@ -313,9 +345,8 @@ section.content h2 {
 }
 
 .metadata_heading {
-  font-family: "open_sansregular", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   text-transform: uppercase;
-  color: var(--cotech-grey);
+  color: var(--cotech-white);
   font-size: 0.95rem;
   letter-spacing: 0.02em;
 }
@@ -352,7 +383,7 @@ section.content h2 {
   width: 240px;
   height: 120px;
   border: 1px solid var(--cotech-light-grey);
-  padding: var(--space-sm);
+  padding: var(--space-md);
 }
 
 .logo-grid_link {
@@ -363,11 +394,10 @@ section.content h2 {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  transition: transform .2s;
 }
 
 .logo-grid_img:hover {
-  transform: scale(1.1);
+  opacity: 0.8;
 }
 
 .footer-links {

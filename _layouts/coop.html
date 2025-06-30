@@ -17,19 +17,19 @@
       <div class="two-column_left">
         {% if page.email %}
         <div>
-          <strong>Email:</strong>
+          <h5>Email:</h5>
           <p><a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
         </div>
         {% endif %}
         {% if page.telephone %}
         <div>
-          <strong>Tel:</strong>
+          <h5>Tel:</h5>
           <p>{{ page.telephone }}</p>
         </div>
         {% endif %}
         {% if page.address %}
         <div>
-          <strong>Address:</strong>
+          <h5>Address:</h5>
           <p>{{ page.address | split: "," | join: "<br>" }}</p>
         </div>
         {% endif %}
