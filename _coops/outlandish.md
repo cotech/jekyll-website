@@ -3,7 +3,7 @@ title: Outlandish
 name: Outlandish
 members: 9
 website: http://www.outlandish.com
-logo: outlandish.png
+logo: outlandish-white.png
 email: hello@outlandish.com
 twitter: outlandish
 github: outlandishideas
