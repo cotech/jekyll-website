@@ -428,6 +428,7 @@ section.content h2 {
 
 .two-column p {
   max-width: 70ch;
+  padding-bottom: 5px;
 }
 
 .two-column_left {
