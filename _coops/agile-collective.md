@@ -3,7 +3,7 @@ title: Agile Collective
 name: Agile Collective
 members: 12
 website: https://agile.coop/
-logo: agile-collective.png
+logo: agile-collective-white.png
 email: hello@agile.coop
 twitter: AgileCollective
 github: agilecollective
