@@ -5,9 +5,9 @@ members: 2
 website: https://jarrow-insights.co/
 logo: jarrow-insights-white.png
 email: team@jarrow-insights.co
-address: 113-115 Fonthill Rd, Finsbury Park, London N4 3HH
-latitude: 51.564548
-longitude: -0.108550
+address: Grow Studios 86 Wallis Rd Main yard London E9 5LN
+latitude: 51.543763740146005
+longitude: -0.02293571066218255
 services:
 - analytics
 - animation
