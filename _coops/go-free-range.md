@@ -3,7 +3,7 @@ title: Go Free Range
 name: Go Free Range
 members: 4
 website: https://gofreerange.com/
-logo: go-free-range.png
+logo: go-free-range-white.png
 email: lets@gofreerange.com
 twitter: freerange
 github: freerange
