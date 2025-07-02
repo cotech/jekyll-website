@@ -7,8 +7,6 @@ logo: we-are-open-white.png
 email: hello@weareopen.coop
 twitter: weareopen
 github: hello%40weareopen.html
-telephone: 'N/A'
-address: the Internet
 latitude: 19.37218875
 longitude: -72.3346544510523
 clients:
