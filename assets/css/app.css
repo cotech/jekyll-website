@@ -325,6 +325,7 @@ section.content h2 {
 .slice_logo {
   width: 200px;
   max-width: 200px;
+  filter: grayscale(100);
 }
 
 .metadata {
