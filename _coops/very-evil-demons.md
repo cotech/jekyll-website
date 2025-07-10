@@ -3,12 +3,25 @@ title: Very Evil Demons
 name: Very Evil Demons
 members: 5
 website: https://veryevildemons.com/
-logo: very-evil-demons.avif
+logo: very-evil-demons.png
 email: hello@veryevildemons.com
+twitter: veryevildemons
+github: veryevildemons
 services:
 - game-design
 - consultancy
 - development
+- prototyping
+- virtual-reality
+technologies:
+- c
+- fmod
+- godot
+- adobe-illustrator
+- maya
+- photoshop
+- unity-3d
+- wwise
 ---
 
 We are Very Evil Demons, a worker-owned game development studio based in Dundee, Scotland.
