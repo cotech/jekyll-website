@@ -13,15 +13,14 @@ AddOutputFilter DEFLATE svg
 AddOutputFilter DEFLATE css
 AddOutputFilter DEFLATE js
 # URL's that changed
-Redirect /co-op/the-dot-project https://www.coops.tech/co-op/dot-project
-Redirect /coops/ https://www.coops.tech/co-op/
-Redirect /technology/gnu-bash https://www.coops.tech/technology/bash
-Redirect /co-op/graphics-coop https://www.coops.tech/co-op/form-and-function
+Redirect /coops/ https://www.cotech.coop/co-op/
+Redirect /technology/gnu-bash https://www.cotech.coop/technology/bash
+Redirect /co-op/graphics-coop https://www.cotech.coop/co-op/form-and-function
 # Canonical URLs redirect to the domain with a www
 <IfModule mod_rewrite.c>
   RewriteEngine on
   RewriteCond %{HTTP_HOST} ^coops\.tech$
-  RewriteRule ^/?(.*) https://www.coops.tech/$1 [R,L] 
+  RewriteRule ^/?(.*) https://www.cotech.coop/$1 [R,L]
 </IfModule>
 # Redirect HTTP to HTTPS
 # https://wiki.apache.org/httpd/RewriteHTTPToHTTPS
