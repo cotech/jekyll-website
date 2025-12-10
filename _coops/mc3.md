@@ -1,32 +1,7 @@
 ---
-title: MC3
 name: MC3
-members: 2
 website: http://mc3.coop
 logo: mc3-white.png
-email: contact@mc3.coop
-twitter:
-github:
-telephone: '+44 1484 846231'
-address: 24 Bridge Street, Slaithwaite, Huddersfield, HD7 5JN
-latitude: 53.6466645
-longitude: -1.7822482
-clients:
-services:
-- business-analysis
-- business-systems
-- consultancy
-- database-solutions
-- domain-names
-- hosting
-technologies:
-- civicrm
-- debian
-- drupal
-- htmlcss
-- mysql
-- ubuntu
-- wordpress
 ---
 
 Consultancy, implementation, training and support services around the open source CRM system, CiviCRM. We also help our clients with their use of Civi’s two main host content management systems, Drupal and WordPress. Alongside this we provide wider advice and services on business process improvement, digital comms and marketing.

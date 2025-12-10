@@ -1,27 +1,7 @@
 ---
-title: Cetis LLP
 name: Cetis LLP
-members: 12
 website: http://www.cetis.org.uk/
 logo: cetis-llp-white.png
-email: info@cetis.org.uk
-twitter: cetisllp
-github:
-telephone: '07366025747'
-address: 17 Main Street,Ponteland,Newcastle Upon Tyne,NE20 9NH
-latitude: 55.0497996
-longitude: -1.7420506
-clients:
-- hediip
-- hesa
-- jisc
-- manchester-metropolitan-university
-- oxford-university-press
-- university-of-oxford
-services:
-- consultancy
-- development
-technologies:
 ---
 
 Cetis is a cooperative Limited Liability Partnership and an independent Strategic IT consultancy, specialising in learning, education and training.

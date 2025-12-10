@@ -1,37 +1,7 @@
 ---
-title: MediaBlaze Hosts
 name: MediaBlaze Hosts
-members:
 website: https://mediablazehosts.coop
 logo: mediablaze-hosts-white.png
-email: letschat@mediablazehosts.coop
-twitter: MediaBlazeHosts
-github: mediablazehosts
-telephone: '0333 335 0166'
-address: MediaBlaze Hosts, International House, 61 Mosley Street, Manchester, M2 3HZ
-latitude: 53.479140
-longitude: -2.241500
-clients:
-services:
-- consultancy
-- domain-names
-- email
-- hosting
-- it-security
-- virtual-servers
-technologies:
-- apache
-- centos
-- htmlcss
-- joomla
-- magento
-- mysql
-- nextcloud
-- node-js
-- openwrt
-- owncloud
-- php
-- phpbb
 ---
 
 MediaBlaze Hosts are an established co-operative web services provider with 15+ years experience.

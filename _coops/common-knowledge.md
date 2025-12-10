@@ -1,45 +1,7 @@
 ---
-title: Common Knowledge
 name: Common Knowledge
-members: 4
 website: https://commonknowledge.coop/
 logo: common-knowledge-white.png
-email: hello@commonknowledge.coop
-twitter: cmmonknowledge
-github: commonknowledge
-telephone:
-address: Space4, 113 Fonthill Road, London N4 3HH
-latitude: 51.56466
-longitude: -0.10876
-services:
-- branding-and-identity
-- community-building
-- consultancy
-- data-visualisation
-- database-solutions
-- development
-- devops
-- graphic-design
-- ideation
-- rapid-application-development
-- strategy
-- user-research
-- web-design
-technologies:
-- ansible
-- django-2
-- drupal
-- htmlcss
-- javascript
-- laravel
-- node-js
-- php
-- postgresql
-- python
-- reactjs
-- wordpress
-- ruby
-- ruby-on-rails
 ---
 
 Common Knowledge is a not-for-profit worker cooperative that designs and builds digital tools for grassroots activists.

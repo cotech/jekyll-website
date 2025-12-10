@@ -1,12 +1,6 @@
 ---
-title: Principle Six
 name: Principle Six
-email: caleb@principlesix.coop
 logo: principle_six-white.png
-services:
-- strategy
-- consultancy
-- community-building
 ---
 
 Principle Six offer support and advice on cooperative enterprise, developing and promoting cooperation in London and elsewhere. 
