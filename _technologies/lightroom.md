@@ -1,4 +1,0 @@
----
-title: Lightroom
-name: Lightroom
----

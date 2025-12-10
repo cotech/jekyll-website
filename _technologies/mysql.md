@@ -1,4 +1,0 @@
----
-title: MySQL
-name: MySQL
----

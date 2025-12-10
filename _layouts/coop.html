@@ -48,19 +48,6 @@
           <p>{{ content }}</p>
         </section>
 
-        {% if page.technologies %}
-        <section>
-          <h2 id="tech">Technologies</h2>
-
-          <ul>
-            {% for technology in page.technologies %}
-            {% assign t = site.technologies | where: "slug", technology | first %}
-            <li><a href="{{ t.url | relative_url }}">{{ t.name }}</a></li>
-            {% endfor %}
-          </ul>
-        </section>
-        {% endif %}
-
         {% if page.clients %}
         <section>
           <h2 id="clients">Clients</h2>

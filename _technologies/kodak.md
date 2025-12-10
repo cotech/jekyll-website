@@ -1,4 +1,0 @@
----
-title: Kodak
-name: Kodak
----

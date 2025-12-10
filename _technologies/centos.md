@@ -1,4 +1,0 @@
----
-title: CentOS
-name: CentOS
----

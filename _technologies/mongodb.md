@@ -1,4 +1,0 @@
----
-title: MongoDB
-name: MongoDB
----

@@ -1,4 +1,0 @@
----
-title: ThreeJS
-name: ThreeJS
----

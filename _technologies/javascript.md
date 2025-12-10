@@ -1,4 +1,0 @@
----
-title: JavaScript
-name: JavaScript
----

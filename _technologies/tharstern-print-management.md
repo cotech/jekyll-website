@@ -1,4 +1,0 @@
----
-title: Tharstern
-name: Tharstern
----

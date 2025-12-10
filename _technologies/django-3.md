@@ -1,4 +1,0 @@
----
-title: Django
-name: Django
----

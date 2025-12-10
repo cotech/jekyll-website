@@ -1,4 +1,0 @@
----
-title: Rust
-name: Rust
----

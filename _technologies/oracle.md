@@ -1,4 +1,0 @@
----
-title: Oracle
-name: Oracle
----

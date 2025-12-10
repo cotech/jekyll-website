@@ -1,4 +1,0 @@
----
-title: MediaWiki
-name: MediaWiki
----

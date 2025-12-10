@@ -1,4 +1,0 @@
----
-title: ReactJS
-name: ReactJS
----

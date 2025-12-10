@@ -1,4 +1,0 @@
----
-title: Ruby
-name: Ruby
----

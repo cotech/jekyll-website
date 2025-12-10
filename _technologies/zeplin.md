@@ -1,4 +1,0 @@
----
-title: Zeplin
-name: Zeplin
----

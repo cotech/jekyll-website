@@ -1,4 +1,0 @@
----
-title: VueJS
-name: VueJS
----

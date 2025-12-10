@@ -1,4 +1,0 @@
----
-title: Illustrator
-name: Illustrator
----

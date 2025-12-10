@@ -1,4 +1,0 @@
----
-title: GitLab
-name: GitLab
----

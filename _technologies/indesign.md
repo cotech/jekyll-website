@@ -1,4 +1,0 @@
----
-title: InDesign
-name: InDesign
----
