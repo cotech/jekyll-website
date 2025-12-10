@@ -1,4 +1,0 @@
----
-title: Reprographics
-name: Reprographics
----

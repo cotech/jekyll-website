@@ -1,4 +1,0 @@
----
-title: Artwork
-name: Artwork
----

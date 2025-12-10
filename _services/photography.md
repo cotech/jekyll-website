@@ -1,4 +1,0 @@
----
-title: Photography
-name: Photography
----

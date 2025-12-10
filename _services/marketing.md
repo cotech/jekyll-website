@@ -1,4 +1,0 @@
----
-title: Marketing
-name: Marketing
----
