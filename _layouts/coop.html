@@ -15,32 +15,6 @@
 
     <div class="two-column">
       <div class="two-column_left">
-        {% if page.email %}
-        <div>
-          <h5>Email:</h5>
-          <p><a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
-        </div>
-        {% endif %}
-        {% if page.telephone %}
-        <div>
-          <h5>Tel:</h5>
-          <p>{{ page.telephone }}</p>
-        </div>
-        {% endif %}
-        {% if page.address %}
-        <div>
-          <h5>Address:</h5>
-          <p>{{ page.address | split: "," | join: "<br>" }}</p>
-        </div>
-        {% endif %}
-        <div>
-          {% if page.twitter %}
-          <p><a href="http://twitter.com/{{ page.twitter }}" target="_blank">Twitter</a></p>
-          {% endif %}
-          {% if page.github %}
-          <p><a href="https://github.com/{{ page.github }}" target="_blank">Github</a></p>
-          {% endif %}
-        </div>
       </div>
 
       <div class="two-column_right">
