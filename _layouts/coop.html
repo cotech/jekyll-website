@@ -47,19 +47,6 @@
         <section>
           <p>{{ content }}</p>
         </section>
-
-        {% if page.clients %}
-        <section>
-          <h2 id="clients">Clients</h2>
-
-          <ul>
-            {% for client in page.clients %}
-            {% assign c = site.clients | where: "slug", client | first %}
-            <li>{{ c.title }}</li>
-            {% endfor %}
-          </ul>
-        </section>
-        {% endif %}
       </div>
     </div>
 
