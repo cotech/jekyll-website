@@ -410,36 +410,3 @@ section.content h2 {
   display: flex;
   gap: var(--space-lg);
 }
-
-.two-column {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: var(--space-xl);
-  padding: var(--space-lg)
-}
-
-@media screen and (width >= 480px) {
-  .two-column {
-    display: flex;
-    flex-direction: row;
-  }
-}
-
-.two-column p {
-  max-width: 70ch;
-  padding-bottom: 10px;
-}
-
-.two-column_left {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-sm);
-}
-
-.two-column_right {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-lg);
-}
