@@ -3,7 +3,7 @@ title: Autonomic
 name: Autonomic
 members: 12
 website: https://autonomic.zone/
-logo: autonomic-white
+logo: autonomic-white.png
 email: boop@autonomic.zone
 github: https://git.autonomic.zone/
 twitter: https://sunbeam.city/@autonomic
