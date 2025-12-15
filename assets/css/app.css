@@ -165,6 +165,10 @@ img.greyscale {
   filter: grayscale(100);
 }
 
+img.rounded {
+  border-radius: var(--space-sm);
+}
+
 section {
   padding: var(--space-sm);
 }
