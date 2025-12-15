@@ -153,6 +153,10 @@ h3.title {
   }
 }
 
+strong {
+  font-family: "open_sansbold", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
 body {
   background-color: var(--cotech-black);
 }
@@ -169,7 +173,7 @@ img.rounded {
   border-radius: var(--space-sm);
 }
 
-section {
+section, footer {
   padding: var(--space-sm);
 }
 
@@ -179,6 +183,7 @@ section {
   border-radius: var(--space-sm);
   padding: var(--space-sm);
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -331,5 +336,26 @@ section {
   .header_burger-btn {
     position: relative;
     z-index: 1001;
+  }
+}
+
+footer {
+  h3 {
+    border-left: none;
+    padding-left: 0;
+  }
+}
+
+@media screen and (width > 480px) {
+  footer {
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .reverse {
+      flex-direction: row-reverse;
+    }
   }
 }
