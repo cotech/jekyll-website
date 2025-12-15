@@ -32,6 +32,7 @@
   --cotech-white: white;
   --cotech-black: #000000;
   --cotech-light-grey: #646464;
+  --cotech-blue: #2DA9D7;
 }
 
 * {
@@ -58,6 +59,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "source_serif_regular", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   color: var(--cotech-white);
   font-weight: 400;
+}
+
+h1, h2 {
+  border-left: 4px solid var(--cotech-blue);
+  padding-left: var(--space-xs);
 }
 
 h3.title {
