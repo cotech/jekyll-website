@@ -177,7 +177,6 @@ section {
   display: flex;
   justify-content: center;
 }
-}
 
 .stack {
   display: flex;
@@ -213,6 +212,32 @@ section {
 .btn:hover {
   background: var(--cotech-black);
   color: var(--cotech-white);
+}
+
+.grid {
+  display: grid;
+  grid-gap: var(--space-sm);
+  grid-template-columns: 1fr;
+  align-items: stretch;
+}
+
+.grid a {
+  display: flex;
+  height: 100%;
+}
+
+.grid-dense {
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (min-width: 420px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-dense {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 
 .header {

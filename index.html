@@ -22,53 +22,55 @@ layout: default
   particularly when it comes to democratic ownership and
   decision-making.</p>
 
-  <div class="box stack">
-    <h3 class="title">Digital products & platforms</h3>
-    <ul>
-      <li>Websites & web apps  (WordPress, Drupal, Webflow, custom)</li>
-      <li>CMS / CRM design and development</li>
-      <li>E-commerce</li>
-      <li>Complex data integrations</li>
-      <li>Learning platforms</li>
-      <li>Custom AI applications</li>
-      <li>Data visualisation</li>
-      <li>Cloud hosting</li>
-    </ul>
-  </div>
+  <div class="grid">
+    <div class="box stack">
+      <h3 class="title">Digital products & platforms</h3>
+      <ul>
+        <li>Websites & web apps  (WordPress, Drupal, Webflow, custom)</li>
+        <li>CMS / CRM design and development</li>
+        <li>E-commerce</li>
+        <li>Complex data integrations</li>
+        <li>Learning platforms</li>
+        <li>Custom AI applications</li>
+        <li>Data visualisation</li>
+        <li>Cloud hosting</li>
+      </ul>
+    </div>
 
-  <div class="box stack">
-    <h3 class="title">Design & content</h3>
-    <ul>
-      <li>User research & testing</li>
-      <li>Design sprints & discovery</li>
-      <li>Accessibility & usability training</li>
-      <li>Branding & graphic design</li>
-      <li>Film & animation</li>
-      <li>Game design</li>
-      <li>Print production</li>
-    </ul>
-  </div>
+    <div class="box stack">
+      <h3 class="title">Design & content</h3>
+      <ul>
+        <li>User research & testing</li>
+        <li>Design sprints & discovery</li>
+        <li>Accessibility & usability training</li>
+        <li>Branding & graphic design</li>
+        <li>Film & animation</li>
+        <li>Game design</li>
+        <li>Print production</li>
+      </ul>
+    </div>
 
-  <div class="box stack">
-    <h3 class="title">Marketing & comms</h3>
-    <ul>
-      <li>Digital strategy & campaigns</li>
-      <li>Copywriting</li>
-      <li>Social media marketing</li>
-      <li>Search engine optimisation (SEO)</li>
-      <li>Generative engine optimisation (GEO)</li>
-      <li>Analytics & analysis</li>
-    </ul>
-  </div>
+    <div class="box stack">
+      <h3 class="title">Marketing & comms</h3>
+      <ul>
+        <li>Digital strategy & campaigns</li>
+        <li>Copywriting</li>
+        <li>Social media marketing</li>
+        <li>Search engine optimisation (SEO)</li>
+        <li>Generative engine optimisation (GEO)</li>
+        <li>Analytics & analysis</li>
+      </ul>
+    </div>
 
-  <div class="box stack">
-    <h3 class="title">Coop & organisational development</h3>
-    <ul>
-      <li>Cooperative Development</li>
-      <li>Facilitation</li>
-      <li>Sociocracy Training</li>
-      <li>Service Design</li>
-    </ul>
+    <div class="box stack">
+      <h3 class="title">Coop & organisational development</h3>
+      <ul>
+        <li>Cooperative Development</li>
+        <li>Facilitation</li>
+        <li>Sociocracy Training</li>
+        <li>Service Design</li>
+      </ul>
+    </div>
   </div>
 </section>
 
@@ -76,7 +78,7 @@ layout: default
   <h2>Our members</h2>
   <p class="intro">Meet the coops behind CoTech</p>
 
-  <div>
+  <div class="grid grid-dense">
     {% for coop in site.coops %}
     <a href="{{ coop.url | relative_url }}">
       <div class="box">
