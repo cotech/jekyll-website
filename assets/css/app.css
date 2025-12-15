@@ -46,7 +46,8 @@ div,
 header,
 nav,
 main,
-footer {
+footer,
+section {
   max-inline-size: none;
 }
 
@@ -173,8 +174,11 @@ img.rounded {
   border-radius: var(--space-sm);
 }
 
-section, footer {
+section, footer, header {
   padding: var(--space-sm);
+  max-inline-size: 1024px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .box {
