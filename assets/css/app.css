@@ -186,6 +186,28 @@ section {
   margin-block-start: var(--space, 1.4rem);
 }
 
+.btn {
+  padding: var(--space-sm) var(--space-lg);
+  background: var(--cotech-white);
+  color: var(--cotech-black);
+  text-decoration: none;
+  font-family: "open_sansbold", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  border-radius: var(--space-sm);
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.btn::after {
+  content: " →";
+}
+
+.btn:hover {
+  background: var(--cotech-black);
+  color: var(--cotech-white);
+}
+
 .header {
   display: flex;
   padding: var(--space-lg) var(--space-md);
