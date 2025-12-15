@@ -1,3 +1,0 @@
----
-title: Compassionate Revolution
----

@@ -1,3 +1,0 @@
----
-title: Pitsmoor Adventure Playground
----

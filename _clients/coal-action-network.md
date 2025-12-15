@@ -1,3 +1,0 @@
----
-title: Coal Action Network
----

@@ -1,3 +1,0 @@
----
-title: Big Lottery Fund
----

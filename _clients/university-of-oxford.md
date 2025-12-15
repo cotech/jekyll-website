@@ -1,3 +1,0 @@
----
-title: University of Oxford
----

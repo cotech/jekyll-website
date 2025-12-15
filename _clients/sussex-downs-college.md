@@ -1,3 +1,0 @@
----
-title: Sussex Downs College
----

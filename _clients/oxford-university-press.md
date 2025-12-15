@@ -1,3 +1,0 @@
----
-title: Oxford University Press
----

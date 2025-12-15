@@ -1,3 +1,0 @@
----
-title: William Morris House
----

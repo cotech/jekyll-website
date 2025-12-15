@@ -1,3 +1,0 @@
----
-title: Heritage Lottery Fund
----

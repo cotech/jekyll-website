@@ -1,3 +1,0 @@
----
-title: Plunkett Foundation
----

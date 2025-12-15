@@ -1,3 +1,0 @@
----
-title: Essex County Council
----

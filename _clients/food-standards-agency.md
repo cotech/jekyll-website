@@ -1,3 +1,0 @@
----
-title: Food Standards Agency
----

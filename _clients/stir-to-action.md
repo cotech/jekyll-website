@@ -1,3 +1,0 @@
----
-title: Stir To Action
----

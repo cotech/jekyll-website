@@ -1,3 +1,0 @@
----
-title: Birmingham Bike Foundry
----

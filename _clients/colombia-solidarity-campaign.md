@@ -1,3 +1,0 @@
----
-title: Colombia Solidarity Campaign
----

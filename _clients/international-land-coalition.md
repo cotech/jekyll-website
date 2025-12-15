@@ -1,3 +1,0 @@
----
-title: International Land Coalition
----

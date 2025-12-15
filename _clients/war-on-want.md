@@ -1,3 +1,0 @@
----
-title: War on Want
----

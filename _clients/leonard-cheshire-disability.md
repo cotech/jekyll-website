@@ -1,3 +1,0 @@
----
-title: Leonard Cheshire Disability
----

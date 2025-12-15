@@ -1,3 +1,0 @@
----
-title: Independent Labour Publications
----

@@ -1,3 +1,0 @@
----
-title: No Tar Sands
----
