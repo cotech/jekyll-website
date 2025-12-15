@@ -175,7 +175,7 @@ img.rounded {
 }
 
 section, footer, header {
-  padding: var(--space-sm);
+  padding: var(--space-md);
   max-inline-size: 1024px;
   margin-left: auto;
   margin-right: auto;
@@ -350,6 +350,22 @@ section, footer, header {
   .header_burger-btn {
     position: relative;
     z-index: 1001;
+  }
+}
+
+.hero__right {
+  display: none;
+}
+
+@media screen and (width > 480px) {
+  .hero {
+    display: grid;
+    gap: var(--space-xl);
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .hero__right {
+    display: inline;
   }
 }
 
