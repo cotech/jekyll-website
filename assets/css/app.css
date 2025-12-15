@@ -1,32 +1,25 @@
 @font-face {
   font-family: 'open_sansregular';
   src: url("/assets/fonts/OpenSans-Regular-webfont.ttf");
-  font-weight: normal;
-  font-style: normal;
 }
 
 @font-face {
   font-family: 'open_sansbold';
   src: url("/assets/fonts/OpenSans-Bold-webfont.ttf");
-  font-weight: normal;
-  font-style: normal;
 }
 
 @font-face {
   font-family: 'source_serif_regular';
   src: url("/assets/fonts/SourceSerif4-Regular.ttf");
-  font-weight: normal;
-  font-style: normal;
 }
 
 @font-face {
   font-family: 'source_serif_bold';
   src: url("/assets/fonts/SourceSerif4-Bold.ttf");
-  font-weight: normal;
-  font-style: normal;
 }
 
 :root {
+  --measure: 70ch;
   --space-unit: 1em;
   --space-xxs:  calc(0.25 * var(--space-unit));
   --space-xs:   calc(0.5 * var(--space-unit));
@@ -41,14 +34,116 @@
   --cotech-light-grey: #646464;
 }
 
+* {
+  max-inline-size: var(--measure);
+}
+
+html,
+body,
+div,
+header,
+nav,
+main,
+footer {
+  max-inline-size: none;
+}
+
 p, li, a {
   font-family: "open_sansregular", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   color: var(--cotech-white);
+  font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "source_serif_regular", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   color: var(--cotech-white);
+  font-weight: 400;
+}
+
+h3.title {
+  font-family: "open_sansregular", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  color: var(--cotech-white);
+  font-weight: 700;
+}
+
+
+@media (min-width: 48em) {
+  h1 {
+    font-size: calc(2.625rem + ((1vw - 0.48rem) * 2.8646));
+    line-height: calc(1.2 + ((1vw - 0.48) * -0.2083));
+    min-height: 0vw;
+  }
+
+  h2 {
+    font-size: calc(2rem + ((1vw - 0.48rem) * 1.7361));
+    line-height: calc(1.2 + ((1vw - 0.48) * -0.1389));
+    min-height: 0vw;
+  }
+
+  h3 {
+    font-size: calc(1.625rem + ((1vw - 0.48rem) * 1.2153));
+    line-height: calc(1.2 + ((1vw - 0.48) * -0.1389));
+    min-height: 0vw;
+  }
+
+  h3.title {
+    font-size: calc(1.25rem + ((1vw - 0.48rem) * 0.3472));
+    min-height: 0vw;
+  }
+
+  p.large {
+    font-size: calc(1.375rem + ((1vw - 0.48rem) * 0.6944));
+    min-height: 0vw;
+    line-height: 1.4;
+  }
+
+  p.intro {
+    font-size: calc(1.125rem + ((1vw - 0.48rem) * 0.1736));
+    min-height: 0vw;
+    line-height: 1.4;
+  }
+
+  p, li, a {
+    font-size: calc(0.875rem + ((1vw - 0.48rem) * 0.1736));
+    min-height: 0vw;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 120em) {
+  h1 {
+    font-size: 4.6875rem;
+    line-height: 1.05;
+  }
+
+  h2 {
+    font-size: 3.25rem;
+    line-height: 1.1;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+    line-height: 1.1;
+  }
+
+  h3.title {
+    font-size: 1.5rem;
+  }
+
+  p.large {
+    font-size: 1.875rem;
+    line-height: 1.4;
+  }
+
+  p.intro {
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  p, li, a {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
 }
 
 body {
