@@ -157,6 +157,10 @@ body {
   background-color: var(--cotech-black);
 }
 
+img {
+  object-fit: contain;
+}
+
 img.greyscale {
   filter: grayscale(100);
 }
