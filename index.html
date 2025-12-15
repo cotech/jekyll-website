@@ -22,7 +22,7 @@ layout: default
   particularly when it comes to democratic ownership and
   decision-making.</p>
 
-  <div>
+  <div class="box">
     <h3 class="title">Digital products & platforms</h3>
     <ul>
       <li>Websites & web apps  (WordPress, Drupal, Webflow, custom)</li>
@@ -36,7 +36,7 @@ layout: default
     </ul>
   </div>
 
-  <div>
+  <div class="box">
     <h3 class="title">Design & content</h3>
     <ul>
       <li>User research & testing</li>
@@ -49,7 +49,7 @@ layout: default
     </ul>
   </div>
 
-  <div>
+  <div class="box">
     <h3 class="title">Marketing & comms</h3>
     <ul>
       <li>Digital strategy & campaigns</li>
@@ -61,7 +61,7 @@ layout: default
     </ul>
   </div>
 
-  <div>
+  <div class="box">
     <h3 class="title">Coop & organisational development</h3>
     <ul>
       <li>Cooperative Development</li>
@@ -79,7 +79,7 @@ layout: default
   <div>
     {% for coop in site.coops %}
     <a href="{{ coop.url | relative_url }}">
-      <div>
+      <div class="box">
         <img class="greyscale" src="/images/coops/{{ coop.logo }}" alt="{{ coop.name }}" />
       </div>
     </a>

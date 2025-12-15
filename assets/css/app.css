@@ -32,6 +32,7 @@
   --cotech-white: white;
   --cotech-black: #000000;
   --cotech-light-grey: #646464;
+  --cotech-dark-grey: #222222;
   --cotech-blue: #2DA9D7;
 }
 
@@ -161,6 +162,13 @@ img.greyscale {
 }
 
 section {
+  padding: var(--space-sm);
+}
+
+.box {
+  background: linear-gradient(180deg, rgba(45, 169, 215, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+  border: 1px solid var(--cotech-dark-grey);
+  border-radius: var(--space-sm);
   padding: var(--space-sm);
 }
 
