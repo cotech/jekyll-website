@@ -201,6 +201,12 @@ section, footer {
   margin-block-start: var(--space, 1.4rem);
 }
 
+.switcher {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+}
+
 .btn {
   padding: var(--space-sm) var(--space-lg);
   background: var(--cotech-white);
