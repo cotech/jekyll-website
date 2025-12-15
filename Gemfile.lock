@@ -24,9 +24,6 @@ GEM
     ffi (1.17.2-x86_64-linux-gnu)
     ffi (1.17.2-x86_64-linux-musl)
     forwardable-extended (2.6.0)
-    geocoder (1.8.5)
-      base64 (>= 0.1.0)
-      csv (>= 3.0.0)
     google-protobuf (4.31.1)
       bigdecimal
       rake (>= 13)
@@ -158,7 +155,6 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
-  geocoder
   jekyll
 
 BUNDLED WITH
