@@ -5,15 +5,15 @@
   <body>
     {% include header.html %}
 
-    <section class="slice">
+    <section>
       <a href="{{ page.website }}" target="_blank">
-        <img class="slice_logo" src="/images/coops/{{ page.logo }}" alt="{{ page.slug }}">
+        <img src="/images/coops/{{ page.logo }}" alt="{{ page.slug }}">
       </a>
-      <h1 class="slice_title">{{ page.name }}</h1>
-      <a class="slice_subtitle" href="{{ page.website }}" target="_blank">{{ page.website }}</a>
+      <h1>{{ page.name }}</h1>
+      <a href="{{ page.website }}" target="_blank">{{ page.website }}</a>
     </section>
 
-    <section class="slice">
+    <section>
       <p>{{ content }}</p>
     </section>
 
