@@ -154,6 +154,10 @@ img.greyscale {
   filter: grayscale(100);
 }
 
+section {
+  padding: var(--space-sm);
+}
+
 .header {
   display: flex;
   padding: var(--space-lg) var(--space-md);
