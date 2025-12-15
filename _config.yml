@@ -9,9 +9,6 @@ exclude:
 - vendor
 - .idea
 collections:
-  clients:
-    title: Clients
-    output: false
   coops:
     title: Coops
     output: true
@@ -19,14 +16,6 @@ collections:
   posts:
     title: Posts
     output: true
-  services:
-    title: Services
-    output: true
-    permalink: "/service/:name"
-  technologies:
-    title: Technologies
-    output: true
-    permalink: "/technology/:name"
   uploads:
     title: Uploads
     output: true
@@ -36,14 +25,4 @@ defaults:
     type: coops
   values:
     layout: coop
-- scope:
-    path: ''
-    type: services
-  values:
-    layout: service
-- scope:
-    path: ''
-    type: technologies
-  values:
-    layout: technology
 forum: https://community.coops.tech/
