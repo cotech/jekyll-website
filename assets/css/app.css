@@ -211,6 +211,16 @@ section, footer, header {
   gap: var(--space-sm);
 }
 
+.large-only {
+  display: none;
+}
+
+@media screen and (width > 480px) {
+  .large-only {
+    display: inline;
+  }
+}
+
 .btn {
   padding: var(--space-sm) var(--space-lg);
   background: var(--cotech-white);
@@ -249,6 +259,10 @@ section, footer, header {
   grid-template-columns: 1fr 1fr;
 }
 
+.grid-uneven {
+  grid-gap: var(--space-lg);
+}
+
 @media (min-width: 420px) {
   .grid {
     grid-template-columns: 1fr 1fr;
@@ -256,6 +270,10 @@ section, footer, header {
 
   .grid-dense {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .grid-uneven {
+    grid-template-columns: 3fr 2fr;
   }
 }
 
@@ -350,22 +368,6 @@ section, footer, header {
   .header_burger-btn {
     position: relative;
     z-index: 1001;
-  }
-}
-
-.hero__right {
-  display: none;
-}
-
-@media screen and (width > 480px) {
-  .hero {
-    display: grid;
-    gap: var(--space-xl);
-    grid-template-columns: 3fr 2fr;
-  }
-
-  .hero__right {
-    display: inline;
   }
 }
 
