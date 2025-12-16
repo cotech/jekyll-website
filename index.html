@@ -93,7 +93,7 @@ layout: default
 
   <div class="grid grid-dense">
     {% for coop in site.coops %}
-    <a href="{{ coop.url | relative_url }}">
+    <a class="grid__link" href="{{ coop.url | relative_url }}">
       <div class="box">
         <img class="greyscale" src="/images/coops/{{ coop.logo }}" alt="{{ coop.name }}" />
       </div>

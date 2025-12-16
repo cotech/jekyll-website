@@ -240,7 +240,7 @@ section, footer, header {
   align-items: stretch;
 }
 
-.grid a {
+.grid__link {
   display: flex;
   height: 100%;
 }
