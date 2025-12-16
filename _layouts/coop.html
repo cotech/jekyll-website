@@ -2,21 +2,29 @@
 <html lang="en">
   {% include head.html %}
 
-  <body>
-    {% include header.html %}
+  <body class="padded">
+    <section class="coop-info-box">
+      <div class="coop-info-box__close">
+        <a href="/#members">
+          <img src="/assets/img/close.svg" alt="close" />
+        </a>
+      </div>
 
-    <section>
-      <a href="{{ page.website }}" target="_blank">
-        <img src="/images/coops/{{ page.logo }}" alt="{{ page.slug }}">
-      </a>
-      <h1>{{ page.name }}</h1>
-      <a href="{{ page.website }}" target="_blank">{{ page.website }}</a>
+      <div class="coop-info-box__logo">
+        <img class="greyscale" src="/images/coops/{{ page.logo }}" alt="{{ page.slug }}">
+      </div>
+
+      <div class="coop-info-box__content stack">
+        <p><strong>Co-operative name</strong></p>
+        <h2>{{ page.name }}</h2>
+
+        <p><strong>About this co-operative</strong></p>
+        {{ content }}
+
+        <p><strong>Co-operative website</strong></p>
+
+        <a class="btn" href="{{ page.website }}">{{ page.name }}</a>
+      </div>
     </section>
-
-    <section>
-      <p>{{ content }}</p>
-    </section>
-
-    {% include footer.html %}
   </body>
 </html>
