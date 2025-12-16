@@ -1,3 +1,0 @@
----
-title: Co-operatives UK
----

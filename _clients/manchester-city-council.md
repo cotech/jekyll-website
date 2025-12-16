@@ -1,3 +1,0 @@
----
-title: Manchester City Council
----

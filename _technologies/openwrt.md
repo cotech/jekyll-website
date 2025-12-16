@@ -1,4 +1,0 @@
----
-title: OpenWRT
-name: OpenWRT
----

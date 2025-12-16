@@ -1,4 +1,0 @@
----
-title: Drupal
-name: Drupal
----

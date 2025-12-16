@@ -1,3 +1,0 @@
----
-title: Media Reform Coalition
----

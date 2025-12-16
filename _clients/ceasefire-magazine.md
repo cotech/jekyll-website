@@ -1,3 +1,0 @@
----
-title: Ceasefire Magazine
----

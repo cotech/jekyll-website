@@ -1,4 +1,0 @@
----
-title: CiviCRM
-name: CiviCRM
----

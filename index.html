@@ -1,71 +1,31 @@
 ---
 title: CoTech
-layout: home
+layout: default
 ---
 
-<section class="slice">
-  <div class="metadata">
-    <div class="metadata_item">
-      <h6 class="metadata_heading">Co-ops</h6>
-      <h5 class="metadata_value">{{ site.coops.size }}</h5>
-    </div>
+<section class="grid grid-uneven">
+  <div class="stack">
+    <h1>We're building a cooperative digital economy</h1>
 
-    <div class="metadata_item">
-      <h6 class="metadata_heading">Staff</h6>
-      {% assign total_members = 0 %}
-      {% for coop in site.coops %}
-      {% assign total_members = total_members | plus: coop.members %}
-      {% endfor %}
-      <h5 class="metadata_value">{{ total_members }}+</h5>
-    </div>
+    <p class="large">CoTech is a UK-wide network of creative technology companies
+      fully owned and controlled by the people who do the work.</p>
 
-    <div class="metadata_item">
-      <h6 class="metadata_heading">Revenue</h6>
-      <h5 class="metadata_value">£10.3m</h5>
-    </div>
+    <img class="rounded" src="assets/img/richard.jpg" alt="" />
 
-    <div class="metadata_item">
-      <h6 class="metadata_heading">Clients</h6>
-      <h5 class="metadata_value">{{ site.clients.size }}+</h5>
+    <p>We design, build, and support digital and creative products for
+      organisations that want values-aligned tech.</p>
+
+    <div class="switcher">
+      <a class="btn" href="/hire">Hire our co-ops</a>
+      <a class="btn" href="/join">Join the network</a>
     </div>
+  </div>
+
+  <div class="large-only">
+    <img src="assets/img/decoration.svg" alt="" />
   </div>
 </section>
 
-<section class="slice">
-  <p>Co-tech is a network of ethical tech, digital and creative co-operatives.</p>
-  <p>We're part of <a href="https://www.workers.coop">workers.coop</a>, <a href="/join">join us!</a></p>
-  <p>Working with co-operatives has major benefits: you’ll work directly with the people who own the business, who have a stake in making sure your project succeeds. With no private shareholders drawing out dividends, you’ll get genuine value for money.  And on top of that, you’ll get the benefit of working with small and responsive businesses which draw on the skills, specialisms and security of a large network.</p>
-  <p>Browse our co-operatives and services or get in touch if you’d like us to help you find the right co-op partner.</p>
-  <p>If you’re a tech co-op or a co-operatively minded freelancer, <a href="/join">please join us</a>.
-</section>
+{% include services.html %}
 
-<section id="members" class="slice">
-  <h2 class="slice_title">Members</h2>
-  <p class="slice_subtitle">Take a look at who is part of the CoTech network</p>
-
-  <div class="logo-grid">
-    {% for coop in site.coops %}
-    <a class="logo-grid_link" href="{{ coop.url | relative_url }}">
-      <div class="logo-grid_item">
-        <img class="logo-grid_img" src="/images/coops/{{ coop.logo }}" alt="{{ coop.name }}" />
-      </div>
-    </a>
-    {% endfor %}
-  </div>
-
-</section>
-
-<section id="contact" class="slice slice--blue">
-  <h2 class="slice_title">Get In Touch</h2>
-  <p>All the members of CoTech are available to hire, and each has
-  different specialisms. We vary in size from 2 people to 40+
-  people. Browse the <a href="#members">members</a> and get in touch
-  with them directly. We're all committed to being honest about our
-  capabilites and capacities, and we'll refer you to a different co-op
-  if we think they'll offer you better value.</p>
-
-  <p>If you don't want to hire us but want to find out more about
-  co-ops, find a job in a co-op or discuss how technology can help
-  solve the world's myriad problems, contact us via
-  <a href="mailto:contact@cotech.coop">contact@cotech.coop</a>.</p>
-</section>
+{% include our_members.html %}

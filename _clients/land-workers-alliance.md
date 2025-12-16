@@ -1,3 +1,0 @@
----
-title: Land Workers Alliance
----

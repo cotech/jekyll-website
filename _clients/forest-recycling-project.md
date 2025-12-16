@@ -1,3 +1,0 @@
----
-title: Forest Recycling Project
----

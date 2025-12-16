@@ -1,3 +1,0 @@
----
-title: Disability Snowsports UK
----

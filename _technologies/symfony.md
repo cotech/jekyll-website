@@ -1,4 +1,0 @@
----
-title: Symfony
-name: Symfony
----

@@ -1,3 +1,0 @@
----
-title: Participatory Economics UK
----

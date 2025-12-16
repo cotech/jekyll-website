@@ -1,3 +1,0 @@
----
-title: Peace Brigades International
----

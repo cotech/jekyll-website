@@ -1,4 +1,0 @@
----
-title: Illustration
-name: Illustration
----

@@ -1,4 +1,0 @@
----
-title: Hosting
-name: Hosting
----

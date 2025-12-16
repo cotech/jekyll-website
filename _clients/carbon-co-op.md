@@ -1,3 +1,0 @@
----
-title: Carbon Co-op
----

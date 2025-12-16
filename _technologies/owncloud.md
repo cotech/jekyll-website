@@ -1,4 +1,0 @@
----
-title: ownCloud
-name: ownCloud
----

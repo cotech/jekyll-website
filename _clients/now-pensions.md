@@ -1,3 +1,0 @@
----
-title: 'NOW: Pensions'
----

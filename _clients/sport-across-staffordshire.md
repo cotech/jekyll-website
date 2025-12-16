@@ -1,3 +1,0 @@
----
-title: Sport Across Staffordshire
----

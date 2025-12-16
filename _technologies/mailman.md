@@ -1,4 +1,0 @@
----
-title: Mailman
-name: Mailman
----

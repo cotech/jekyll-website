@@ -1,3 +1,0 @@
----
-title: Socialist Feminist Network
----

@@ -1,4 +1,0 @@
----
-title: Redshift
-name: Redshift
----

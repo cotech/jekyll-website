@@ -1,4 +1,0 @@
----
-title: Mumble
-name: Mumble
----

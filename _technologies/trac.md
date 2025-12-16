@@ -1,4 +1,0 @@
----
-title: Trac
-name: Trac
----

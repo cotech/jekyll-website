@@ -1,53 +1,7 @@
 ---
-title: Animorph
 name: Animorph
-members: 5
 website: https://www.animorph.coop
 logo: animorph-white.png
-email: we@animorph.coop
-twitter: animorphcoop
-github:
-telephone:
-address: Fonthill House,113-115 Fonthill Road,London,N4 3HH
-latitude: 51.5635499
-longitude: -0.10782689999996364
-clients:
-- the-executive-office
-- belfast-city-council
-- open-university
-- university-of-east-anglia
-- nihr
-- nesta
-- isd
-- southbank-centre
-- halo-post-production
-- packt
-services:
-- animation
-- artwork
-- augmented-reality
-- big-data
-- branding-and-identity
-- development
-- exhibition-and-display
-- graphic-design
-- ideation
-- machine-learning
-- mixed-reality
-- motion-graphics
-- virtual-reality
-- web apps
-- 3d websites
-technologies:
-- c
-- htmlcss
-- javascript
-- node-js
-- python
-- django-3
-- unity-3d
-- vue-js
-- three-js
 ---
 
 Animorph makes software that enhances human potential.

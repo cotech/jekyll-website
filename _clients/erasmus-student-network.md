@@ -1,3 +1,0 @@
----
-title: Erasmus Student Network
----

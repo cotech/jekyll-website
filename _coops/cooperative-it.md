@@ -1,32 +1,7 @@
 ---
-title: Cooperative IT
 name: Cooperative IT
-members: 2
 website: https://cooperativeit.co.uk/
 logo: cooperative-it-white.png
-email: info@cooperativeit.co.uk/
-address: 26 Myrtle Avenue, Bingley, BD16 1EW, United Kingdom
-latitude: 53.843633
-longitude: -1.835839
-#clients:
-services:
-- consultancy
-- development
-- hosting
-- web-design
-technologies:
-- apache
-- bash
-- drupal
-- docker
-- gitlab
-- htmlcss
-- javascript
-- matomo
-- mysql
-- php
-- ubuntu
-- wordpress
 ---
 
 Cooperative IT is a workers' cooperative, set up to provide IT services.

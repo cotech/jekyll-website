@@ -1,3 +1,0 @@
----
-title: Wolverhampton City Council
----

@@ -1,4 +1,0 @@
----
-title: Debian
-name: Debian
----

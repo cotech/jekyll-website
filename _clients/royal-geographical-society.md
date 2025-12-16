@@ -1,3 +1,0 @@
----
-title: Royal Geographical Society
----

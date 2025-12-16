@@ -1,3 +1,0 @@
----
-title: Royal Museums Greenwich
----

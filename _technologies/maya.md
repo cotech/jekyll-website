@@ -1,4 +1,0 @@
----
-title: Maya
-name: Maya
----

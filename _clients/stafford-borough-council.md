@@ -1,3 +1,0 @@
----
-title: Stafford Borough Council
----

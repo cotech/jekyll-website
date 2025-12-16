@@ -1,4 +1,0 @@
----
-title: MariaDB
-name: MariaDB
----

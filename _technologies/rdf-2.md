@@ -1,4 +1,0 @@
----
-title: RDF
-name: RDF
----

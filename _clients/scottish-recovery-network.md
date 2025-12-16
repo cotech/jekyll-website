@@ -1,3 +1,0 @@
----
-title: Scottish Recovery Network
----

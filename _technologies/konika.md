@@ -1,4 +1,0 @@
----
-title: Konika
-name: Konika
----

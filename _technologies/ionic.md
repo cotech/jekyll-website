@@ -1,4 +1,0 @@
----
-title: Ionic
-name: Ionic
----

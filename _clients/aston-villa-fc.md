@@ -1,3 +1,0 @@
----
-title: Aston Villa FC
----

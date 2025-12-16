@@ -1,4 +1,0 @@
----
-title: Distribution
-name: Distribution
----

@@ -1,4 +1,0 @@
----
-title: Strategy
-name: Strategy
----

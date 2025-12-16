@@ -1,58 +1,7 @@
 ---
-title: Creative Coop
 name: Creative Coop
-members: 5
 website: https://creative.coop
 logo: creative-coop-white.png
-email: hello@creative.coop
-twitter:
-github:
-telephone: '01206 574147'
-address: The Minories 74 High Street, Colchester, Essex CO1 1UE
-latitude: 51.889807069540005
-longitude: 0.9051138709545999
-clients:
-- big-lottery-fund
-- co-operative-press-limited
-- co-operatives-uk
-- common-futures
-- community-shares-scotland
-- development-trust-northern-ireland
-- essex-county-council
-- essex-cultural-diversity-project
-- firstsite
-- heritage-lottery-fund
-- locality
-- save-the-children
-- social-investment-business
-- wales-co-operative-centre
-services:
-- artwork
-- branding-and-identity
-- development
-- hosting
-- illustration
-- logo-design
-- marketing
-- mentoring
-- photography
-- printing
-- seo-optimisation
-- web-design
-technologies:
-- c
-- centos
-- dreamweaver
-- drupal
-- htmlcss
-- adobe-illustrator
-- joomla
-- mysql
-- photoshop
-- php
-- python
-- sql-server
-- wordpress
 ---
 
 **We are a design studio specialising in Branding, Design and Web Development.**

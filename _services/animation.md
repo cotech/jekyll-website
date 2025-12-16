@@ -1,4 +1,0 @@
----
-title: Animation
-name: Animation
----

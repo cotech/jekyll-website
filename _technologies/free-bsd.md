@@ -1,4 +1,0 @@
----
-title: FreeBSD
-name: FreeBSD
----

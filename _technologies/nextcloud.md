@@ -1,4 +1,0 @@
----
-title: Nextcloud
-name: Nextcloud
----

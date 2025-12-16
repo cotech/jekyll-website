@@ -1,3 +1,0 @@
----
-title: Singular Photonics
----

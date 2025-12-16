@@ -1,3 +1,0 @@
----
-title: Sustainability for London
----

@@ -1,3 +1,0 @@
----
-title: Blake House  
----

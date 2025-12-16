@@ -1,3 +1,0 @@
----
-title: International Cooperative Alliance
----

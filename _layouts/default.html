@@ -4,21 +4,10 @@
   <body>
     {% include header.html %}
 
-    <div class="default-wrapper">
-      <section class="page-heading">
-        <h1>{{ page.heading }}</h1>
-      </section>
+    <main class="stack">
+      {{ content }}
+    </main>
 
-      <section class="content">
-        {{ content }}
-      </section>
-
-      {% if page.append_email_form %}
-      <section>
-        <p>Contact us <a href="{{ site.forum }}">using our forum</a>.</p>
-      </section>
-      {% endif %}
-    </div>
     {% include footer.html %}
   </body>
 </html>

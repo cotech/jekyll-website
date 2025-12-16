@@ -29,12 +29,6 @@
   <meta property="og:site_name" content="{{ page.title }} &laquo; {{ site.long_title }}" />
 {% if page.collection == 'coops' %}
   <meta property="og:image" content="/images/coops/{{ page.slug }}.png" />
-{% elsif page.collection == 'services' %}
-  <meta property="og:image" content="/images/services/{{ page.slug }}.png" />
-{% elsif page.collection == 'technologies' %}
-  <meta property="og:image" content="/images/technologies/{{ page.slug }}.png" />
-{% elsif page.collection == 'clients' %}
-  <meta property="og:image" content="/images/clients/{{ page.slug }}.png" />
 {% else %}
   <meta property="og:image" content="/assets/img/Cotech_512x512.png" />
 {% endif %}
@@ -43,12 +37,6 @@
   <meta name="twitter:site" content="@CotechUK" />
 {% if page.collection == 'coops' %}
   <meta name="twitter:image" content="{{ site.url }}/images/coops/{{ page.slug }}.png" />
-{% elsif page.collection == 'services' %}
-  <meta name="twitter:image" content="{{ site.url }}/images/services/{{ page.slug }}.png" />
-{% elsif page.collection == 'technologies' %}
-  <meta name="twitter:image" content="{{ site.url }}/images/technologies/{{ page.slug }}.png" />
-{% elsif page.collection == 'clients' %}
-  <meta name="twitter:image" content="{{ site.url }}/images/clients/{{ page.slug }}.png" />
 {% else %}
   <meta name="twitter:image" content="{{ site.url }}/assets/img/Cotech_512x512.png" />
 {% endif %}

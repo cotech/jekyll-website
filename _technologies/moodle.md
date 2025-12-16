@@ -1,4 +1,0 @@
----
-title: Moodle
-name: Moodle
----

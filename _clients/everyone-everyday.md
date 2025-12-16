@@ -1,3 +1,0 @@
----
-title: Everyone Everyday
----

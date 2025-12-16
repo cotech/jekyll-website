@@ -1,3 +1,0 @@
----
-title: Robin Hood Tax
----
