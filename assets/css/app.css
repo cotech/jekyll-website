@@ -181,6 +181,10 @@ section, footer, header {
   margin-right: auto;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .box {
   background: linear-gradient(180deg, rgba(45, 169, 215, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
   border: 1px solid var(--cotech-dark-grey);
