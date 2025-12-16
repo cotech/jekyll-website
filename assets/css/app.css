@@ -215,6 +215,10 @@ section, footer, header {
   display: none;
 }
 
+.w-two-thirds {
+  width: 66%;
+}
+
 @media screen and (width > 480px) {
   .large-only {
     display: inline;
