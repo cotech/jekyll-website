@@ -87,17 +87,4 @@ layout: default
   </div>
 </section>
 
-<section id="members" class="stack">
-  <h2>Our members</h2>
-  <p class="intro">Meet the coops behind CoTech</p>
-
-  <div class="grid grid-dense">
-    {% for coop in site.coops %}
-    <a class="grid__link" href="{{ coop.url | relative_url }}">
-      <div class="box">
-        <img class="greyscale" src="/images/coops/{{ coop.logo }}" alt="{{ coop.name }}" />
-      </div>
-    </a>
-    {% endfor %}
-  </div>
-</section>
+{% include our_members.html %}
