@@ -11,8 +11,50 @@
     </a>
     {% endfor %}
   </div>
+
+  <dialog id="coop-dialog">
+    <div class="coop-dialog-container">
+      <div id="coop-dialog-container__body"></div>
+    </div>
+  </dialog>
 </section>
 
 <section>
   <a class="btn" href="/hire">Hire our co-ops</a>
 </section>
+
+<script>
+  const dialog = document.getElementById('coop-dialog');
+  const dialogBody = document.getElementById('coop-dialog-container__body');
+
+  dialog.addEventListener('click', (e) => {
+    if (e.target === dialog) dialog.close();
+  });
+
+  document.querySelectorAll('#members .grid__link').forEach(link => {
+    link.addEventListener('click', async (e) => {
+      e.preventDefault();
+      const url = link.getAttribute('href');
+
+      try {
+        const response = await fetch(url);
+        const html = await response.text();
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(html, 'text/html');
+
+        const content = doc.querySelector('body');
+        dialogBody.innerHTML = content ? content.innerHTML : html;
+
+        dialog.showModal();
+
+        const closeBtn = dialog.querySelector('.coop-info-box__close');
+        closeBtn.addEventListener('click', (e) => { e.preventDefault(); dialog.close() });
+
+      } catch (error) {
+        console.error('Failed to load coop page:', error);
+      }
+    });
+  });
+
+
+</script>
