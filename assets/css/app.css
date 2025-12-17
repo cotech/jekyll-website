@@ -513,3 +513,8 @@ footer {
 .coop-dialog-container {
   overflow-y: auto;
 }
+
+#members .grid__link:hover .box {
+  background: black;
+  border-color: transparent;
+}
