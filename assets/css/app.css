@@ -54,12 +54,14 @@ section {
 p, li, a {
   font-family: "open_sansregular", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   color: var(--cotech-white);
-  font-weight: 400;
+  font-weight: 300;
+  line-height: 1.4;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "source_serif_regular", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   color: var(--cotech-white);
+  line-height: 1.1;
   font-weight: 400;
 }
 
@@ -78,13 +80,11 @@ h3.title {
 @media (min-width: 48em) {
   h1 {
     font-size: calc(2.625rem + ((1vw - 0.48rem) * 2.8646));
-    line-height: calc(1.2 + ((1vw - 0.48) * -0.2083));
     min-height: 0vw;
   }
 
   h2 {
     font-size: calc(2rem + ((1vw - 0.48rem) * 1.7361));
-    line-height: calc(1.2 + ((1vw - 0.48) * -0.1389));
     min-height: 0vw;
   }
 
@@ -102,36 +102,30 @@ h3.title {
   p.large {
     font-size: calc(1.375rem + ((1vw - 0.48rem) * 0.6944));
     min-height: 0vw;
-    line-height: 1.4;
   }
 
   p.intro {
     font-size: calc(1.125rem + ((1vw - 0.48rem) * 0.1736));
     min-height: 0vw;
-    line-height: 1.4;
   }
 
   p, li, a {
     font-size: calc(0.875rem + ((1vw - 0.48rem) * 0.1736));
     min-height: 0vw;
-    line-height: 1.4;
   }
 }
 
 @media (min-width: 120em) {
   h1 {
     font-size: 4.6875rem;
-    line-height: 1.05;
   }
 
   h2 {
     font-size: 3.25rem;
-    line-height: 1.1;
   }
 
   h3 {
     font-size: 2.5rem;
-    line-height: 1.1;
   }
 
   h3.title {
@@ -140,17 +134,14 @@ h3.title {
 
   p.large {
     font-size: 1.875rem;
-    line-height: 1.4;
   }
 
   p.intro {
     font-size: 1.25rem;
-    line-height: 1.4;
   }
 
   p, li, a {
     font-size: 1rem;
-    line-height: 1.4;
   }
 }
 
@@ -174,6 +165,12 @@ img.rounded {
   border-radius: var(--space-sm);
 }
 
+img.cover {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
 section, footer, header {
   padding: var(--space-md);
   max-inline-size: 1024px;
@@ -186,13 +183,19 @@ section, footer, header {
 }
 
 .box {
-  background: linear-gradient(180deg, rgba(45, 169, 215, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+  background: linear-gradient(180deg, rgba(45, 169, 215, 0.2) 0%, rgba(255, 255, 255, 0.05) 100%);
   border: 1px solid var(--cotech-dark-grey);
   border-radius: var(--space-sm);
-  padding: var(--space-sm);
+  padding: var(--space-md);
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+@media screen and (width > 480px) {
+  .box {
+    padding: var(--space-lg);
+  }
 }
 
 .stack {
@@ -235,6 +238,7 @@ section, footer, header {
   color: var(--cotech-black);
   text-decoration: none;
   font-family: "open_sansbold", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  border: 1px solid var(--cotech-white);
   border-radius: var(--space-sm);
   width: fit-content;
   display: flex;
@@ -247,13 +251,14 @@ section, footer, header {
 }
 
 .btn:hover {
+  border: 1px solid var(--cotech-white);
   background: var(--cotech-black);
   color: var(--cotech-white);
 }
 
 .grid {
   display: grid;
-  grid-gap: var(--space-sm);
+  grid-gap: var(--space-md);
   grid-template-columns: 1fr;
   align-items: stretch;
 }
@@ -274,6 +279,10 @@ section, footer, header {
 @media (min-width: 420px) {
   .grid {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-three {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .grid-dense {
