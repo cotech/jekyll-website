@@ -491,12 +491,19 @@ footer {
 #coop-dialog {
   max-width: 800px;
   max-height: 90vh;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: var(--space-sm);
+  margin-right: var(--space-sm);
   border: none;
   border-radius: var(--space-sm);
   padding: 0;
   background: rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (width > 480px) {
+  #coop-dialog {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 #coop-dialog::backdrop {
