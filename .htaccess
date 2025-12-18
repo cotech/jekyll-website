@@ -20,6 +20,12 @@ Redirect /co-op/graphics-coop https://www.cotech.coop/co-op/form-and-function
 <IfModule mod_rewrite.c>
   RewriteEngine on
   RewriteCond %{HTTP_HOST} ^coops\.tech$
+  RewriteCond %{HTTP_HOST} ^www\.coops\.tech$
+  RewriteCond %{HTTP_HOST} ^static\.coops\.tech$
+  RewriteCond %{HTTP_HOST} ^www\.static\.coops\.tech$
+  RewriteCond %{HTTP_HOST} ^cotech\.uk$
+  RewriteCond %{HTTP_HOST} ^cotech\.office\.workers\.coop$
+  RewriteCond %{HTTP_HOST} ^cotech\.coop$
   RewriteRule ^/?(.*) https://www.cotech.coop/$1 [R,L]
 </IfModule>
 # Redirect HTTP to HTTPS
@@ -29,13 +35,14 @@ Redirect /co-op/graphics-coop https://www.cotech.coop/co-op/form-and-function
   RewriteCond %{HTTPS} !=on
   RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
 </IfModule>
-# Strict Transport Security Header, this prevents clients 
+# Strict Transport Security Header, this prevents clients
 # with STS support from accessing the site using HTTP
 # https://stackoverflow.com/questions/24144552/how-to-set-hsts-header-from-htaccess-only-on-https
 Header set Strict-Transport-Security "max-age=31536000" env=HTTPS
 # Directory Listings
-HeaderName /top.html
-ReadmeName /bot.html
+# The following two files don't exist
+# HeaderName /top.html
+# ReadmeName /bot.html
 IndexOptions FancyIndexing VersionSort HTMLTable NameWidth=* DescriptionWidth=*
 IndexOptions Charset=UTF-8 SuppressHTMLPreamble XHTML TrackModified IconsAreLinks
 IndexOptions SuppressDescription
