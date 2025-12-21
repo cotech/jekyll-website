@@ -467,7 +467,11 @@ footer {
   padding: var(--space-lg);
 }
 
-.coop-info-box__content strong, h2 {
+.coop-info-box__content strong {
+  color: var(--cotech-black);
+}
+
+.coop-info-box__content h2 {
   color: var(--cotech-black);
 }
 
