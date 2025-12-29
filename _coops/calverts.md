@@ -12,4 +12,4 @@ Calverts design and reprographics studio creates and implements visual identitie
 
 Calverts in house print includes Heidelberg offset litho, digital, large format inkjet, giclée and Risograph. We’re experts in the latest and best print technology, as well as traditional craft and special applications. We deliver, fulfill and mail out locally and across the world.
 
-Calverts service is 100% professional. Our approach and ethos are 100% co-operative. The promise: high quality, economical and environmentally sustainable communication, Forest Stewardship Council and ISO14001 certified.
+Calverts service is 100% professional. Our approach and ethos are 100% cooperative. The promise: high quality, economical and environmentally sustainable communication, Forest Stewardship Council and ISO14001 certified.

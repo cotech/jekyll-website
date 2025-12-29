@@ -10,4 +10,4 @@ We share a vision of a world where people are confident in their capacity to sel
 
 We are a cross-disciplinary team that knows how to work together effectively. Our combined expertise includes political organising, strategy, user research, project management, digital product design, graphic design and software engineering.
 
-We place a strong focus on building trust and shared understanding with the activists we work with. We listen to their needs, work out we could augment their organisational capacity and co-design tools in direct collaboration with them.
+We place a strong focus on building trust and shared understanding with the activists we work with. We listen to their needs, work out how we could augment their organisational capacity and co-design tools in direct collaboration with them.
