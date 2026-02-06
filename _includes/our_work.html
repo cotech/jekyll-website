@@ -1,0 +1,53 @@
+<section class="stack">
+  <h2>Our work</h2>
+
+  <p class="intro">Digital creative and cooperative work in action.</p>
+
+  <div class="grid">
+    {% for c in site.case_studies %}
+    <div class="box stack work">
+      <div class="box">
+        <img src="/assets/img/case_studies/{{ c.logo }}" />
+      </div>
+      <div class="grid">
+        <div>
+          <h4 class="work__title">Client name</h4>
+          <p>{{ c.client_name }}</p>
+        </div>
+        <div>
+          <h4 class="work__title">Coops involved</h4>
+          <ul class="services">
+            {% for coop in c.coops %}
+            <li>{{ coop }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div>
+          <h4 class="work__title">Project name</h4>
+          <p>{{ c.project_name }}</p>
+        </div>
+        <div>
+          <h4 class="work__title">Services offered</h4>
+          <ul class="services">
+            {% for service in c.services %}
+            <li>{{ service }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div>
+        <h4 class="work__title">Key deliverables or outcomes</h4>
+        <p>{{ c.content }}</p>
+      </div>
+      <div>
+        <h4 class="work__title">Links</h4>
+        <ul class="services">
+          {% for link in c.links %}
+          <li><a href="{{ link }}">{{ link }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

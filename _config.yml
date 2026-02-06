@@ -9,6 +9,8 @@ exclude:
 - vendor
 - .idea
 collections:
+  case_studies:
+    output: true
   coops:
     title: Coops
     output: true

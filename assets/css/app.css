@@ -325,6 +325,11 @@ section, footer, header {
   }
 }
 
+.work__title {
+  margin-block-end: var(--space-xs);
+  font-family: "open_sansbold", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
 .header {
   display: flex;
   padding: var(--space-lg) var(--space-md);
