@@ -15,21 +15,23 @@ layout: default
         <img src="/assets/img/case_studies/{{ c.logo }}" />
       </div>
       <div class="grid">
-        <div>
-          <h4 class="work__title">Client name</h4>
-          <p>{{ c.client_name }}</p>
-        </div>
-        <div>
-          <h4 class="work__title">Coops involved</h4>
-          <ul class="services">
-            {% for coop in c.coops %}
-            <li>{{ coop }}</li>
-            {% endfor %}
-          </ul>
-        </div>
-        <div>
-          <h4 class="work__title">Project name</h4>
-          <p>{{ c.project_name }}</p>
+        <div class="stack" style="--space: var(--space-md)">
+          <div>
+            <h4 class="work__title">Client name</h4>
+            <p>{{ c.client_name }}</p>
+          </div>
+          <div>
+            <h4 class="work__title">Coops involved</h4>
+            <ul class="services">
+              {% for coop in c.coops %}
+              <li>{{ coop }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div>
+            <h4 class="work__title">Project name</h4>
+            <p>{{ c.project_name }}</p>
+          </div>
         </div>
         <div>
           <h4 class="work__title">Services offered</h4>
