@@ -449,6 +449,10 @@ footer {
   padding: var(--space-sm);
 }
 
+.padded-xl {
+  padding: var(--space-xl);
+}
+
 .coop-info-box {
   position: relative;
   padding: 0;
