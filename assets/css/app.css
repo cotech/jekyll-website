@@ -461,6 +461,7 @@ footer {
   background: var(--cotech-white);
   border-radius: var(--space-sm);
   border: 2px solid var(--cotech-light-grey);
+  color: var(--cotech-black);
   max-width: var(--measure);
 }
 
