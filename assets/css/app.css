@@ -461,7 +461,6 @@ footer {
   background: var(--cotech-white);
   border-radius: var(--space-sm);
   border: 2px solid var(--cotech-light-grey);
-  color: var(--cotech-black);
   max-width: var(--measure);
 }
 
@@ -513,7 +512,7 @@ footer {
 }
 
 .coop-info-box__content h2 {
-  color: var(--cotech-black);
+  color: var(--cotech-black) !important;
 }
 
 .coop-info-box__body {
