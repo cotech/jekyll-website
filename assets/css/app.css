@@ -69,9 +69,6 @@ p, li, a {
   font-family: "open_sansregular", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   color: var(--cotech-white);
   font-weight: 300;
-}
-
-p, li {
   line-height: 1.4;
 }
 
