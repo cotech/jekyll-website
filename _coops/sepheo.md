@@ -1,7 +1,7 @@
 ---
 name: Sepheo
 website: https://sepheo.co/
-logo: sepeho.png
+logo: sepheo.png
 ---
 
 Sepheo is a mutual society for self-employed professionals.
