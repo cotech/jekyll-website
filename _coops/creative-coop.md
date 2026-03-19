@@ -4,7 +4,7 @@ website: https://creative.coop
 logo: creative-coop-white.png
 ---
 
-**We are a design studio specialising in Branding, Design and Web Development.**
+*We are a design studio specialising in Branding, Design and Web Development.*
 
 Creative Coop started life as a small group of freelancers who wanted to pool resources, collaborate together on web projects, and, ultimately, work towards a vision of a more sharing society. Our headquarters are in Colchester, Essex.
 
