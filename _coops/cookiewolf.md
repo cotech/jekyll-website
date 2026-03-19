@@ -1,7 +1,7 @@
 ---
 name: Cookiewolf
 website: https://cookiewolf.coop/
-logo: common-knowledge-white.png
+logo: cookiewolf.png
 ---
 
 Cookiewolf is a cooperatively-run digital development and design studio. We work with organisations of all sizes.
