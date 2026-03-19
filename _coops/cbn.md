@@ -1,7 +1,7 @@
 ---
 name: CBN
 website: http://broadband.coop/
-logo: cbn-white.png
+logo: cbn.png
 ---
 
 At CBN we work to advise national and local Government, urban and rural organisations on ways to develop their digital infrastructure to promote economic development and digital inclusion.
