@@ -8,7 +8,7 @@ Cookiewolf is a cooperatively-run digital development and design studio. We work
 
 Our projects are based in true collaboration with our clients, focusing on accessibility, sustainability and inclusivity.
 
-## Who We Are
+### Who We Are
 
 An experienced group of developers, designers, writers, and other folk who’ve come together to form a collective.
 
@@ -18,7 +18,7 @@ Our members’ award-winning work spans projects with clients across the arts, t
 
 [Meet the people behind Cookiewolf](https://cookiewolf.coop/about-us)
 
-## Contact Us
+### Contact Us
 
 Got a project? Questions? Just want a chat? Email us at:
 
