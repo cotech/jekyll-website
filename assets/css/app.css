@@ -512,7 +512,7 @@ footer {
 }
 
 .coop-info-box__content h2 {
-  color: var(--cotech-black) !important;
+  color: var(--cotech-black);
 }
 
 .coop-info-box__body {
