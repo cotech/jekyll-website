@@ -178,7 +178,7 @@ img {
 }
 
 img.greyscale {
-  filter: grayscale(100);
+  filter: grayscale(100) contrast(120%);
 }
 
 img.rounded {
@@ -550,7 +550,6 @@ footer {
   border-radius: var(--space-sm);
   padding: 0;
   background: rgba(0, 0, 0, 0.7);
-  --space: 1.5rem
 }
 
 @media screen and (width > 480px) {
