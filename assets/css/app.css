@@ -571,3 +571,21 @@ footer {
   background: black;
   border-color: transparent;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table td {
+  padding: var(--space-sm) var(--space-md);
+  border-bottom: 1px solid var(--cotech-dark-grey);
+  vertical-align: top;
+  color: var(--cotech-white);
+}
+
+table td:first-child {
+  white-space: nowrap;
+  color: var(--cotech-blue);
+  font-family: "open_sansbold", sans-serif;
+}
