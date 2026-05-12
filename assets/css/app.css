@@ -580,6 +580,7 @@ table {
 table td {
   padding: var(--space-sm) var(--space-md);
   border-bottom: 1px solid var(--cotech-dark-grey);
+  font-family: "open_sansregular", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   vertical-align: top;
   color: var(--cotech-white);
 }
