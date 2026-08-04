@@ -196,6 +196,16 @@ img.cover {
   width: 100%;
 }
 
+/* opt-in crop focus, for cover images whose subject isn't in the middle.
+   object-position takes x then y, so these shift the crop horizontally only. */
+img.cover.focus-right {
+  object-position: 70% 50%;
+}
+
+img.cover.focus-left {
+  object-position: 30% 50%;
+}
+
 img.stretch {
   object-fit: cover;
   object-position: 0px 0px;
@@ -356,9 +366,20 @@ section, footer, header {
   font-family: 'open_sansbold';
   list-style-type: none;
   display: flex;
-  gap: var(--space-md);
+  /* wrap whole items onto new rows rather than squeezing the logo off the header */
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: var(--space-xs) var(--space-md);
   font-size: 1rem;
   letter-spacing: 0.05em;
+  /* opt out of the global 70ch measure so the row can grow with the viewport */
+  max-inline-size: none;
+}
+
+.header_menu-list li,
+.header_menu-list a {
+  max-inline-size: none;
+  white-space: nowrap;
 }
 
 .header_menu-list a {
@@ -378,7 +399,7 @@ section, footer, header {
   display: none;
 }
 
-@media screen and (width < 480px) {
+@media screen and (width < 768px) {
   .header {
     position: relative;
   }
@@ -398,6 +419,8 @@ section, footer, header {
     height: 100vh;
     background-color: var(--cotech-black);
     flex-direction: column;
+    /* full-height overlay: never break the column into a second column */
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     gap: var(--space-lg);
