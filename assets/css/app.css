@@ -495,6 +495,7 @@ footer {
   height: 40px;
   border-radius: 50%;
   background-color: var(--cotech-white);
+  color: var(--cotech-black);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -531,10 +532,12 @@ footer {
 }
 
 .coop-info-box__content strong {
+  background-color: var(--cotech-white);
   color: var(--cotech-black);
 }
 
 .coop-info-box__content h2 {
+  background-color: var(--cotech-white);
   color: var(--cotech-black);
 }
 
