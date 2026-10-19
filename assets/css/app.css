@@ -533,10 +533,6 @@ footer {
   color: var(--cotech-black);
 }
 
-.coop-info-box__body p {
-  color: currentColor;
-}
-
 .coop-info-box__content strong {
   background-color: var(--cotech-white);
   color: var(--cotech-black);
@@ -547,14 +543,9 @@ footer {
   color: var(--cotech-black);
 }
 
-/*
- * Omitted as this causes black-on-black co-op descriptions
- * with the Dark Mode plugin
- *
- * .coop-info-box__body {
- *  filter: invert(100%);
- * }
- */
+.coop-info-box__body * {
+  color: currentColor;
+}
 
 .coop-info-box__body blockquote {
   padding-left: var(--space-sm);
