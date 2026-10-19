@@ -529,6 +529,8 @@ footer {
 
 .coop-info-box__content {
   padding: var(--space-lg);
+  background-color: var(--cotech-black);
+  color: var(--cotech-white);
 }
 
 .coop-info-box__content strong {
